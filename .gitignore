@@ -68,3 +68,23 @@ _private_original/
 !figures/demo_outputs/
 !figures/demo_outputs/*.pdf
 !figures/demo_outputs/*.png
+
+# allow public toy/demo data inside independent demo folders
+!demo_*/data/
+!demo_*/data/toy/
+!demo_*/data/toy/**/
+!demo_*/data/toy/*.csv
+!demo_*/data/toy/*.tsv
+!demo_*/data/toy/**/*.csv
+!demo_*/data/toy/**/*.tsv
+
+# allow public demo docs/scripts/results/figures
+!demo_*/README.md
+!demo_*/docs/
+!demo_*/docs/**
+!demo_*/scripts/
+!demo_*/scripts/**
+!demo_*/results/
+!demo_*/results/**
+!demo_*/figures/
+!demo_*/figures/**
