@@ -88,3 +88,22 @@ _private_original/
 !demo_*/results/**
 !demo_*/figures/
 !demo_*/figures/**
+
+# allow public toy/demo data inside numbered demo modules
+!/[0-9][0-9]_*/
+!/[0-9][0-9]_*/README.md
+!/[0-9][0-9]_*/docs/
+!/[0-9][0-9]_*/docs/**
+!/[0-9][0-9]_*/scripts/
+!/[0-9][0-9]_*/scripts/**
+!/[0-9][0-9]_*/data/
+!/[0-9][0-9]_*/data/toy/
+!/[0-9][0-9]_*/data/toy/**
+!/[0-9][0-9]_*/data/toy/*.csv
+!/[0-9][0-9]_*/data/toy/*.tsv
+!/[0-9][0-9]_*/data/toy/**/*.csv
+!/[0-9][0-9]_*/data/toy/**/*.tsv
+!/[0-9][0-9]_*/results/
+!/[0-9][0-9]_*/results/**
+!/[0-9][0-9]_*/figures/
+!/[0-9][0-9]_*/figures/**
