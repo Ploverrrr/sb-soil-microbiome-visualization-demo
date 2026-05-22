@@ -107,3 +107,12 @@ _private_original/
 !/[0-9][0-9]_*/results/**
 !/[0-9][0-9]_*/figures/
 !/[0-9][0-9]_*/figures/**
+
+# allow shared public toy data for all demo modules
+!/data/
+!/data/toy_shared/
+!/data/toy_shared/**
+!/data/toy_shared/*.csv
+!/data/toy_shared/*.tsv
+!/data/toy_shared/**/*.csv
+!/data/toy_shared/**/*.tsv
