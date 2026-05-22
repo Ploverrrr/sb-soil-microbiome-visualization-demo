@@ -1,0 +1,13 @@
+"feature","rf_predictor_name","importance","importance_metric","importance_for_size","bubble_size"
+"Acidipila","Acidipila",10.9679206615478,"%IncMSE",10.9679206615478,8.2
+"Bacillus","Bacillus",10.0514712142232,"%IncMSE",10.0514712142232,7.54451053020678
+"Clostridium","Clostridium",9.79392868970411,"%IncMSE",9.79392868970411,7.36030351983756
+"Flavobacterium","Flavobacterium",9.15028493847067,"%IncMSE",9.15028493847067,6.89993802726907
+"Gemmatimonas","Gemmatimonas",8.63034402185957,"%IncMSE",8.63034402185957,6.52805085253387
+"Bradyrhizobium","Bradyrhizobium",8.02243221215894,"%IncMSE",8.02243221215894,6.09324259225834
+"Nitrosomonas","Nitrosomonas",7.99611844375878,"%IncMSE",7.99611844375878,6.07442169804836
+"Streptomyces","Streptomyces",7.03510635751042,"%IncMSE",7.03510635751042,5.38705884926413
+"Cupriavidus","Cupriavidus",6.73345639360358,"%IncMSE",6.73345639360358,5.17130404087654
+"Nitrospira","Nitrospira",6.6243741348079,"%IncMSE",6.6243741348079,5.09328307399118
+"Blastocatella","Blastocatella",6.4485278748516,"%IncMSE",6.4485278748516,4.96750922793741
+"Anaerolinea","Anaerolinea",2.01998673863059,"%IncMSE",2.01998673863059,1.8
