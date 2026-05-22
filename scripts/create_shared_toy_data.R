@@ -25,6 +25,7 @@ if (!dir.exists(output_dir)) {
 
 groups <- c("Control", "Tailing", "Mining", "Smelting")
 replicates_per_group <- 6
+
 sample_metadata <- do.call(
   rbind,
   lapply(groups, function(group_name) {
@@ -38,7 +39,7 @@ sample_metadata <- do.call(
         "Control" = "reference",
         "Tailing" = "moderate",
         "Mining" = "high",
-        "Smelting" = "high"
+        "Smelting" = "very_high"
       ),
       replicate = replicate_id,
       batch = rep(c("Batch_A", "Batch_B"), length.out = replicates_per_group),
@@ -49,77 +50,100 @@ sample_metadata <- do.call(
 rownames(sample_metadata) <- NULL
 
 sample_ids <- sample_metadata$sample_id
-group_effect <- c(Control = 0, Tailing = 1, Mining = 2, Smelting = 3)
-group_numeric <- unname(group_effect[sample_metadata$group])
+group_numeric <- c(Control = 0, Tailing = 1, Mining = 2, Smelting = 3)[sample_metadata$group]
 
-bounded_normal <- function(mean, sd, min_value = -Inf, max_value = Inf, n = length(mean)) {
-  values <- rnorm(n, mean = mean, sd = sd)
+bounded_normal <- function(mean, sd, min_value = -Inf, max_value = Inf) {
+  values <- rnorm(length(mean), mean = mean, sd = sd)
   pmin(pmax(values, min_value), max_value)
 }
 
+group_mean <- function(control, tailing, mining, smelting) {
+  values <- c(Control = control, Tailing = tailing, Mining = mining, Smelting = smelting)
+  unname(values[sample_metadata$group])
+}
+
+sb_iii <- bounded_normal(group_mean(0.18, 1.85, 4.9, 7.3), 0.35, 0.03, 12)
+sb_v <- bounded_normal(group_mean(0.95, 5.8, 12.5, 17.2), 0.85, 0.08, 26)
+sb_total <- (sb_iii + sb_v) * bounded_normal(rep(1.015, length(sample_ids)), 0.025, 0.96, 1.08)
+
 environmental_variables <- data.frame(
   sample_id = sample_ids,
-  pH = bounded_normal(6.8 - 0.28 * group_numeric, 0.18, 4.5, 8.2),
-  EC = bounded_normal(120 + 95 * group_numeric, 22, 50, 520),
-  TOC = bounded_normal(34 - 3.2 * group_numeric + ifelse(sample_metadata$group == "Tailing", 3, 0), 3.4, 10, 45),
-  TN = bounded_normal(2.8 - 0.18 * group_numeric, 0.22, 1.2, 4.0),
-  TP = bounded_normal(0.72 + 0.06 * group_numeric, 0.07, 0.3, 1.2),
-  SO4 = bounded_normal(58 + 52 * group_numeric + ifelse(sample_metadata$group == "Smelting", 35, 0), 14, 20, 300),
-  NO3 = bounded_normal(24 - 2.5 * group_numeric, 4.2, 4, 45),
-  Sb = bounded_normal(1.5 + c(0, 8, 18, 25)[group_numeric + 1], 2.1, 0.2, 45),
-  Sb3 = bounded_normal(0.35 + c(0, 1.8, 4.3, 7.0)[group_numeric + 1], 0.7, 0.05, 15),
-  Sb5 = bounded_normal(1.1 + c(0, 5.0, 11.0, 15.0)[group_numeric + 1], 1.6, 0.1, 28),
-  As = bounded_normal(3 + c(0, 6, 12, 15)[group_numeric + 1], 1.8, 0.2, 30),
-  Cu = bounded_normal(18 + c(0, 26, 52, 70)[group_numeric + 1], 8, 5, 120),
-  Zn = bounded_normal(45 + c(0, 32, 75, 95)[group_numeric + 1], 12, 15, 180),
-  Cd = bounded_normal(0.18 + c(0, 0.45, 0.9, 1.2)[group_numeric + 1], 0.14, 0.02, 2.5),
-  Fe = bounded_normal(18 + c(0, 2, 6, 9)[group_numeric + 1], 2.1, 8, 35),
-  Mn = bounded_normal(0.42 + c(0, 0.12, 0.28, 0.38)[group_numeric + 1], 0.08, 0.1, 1.2),
+  pH = bounded_normal(group_mean(6.82, 6.45, 6.05, 5.82), 0.16, 4.5, 8.2),
+  EC = bounded_normal(group_mean(118, 205, 340, 390), 24, 60, 520),
+  TOC = bounded_normal(group_mean(35.5, 33.0, 27.0, 24.5), 2.8, 12, 45),
+  TN = bounded_normal(group_mean(2.85, 2.65, 2.25, 2.05), 0.18, 1.1, 4.0),
+  TP = bounded_normal(group_mean(0.68, 0.78, 0.88, 0.94), 0.06, 0.3, 1.3),
+  SO4 = bounded_normal(group_mean(55, 118, 190, 245), 18, 20, 330),
+  NO3 = bounded_normal(group_mean(27, 23, 18, 16), 3.5, 4, 45),
+  Sb_total = round(sb_total, 4),
+  Sb_III = round(sb_iii, 4),
+  Sb_V = round(sb_v, 4),
+  As = bounded_normal(group_mean(3.2, 8.7, 15.8, 19.5), 1.5, 0.2, 32),
+  Cu = bounded_normal(group_mean(18, 46, 86, 102), 7.5, 5, 140),
+  Zn = bounded_normal(group_mean(45, 76, 128, 150), 11, 15, 210),
+  Cd = bounded_normal(group_mean(0.16, 0.55, 1.05, 1.35), 0.12, 0.02, 2.8),
+  Fe = bounded_normal(group_mean(18.0, 20.5, 24.0, 27.5), 1.9, 8, 36),
+  Mn = bounded_normal(group_mean(0.40, 0.55, 0.74, 0.84), 0.07, 0.1, 1.3),
   stringsAsFactors = FALSE
 )
 
 feature_count <- 96
 feature_ids <- paste0("ASV", sprintf("%03d", seq_len(feature_count)))
 
-phyla <- c(
-  "Proteobacteria", "Actinobacteriota", "Acidobacteriota", "Chloroflexi",
-  "Bacteroidota", "Firmicutes", "Gemmatimonadota", "Nitrospirota"
-)
-classes <- c(
-  "Alphaproteobacteria", "Gammaproteobacteria", "Actinobacteria",
-  "Acidobacteriae", "Anaerolineae", "Bacteroidia", "Bacilli",
-  "Gemmatimonadetes", "Nitrospiria"
-)
-orders <- c(
-  "Rhizobiales", "Burkholderiales", "Streptomycetales", "Acidobacteriales",
-  "Anaerolineales", "Flavobacteriales", "Bacillales", "Gemmatimonadales",
-  "Nitrospirales"
-)
-families <- c(
-  "Rhizobiaceae", "Comamonadaceae", "Streptomycetaceae", "Acidobacteriaceae",
-  "Anaerolineaceae", "Flavobacteriaceae", "Bacillaceae",
-  "Gemmatimonadaceae", "Nitrospiraceae"
-)
-genus_pool <- c(
-  "Aciditolerans", "Metallibacter", "Sulfuritalea", "Nitrospira",
-  "Rhizomicrobium", "Terrimonas", "Cupriavidus", "Pseudarthrobacter",
-  "Gemmatimonas", "Sideroxydans", "Bacillus", "Flavobacterium",
-  "Anaerolinea", "Streptomyces", "Bradyrhizobium", "Thiobacillus"
-)
-
-taxonomy_table <- data.frame(
-  feature_id = feature_ids,
-  Kingdom = "Bacteria",
-  Phylum = rep(phyla, length.out = feature_count),
-  Class = rep(classes, length.out = feature_count),
-  Order = rep(orders, length.out = feature_count),
-  Family = rep(families, length.out = feature_count),
-  Genus = rep(genus_pool, length.out = feature_count),
+taxonomy_lineages <- data.frame(
+  Phylum = c(
+    "Pseudomonadota", "Pseudomonadota", "Actinobacteriota", "Actinobacteriota",
+    "Acidobacteriota", "Acidobacteriota", "Chloroflexi", "Chloroflexi",
+    "Bacteroidota", "Bacteroidota", "Bacillota", "Bacillota",
+    "Gemmatimonadota", "Nitrospirota", "Pseudomonadota", "Pseudomonadota"
+  ),
+  Class = c(
+    "Alphaproteobacteria", "Gammaproteobacteria", "Actinomycetia", "Thermoleophilia",
+    "Acidobacteriae", "Blastocatellia", "Anaerolineae", "Ktedonobacteria",
+    "Bacteroidia", "Chitinophagia", "Bacilli", "Clostridia",
+    "Gemmatimonadetes", "Nitrospiria", "Betaproteobacteria", "Acidithiobacillia"
+  ),
+  Order = c(
+    "Rhizobiales", "Burkholderiales", "Streptomycetales", "Solirubrobacterales",
+    "Acidobacteriales", "Blastocatellales", "Anaerolineales", "Ktedonobacterales",
+    "Flavobacteriales", "Chitinophagales", "Bacillales", "Clostridiales",
+    "Gemmatimonadales", "Nitrospirales", "Nitrosomonadales", "Acidithiobacillales"
+  ),
+  Family = c(
+    "Rhizobiaceae", "Comamonadaceae", "Streptomycetaceae", "Solirubrobacteraceae",
+    "Acidobacteriaceae", "Blastocatellaceae", "Anaerolineaceae", "Ktedonobacteraceae",
+    "Flavobacteriaceae", "Chitinophagaceae", "Bacillaceae", "Clostridiaceae",
+    "Gemmatimonadaceae", "Nitrospiraceae", "Nitrosomonadaceae", "Acidithiobacillaceae"
+  ),
+  Genus = c(
+    "Bradyrhizobium", "Cupriavidus", "Streptomyces", "Pseudarthrobacter",
+    "Acidipila", "Blastocatella", "Anaerolinea", "Ktedonobacter",
+    "Flavobacterium", "Terrimonas", "Bacillus", "Clostridium",
+    "Gemmatimonas", "Nitrospira", "Nitrosomonas", "Acidithiobacillus"
+  ),
   stringsAsFactors = FALSE
 )
-taxonomy_table$taxon_label <- paste0(taxonomy_table$Genus, "_", sprintf("%02d", ave(seq_len(feature_count), taxonomy_table$Genus, FUN = seq_along)))
 
-taxon_pattern <- rep(c("control_enriched", "tailing_enriched", "mining_enriched", "smelting_enriched", "broad", "rare"), length.out = feature_count)
+lineage_index <- rep(seq_len(nrow(taxonomy_lineages)), length.out = feature_count)
+taxonomy_table <- cbind(
+  data.frame(
+    feature_id = feature_ids,
+    Kingdom = "Bacteria",
+    stringsAsFactors = FALSE
+  ),
+  taxonomy_lineages[lineage_index, ]
+)
+taxonomy_table$taxon_label <- paste0(
+  taxonomy_table$Genus,
+  "_",
+  sprintf("%02d", ave(seq_len(feature_count), taxonomy_table$Genus, FUN = seq_along))
+)
+rownames(taxonomy_table) <- NULL
+
+taxon_pattern <- rep(
+  c("control_enriched", "tailing_enriched", "mining_enriched", "smelting_enriched", "broad", "rare"),
+  length.out = feature_count
+)
 names(taxon_pattern) <- feature_ids
 
 base_means <- runif(feature_count, min = 55, max = 520)
@@ -134,16 +158,13 @@ for (feature_index in seq_len(feature_count)) {
     multiplier <- switch(
       pattern,
       "control_enriched" = ifelse(group_name == "Control", 4.2, 0.75),
-      "tailing_enriched" = ifelse(group_name == "Tailing", 4.0, 0.8),
-      "mining_enriched" = ifelse(group_name == "Mining", 4.4, 0.7),
-      "smelting_enriched" = ifelse(group_name == "Smelting", 4.6, 0.65),
-      "broad" = 1.4,
+      "tailing_enriched" = ifelse(group_name == "Tailing", 4.0, ifelse(group_name == "Control", 0.95, 0.78)),
+      "mining_enriched" = ifelse(group_name == "Mining", 4.4, ifelse(group_name == "Smelting", 1.2, 0.7)),
+      "smelting_enriched" = ifelse(group_name == "Smelting", 4.6, ifelse(group_name == "Mining", 1.15, 0.65)),
+      "broad" = 1.35 + 0.08 * unname(group_numeric[sample_index]),
       "rare" = 0.22,
       1
     )
-    if (pattern == "broad" && group_name != "Control") {
-      multiplier <- multiplier + 0.1 * group_numeric[sample_index]
-    }
     lambda <- base_means[feature_index] * multiplier * runif(1, 0.82, 1.18)
     abundance_matrix[feature_index, sample_index] <- rpois(1, lambda = max(lambda, 1))
   }
@@ -156,23 +177,37 @@ abundance_table <- data.frame(
   stringsAsFactors = FALSE
 )
 
-annotation_sources <- c("KEGG", "FAPROTAX", "BacMet", "SulfurCycle", "NitrogenCycle", "CarbonCycle")
 function_catalog <- data.frame(
-  annotation_source = annotation_sources,
+  annotation_source = c(
+    "KEGG", "KEGG", "KEGG", "FAPROTAX",
+    "BacMet", "BacMet", "SulfurCycle", "SulfurCycle",
+    "SulfurCycle", "NitrogenCycle", "NitrogenCycle", "CarbonCycle"
+  ),
   function_category = c(
-    "Energy metabolism", "Element cycling", "Metal resistance",
-    "Sulfur cycling", "Nitrogen cycling", "Carbon cycling"
+    "Energy metabolism", "Membrane transport", "Stress response", "Element cycling",
+    "Metal resistance", "Metal resistance", "Sulfur cycling", "Sulfur cycling",
+    "Sulfur cycling", "Nitrogen cycling", "Nitrogen cycling", "Carbon cycling"
   ),
   pathway = c(
-    "Oxidative phosphorylation", "Aerobic chemoheterotrophy",
-    "Metal efflux and detoxification", "Dissimilatory sulfur metabolism",
-    "Nitrification and denitrification", "Organic carbon degradation"
+    "Oxidative phosphorylation", "ABC transporters", "Two-component stress response",
+    "Aerobic chemoheterotrophy", "Copper resistance", "Antimony efflux",
+    "Dissimilatory sulfite reduction", "Thiosulfate oxidation", "Sulfate assimilation",
+    "Nitrification", "Denitrification", "Organic carbon degradation"
   ),
-  ko_id = c("K02111", "FAP001", "BMR001", "K11180", "K00370", "K01190"),
+  ko_id = c(
+    "K02111", "K02003", "K07636", "FAP001",
+    "BMR_COP", "BMR_ANT", "K11180", "K17218",
+    "K00958", "K10944", "K00370", "K01190"
+  ),
+  trend = c(
+    "broad", "contamination_mild", "contamination_mild", "carbon_control",
+    "metal_strong", "metal_strong", "sulfur_strong", "sulfur_smelting",
+    "sulfur_mild", "nitrogen_control", "nitrogen_mining", "carbon_control"
+  ),
   stringsAsFactors = FALSE
 )
 
-gene_ids <- paste0("gene_", sprintf("%03d", seq_len(72)))
+gene_ids <- paste0("gene_", sprintf("%03d", seq_len(96)))
 gene_feature_map <- data.frame(
   gene_id = gene_ids,
   feature_id = sample(feature_ids, length(gene_ids), replace = TRUE),
@@ -180,33 +215,38 @@ gene_feature_map <- data.frame(
   stringsAsFactors = FALSE
 )
 
+trend_multiplier <- function(trend, group_name, contamination_score) {
+  switch(
+    trend,
+    "broad" = 1.15 + runif(1, -0.08, 0.08),
+    "contamination_mild" = 1 + 0.25 * contamination_score,
+    "metal_strong" = 0.75 + c(Control = 0.0, Tailing = 0.9, Mining = 1.9, Smelting = 2.35)[group_name],
+    "sulfur_strong" = 0.85 + c(Control = 0.0, Tailing = 0.75, Mining = 1.55, Smelting = 2.05)[group_name],
+    "sulfur_smelting" = ifelse(group_name == "Smelting", 3.1, ifelse(group_name == "Mining", 1.85, 0.95)),
+    "sulfur_mild" = 1 + c(Control = 0.0, Tailing = 0.35, Mining = 0.75, Smelting = 0.95)[group_name],
+    "nitrogen_control" = ifelse(group_name == "Control", 1.85, ifelse(group_name == "Tailing", 1.35, 0.9)),
+    "nitrogen_mining" = ifelse(group_name %in% c("Tailing", "Mining"), 1.65, 1.0),
+    "carbon_control" = ifelse(group_name == "Control", 1.95, ifelse(group_name == "Tailing", 1.45, 0.95)),
+    1
+  )
+}
+
 functional_rows <- vector("list", length(gene_ids) * length(sample_ids))
 row_index <- 1
 for (gene_index in seq_along(gene_ids)) {
   catalog_row <- function_catalog[gene_feature_map$catalog_index[gene_index], ]
   linked_feature <- gene_feature_map$feature_id[gene_index]
-  pattern <- taxon_pattern[linked_feature]
   base_count <- runif(1, 18, 95)
   for (sample_index in seq_along(sample_ids)) {
     group_name <- sample_metadata$group[sample_index]
-    contamination <- group_numeric[sample_index]
-    source <- catalog_row$annotation_source
-    multiplier <- 1
-    if (source %in% c("BacMet", "SulfurCycle")) {
-      multiplier <- 1 + 0.65 * contamination
-    } else if (source == "FAPROTAX" && pattern %in% c("mining_enriched", "smelting_enriched")) {
-      multiplier <- ifelse(group_name %in% c("Mining", "Smelting"), 2.3, 0.9)
-    } else if (source == "NitrogenCycle") {
-      multiplier <- ifelse(group_name == "Control", 1.6, 1.0)
-    } else if (source == "CarbonCycle") {
-      multiplier <- ifelse(group_name == "Control", 1.8, 1.1)
-    }
-    count_value <- rpois(1, lambda = max(base_count * multiplier * runif(1, 0.75, 1.25), 1))
+    contamination_score <- unname(group_numeric[sample_index])
+    multiplier <- trend_multiplier(catalog_row$trend, group_name, contamination_score)
+    count_value <- rpois(1, lambda = max(base_count * multiplier * runif(1, 0.78, 1.22), 1))
     functional_rows[[row_index]] <- data.frame(
       gene_id = gene_ids[gene_index],
       feature_id = linked_feature,
       sample_id = sample_ids[sample_index],
-      annotation_source = source,
+      annotation_source = catalog_row$annotation_source,
       function_category = catalog_row$function_category,
       pathway = catalog_row$pathway,
       ko_id = catalog_row$ko_id,

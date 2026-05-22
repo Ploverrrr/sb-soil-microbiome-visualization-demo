@@ -58,9 +58,9 @@ Simulated soil chemistry and contaminant measurements.
 | `TP` | Simulated total phosphorus. |
 | `SO4` | Simulated sulfate. |
 | `NO3` | Simulated nitrate. |
-| `Sb` | Simulated total antimony. |
-| `Sb3` | Simulated trivalent antimony. |
-| `Sb5` | Simulated pentavalent antimony. |
+| `Sb_total` | Simulated total antimony. This is generated to be approximately consistent with `Sb_III + Sb_V`. |
+| `Sb_III` | Simulated trivalent antimony. |
+| `Sb_V` | Simulated pentavalent antimony. |
 | `As` | Simulated arsenic. |
 | `Cu` | Simulated copper. |
 | `Zn` | Simulated zinc. |
@@ -72,7 +72,7 @@ Supported modules: `01_rf_correlation_heatmap`, `02_microbe_env_network`, `06_pl
 
 ## `taxonomy_table.csv`
 
-Feature-level taxonomic annotation table.
+Feature-level taxonomic annotation table. The toy taxonomy is generated from a predefined set of internally consistent bacterial lineages, so each `Phylum`, `Class`, `Order`, `Family`, and `Genus` combination is coherent within the simulated example.
 
 | Column | Description |
 |---|---|
@@ -117,6 +117,15 @@ Long-format functional annotation and pseudo-count table.
 | `abundance` | Sample-wise relative abundance of the simulated functional count. |
 
 Supported modules: `04_faprotax_functional_profile`, `06_plspm_mechanism_model`, `07_differential_volcano_heatmap`, `08_kegg_enrichment`, `09_sulfur_gene_contaminant_association`, and `11_vpa_mantel_partitioning`.
+
+The functional annotations are simulated with light but visible ecological trends:
+
+- metal resistance and sulfur cycling functions increase along the contamination gradient;
+- some sulfur oxidation functions are strongest in the `Smelting` group;
+- nitrogen and carbon cycling functions are relatively stronger in less contaminated or moderately disturbed samples;
+- broad KEGG-like functions remain distributed across all groups.
+
+These trends are intentionally modest. They are meant to make downstream workflows such as random forest correlation, PLS-PM, sulfur-contaminant association, and enrichment visualization possible without implying real biological results.
 
 ## Replacing the Toy Data
 
