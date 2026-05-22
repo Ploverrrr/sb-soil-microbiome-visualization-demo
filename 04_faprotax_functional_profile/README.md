@@ -10,10 +10,10 @@ The workflow starts from a long-format functional annotation table and sample me
 
 1. filters selected functional annotation sources;
 2. aggregates functional counts by sample and pathway;
-3. calculates sample-wise relative abundance;
+3. calculates both count-weighted relative abundance and unweighted feature-assignment percentage, matching the original FAPROTAX `abundance_weighted = FALSE` idea;
 4. summarizes functions by group;
 5. selects top functions;
-6. draws a functional bubble profile and grouped barplot.
+6. draws an unweighted functional bubble profile, a z-score bubble profile, and a grouped barplot.
 
 The visual style is inspired by FAPROTAX functional profile figures, but the data are simulated/desensitized and not real FAPROTAX outputs.
 
@@ -63,10 +63,14 @@ Edit the settings block in `scripts/run_demo.R` to change:
 This module writes:
 
 - sample-level functional relative abundance table;
+- sample-level unweighted feature-assignment percentage table;
 - group-level mean/sd/standard error table;
-- plot-ready bubble and barplot tables;
+- plot-ready bubble, z-score bubble, and barplot tables;
 - functional bubble profile PDF/PNG;
+- scaled count-weighted FAPROTAX bubble profile PDF/PNG;
 - grouped functional barplot PDF/PNG.
+
+The scaled bubble plot is included because the original FAPROTAX reference script scaled function profiles before plotting point size and color. In this toy workflow, the scaled bubble plot uses the count-weighted functional profile so the simulated gradient remains visible.
 
 ## Using Your Own Data
 

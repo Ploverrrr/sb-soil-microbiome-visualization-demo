@@ -12,16 +12,27 @@
 #   - results/lefse_candidate_statistics.csv
 #   - results/lefse_biomarker_table.csv
 #   - results/lefse_barplot_plotting_table.csv
+#   - results/kw_abundance_plotting_table.csv
 #   - results/biomarker_group_heatmap_table.csv
+#   - results/cladogram_node_table.csv
+#   - results/cladogram_edge_table.csv
 #   - figures/lefse_biomarker_barplot.pdf
 #   - figures/lefse_biomarker_barplot.png
+#   - figures/lefse_cladogram.pdf
+#   - figures/lefse_cladogram.png
+#   - figures/lefse_barplot_cladogram_combined.pdf
+#   - figures/lefse_barplot_cladogram_combined.png
+#   - figures/lefse_kw_abundance_plot.pdf
+#   - figures/lefse_kw_abundance_plot.png
+#   - figures/lefse_lda_kw_combined.pdf
+#   - figures/lefse_lda_kw_combined.png
 #   - figures/biomarker_group_heatmap.pdf
 #   - figures/biomarker_group_heatmap.png
 #
 # Required columns:
 #   sample_metadata.csv: sample_id, group
 #   abundance_table.csv: feature_id plus one column per sample_id
-#   taxonomy_table.csv: feature_id and the selected target_taxonomic_level
+#   taxonomy_table.csv: feature_id and the selected taxonomic ranks
 #
 # User-editable settings:
 #   Edit the settings block below to change input paths, taxonomy level,
@@ -35,13 +46,15 @@ metadata_file <- file.path(shared_data_dir, "sample_metadata.csv")
 abundance_file <- file.path(shared_data_dir, "abundance_table.csv")
 taxonomy_file <- file.path(shared_data_dir, "taxonomy_table.csv")
 
-target_taxonomic_level <- "Genus"
+target_taxonomic_level <- "all"
+taxonomic_levels_for_lefse <- c("Phylum", "Class", "Order", "Family", "Genus")
 group_column <- "group"
 group_order <- c("Control", "Tailing", "Mining", "Smelting")
 
-top_n_taxa <- 30
-max_biomarkers_to_plot <- 18
-minimum_biomarkers_to_plot <- 8
+top_n_taxa <- 80
+max_biomarkers_to_plot <- 24
+minimum_biomarkers_to_plot <- 10
+max_cladogram_labels <- 12
 min_prevalence <- 0.15
 min_mean_relative_abundance <- 0.001
 kruskal_fdr_cutoff <- 0.20
@@ -52,15 +65,34 @@ taxon_relative_output <- "taxon_relative_abundance_by_sample.csv"
 candidate_statistics_output <- "lefse_candidate_statistics.csv"
 biomarker_table_output <- "lefse_biomarker_table.csv"
 barplot_table_output <- "lefse_barplot_plotting_table.csv"
+kw_abundance_table_output <- "kw_abundance_plotting_table.csv"
 heatmap_table_output <- "biomarker_group_heatmap_table.csv"
+cladogram_node_output <- "cladogram_node_table.csv"
+cladogram_edge_output <- "cladogram_edge_table.csv"
 
 barplot_pdf <- "lefse_biomarker_barplot.pdf"
 barplot_png <- "lefse_biomarker_barplot.png"
+cladogram_pdf <- "lefse_cladogram.pdf"
+cladogram_png <- "lefse_cladogram.png"
+barplot_cladogram_pdf <- "lefse_barplot_cladogram_combined.pdf"
+barplot_cladogram_png <- "lefse_barplot_cladogram_combined.png"
+kw_abundance_pdf <- "lefse_kw_abundance_plot.pdf"
+kw_abundance_png <- "lefse_kw_abundance_plot.png"
+lda_kw_pdf <- "lefse_lda_kw_combined.pdf"
+lda_kw_png <- "lefse_lda_kw_combined.png"
 heatmap_pdf <- "biomarker_group_heatmap.pdf"
 heatmap_png <- "biomarker_group_heatmap.png"
 
 barplot_width <- 7.8
 barplot_height <- 6.2
+cladogram_width <- 8.2
+cladogram_height <- 7.6
+barplot_cladogram_width <- 13.2
+barplot_cladogram_height <- 7.4
+kw_abundance_width <- 8.8
+kw_abundance_height <- 7.2
+lda_kw_width <- 12.5
+lda_kw_height <- 7.2
 heatmap_width <- 6.8
 heatmap_height <- 6.2
 png_dpi <- 300
@@ -104,7 +136,11 @@ taxonomy_table <- read.csv(taxonomy_file, stringsAsFactors = FALSE, check.names 
 
 check_required_columns(sample_metadata, c("sample_id", group_column), "sample_metadata.csv")
 check_required_columns(abundance_table, "feature_id", "abundance_table.csv")
-check_required_columns(taxonomy_table, c("feature_id", target_taxonomic_level), "taxonomy_table.csv")
+if (identical(target_taxonomic_level, "all")) {
+  check_required_columns(taxonomy_table, c("feature_id", taxonomic_levels_for_lefse), "taxonomy_table.csv")
+} else {
+  check_required_columns(taxonomy_table, c("feature_id", target_taxonomic_level), "taxonomy_table.csv")
+}
 check_sample_ids(sample_metadata, abundance_table)
 check_feature_ids(abundance_table, taxonomy_table)
 
@@ -127,9 +163,17 @@ sample_metadata$group <- sample_metadata[[group_column]]
 sample_metadata$group <- factor(sample_metadata$group, levels = group_order)
 
 relative_abundance <- calculate_relative_abundance(abundance_table)
-taxon_relative_abundance <- aggregate_to_taxon(relative_abundance, taxonomy_table, target_taxonomic_level)
+if (identical(target_taxonomic_level, "all")) {
+  taxon_relative_abundance <- aggregate_to_all_taxonomic_levels(
+    relative_abundance,
+    taxonomy_table,
+    taxonomic_levels_for_lefse
+  )
+} else {
+  taxon_relative_abundance <- aggregate_to_taxon(relative_abundance, taxonomy_table, target_taxonomic_level)
+}
 
-sample_columns <- setdiff(colnames(taxon_relative_abundance), "taxon")
+sample_columns <- setdiff(colnames(taxon_relative_abundance), c("taxon", "rank", "taxon_name"))
 taxon_relative_abundance$overall_mean_abundance <- rowMeans(taxon_relative_abundance[, sample_columns, drop = FALSE])
 taxon_relative_abundance <- taxon_relative_abundance[
   order(taxon_relative_abundance$overall_mean_abundance, decreasing = TRUE),
@@ -149,7 +193,7 @@ if (top_n_taxa > nrow(taxon_relative_abundance)) {
 taxon_relative_abundance <- head(taxon_relative_abundance, top_n_taxa)
 write.csv(taxon_relative_abundance, file.path(results_dir, taxon_relative_output), row.names = FALSE)
 
-long_taxa <- taxon_table_to_long(taxon_relative_abundance[, c("taxon", sample_columns), drop = FALSE])
+long_taxa <- taxon_table_to_long(taxon_relative_abundance[, c("taxon", "rank", "taxon_name", sample_columns), drop = FALSE])
 long_taxa <- merge(
   long_taxa,
   sample_metadata[, c("sample_id", "group")],
@@ -185,6 +229,11 @@ write.csv(biomarkers, file.path(results_dir, biomarker_table_output), row.names 
 write.csv(biomarkers, file.path(results_dir, barplot_table_output), row.names = FALSE)
 
 selected_taxa <- as.character(biomarkers$taxon)
+kw_abundance_summary <- summarize_biomarker_abundance(long_taxa, biomarkers, group_order)
+kw_abundance_summary$group <- factor(kw_abundance_summary$group, levels = group_order)
+kw_abundance_summary$taxon <- factor(kw_abundance_summary$taxon, levels = levels(biomarkers$taxon))
+write.csv(kw_abundance_summary, file.path(results_dir, kw_abundance_table_output), row.names = FALSE)
+
 heatmap_data <- long_taxa[long_taxa$taxon %in% selected_taxa, , drop = FALSE]
 heatmap_summary <- aggregate(
   relative_abundance ~ taxon + group,
@@ -196,12 +245,22 @@ heatmap_summary$group <- factor(heatmap_summary$group, levels = group_order)
 heatmap_summary$taxon <- factor(heatmap_summary$taxon, levels = levels(biomarkers$taxon))
 write.csv(heatmap_summary, file.path(results_dir, heatmap_table_output), row.names = FALSE)
 
+cladogram_tables <- build_cladogram_tables(
+  taxonomy_table,
+  taxon_relative_abundance,
+  biomarkers,
+  taxonomic_levels_for_lefse,
+  max_cladogram_labels
+)
+write.csv(cladogram_tables$nodes, file.path(results_dir, cladogram_node_output), row.names = FALSE)
+write.csv(cladogram_tables$edges, file.path(results_dir, cladogram_edge_output), row.names = FALSE)
+
 bar_plot <- ggplot(biomarkers, aes(x = lefse_like_score, y = taxon, fill = enriched_group)) +
   geom_col(width = 0.72, color = "grey20", linewidth = 0.18) +
   scale_fill_manual(values = group_colors, drop = FALSE) +
   labs(
     title = "LEfSe-style biomarkers",
-    subtitle = paste0(target_taxonomic_level, " level; score = log10 enriched-group ratio"),
+    subtitle = paste0("Taxa level: ", target_taxonomic_level, "; score = log10 enriched-group ratio"),
     x = "LEfSe-style effect score",
     y = NULL,
     fill = "Enriched group"
@@ -215,6 +274,73 @@ bar_plot <- ggplot(biomarkers, aes(x = lefse_like_score, y = taxon, fill = enric
     legend.position = "top",
     plot.title = element_text(face = "bold", hjust = 0.5),
     plot.subtitle = element_text(hjust = 0.5)
+  )
+
+kw_abundance_plot <- ggplot(kw_abundance_summary, aes(x = mean_percent, y = taxon, fill = group)) +
+  geom_col(position = position_dodge(width = 0.78), width = 0.68, color = "grey25", linewidth = 0.15) +
+  geom_errorbar(
+    aes(xmin = pmax(mean_percent - se_percent, 0), xmax = mean_percent + se_percent),
+    position = position_dodge(width = 0.78),
+    width = 0.22,
+    linewidth = 0.3
+  ) +
+  scale_fill_manual(values = group_colors, drop = FALSE) +
+  labs(
+    title = "Kruskal-Wallis abundance profile",
+    subtitle = "Same selected biomarkers as the LDA-style barplot",
+    x = "Mean relative abundance (%)",
+    y = NULL,
+    fill = "Group"
+  ) +
+  theme_classic(base_size = 10.5) +
+  theme(
+    axis.text.y = element_text(color = "black", face = "italic"),
+    axis.text.x = element_text(color = "black"),
+    axis.line.y = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "top",
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5)
+  )
+
+cladogram_nodes <- cladogram_tables$nodes
+cladogram_nodes$plot_group <- factor(cladogram_nodes$plot_group, levels = c("Not significant", group_order))
+cladogram_plot <- ggplot() +
+  geom_segment(
+    data = cladogram_tables$edges,
+    aes(x = x_parent, y = y_parent, xend = x, yend = y),
+    color = "grey74",
+    linewidth = 0.38
+  ) +
+  geom_point(
+    data = cladogram_nodes,
+    aes(x = x, y = y, size = overall_mean_percent, fill = plot_group),
+    shape = 21,
+    color = "grey25",
+    stroke = 0.28,
+    alpha = 0.92
+  ) +
+  geom_text(
+    data = cladogram_tables$labels,
+    aes(x = x * 1.08, y = y * 1.08, label = label, hjust = hjust),
+    size = 2.6,
+    fontface = "italic",
+    color = "black"
+  ) +
+  scale_fill_manual(values = c("Not significant" = "white", group_colors), drop = FALSE) +
+  scale_size_continuous(range = c(1.6, 7.2), name = "Mean relative\nabundance (%)") +
+  coord_equal(clip = "off") +
+  labs(
+    title = "LEfSe-style taxonomic cladogram",
+    subtitle = "Nodes are colored by enriched group; rings follow Phylum to Genus",
+    fill = "Biomarker group"
+  ) +
+  theme_void(base_size = 10.5) +
+  theme(
+    legend.position = "right",
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5),
+    plot.margin = margin(12, 24, 12, 24)
   )
 
 heatmap_plot <- ggplot(heatmap_summary, aes(x = group, y = taxon, fill = mean_percent)) +
@@ -238,6 +364,14 @@ heatmap_plot <- ggplot(heatmap_summary, aes(x = group, y = taxon, fill = mean_pe
 
 ggsave(file.path(figures_dir, barplot_pdf), bar_plot, width = barplot_width, height = barplot_height, units = "in")
 ggsave(file.path(figures_dir, barplot_png), bar_plot, width = barplot_width, height = barplot_height, units = "in", dpi = png_dpi)
+ggsave(file.path(figures_dir, cladogram_pdf), cladogram_plot, width = cladogram_width, height = cladogram_height, units = "in")
+ggsave(file.path(figures_dir, cladogram_png), cladogram_plot, width = cladogram_width, height = cladogram_height, units = "in", dpi = png_dpi)
+ggsave(file.path(figures_dir, kw_abundance_pdf), kw_abundance_plot, width = kw_abundance_width, height = kw_abundance_height, units = "in")
+ggsave(file.path(figures_dir, kw_abundance_png), kw_abundance_plot, width = kw_abundance_width, height = kw_abundance_height, units = "in", dpi = png_dpi)
+save_two_panel_plot(file.path(figures_dir, barplot_cladogram_pdf), bar_plot + theme(legend.position = "none"), cladogram_plot, barplot_cladogram_width, barplot_cladogram_height)
+save_two_panel_plot(file.path(figures_dir, barplot_cladogram_png), bar_plot + theme(legend.position = "none"), cladogram_plot, barplot_cladogram_width, barplot_cladogram_height, dpi = png_dpi)
+save_two_panel_plot(file.path(figures_dir, lda_kw_pdf), bar_plot + theme(legend.position = "none"), kw_abundance_plot, lda_kw_width, lda_kw_height, left_width = 0.48)
+save_two_panel_plot(file.path(figures_dir, lda_kw_png), bar_plot + theme(legend.position = "none"), kw_abundance_plot, lda_kw_width, lda_kw_height, left_width = 0.48, dpi = png_dpi)
 ggsave(file.path(figures_dir, heatmap_pdf), heatmap_plot, width = heatmap_width, height = heatmap_height, units = "in")
 ggsave(file.path(figures_dir, heatmap_png), heatmap_plot, width = heatmap_width, height = heatmap_height, units = "in", dpi = png_dpi)
 

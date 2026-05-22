@@ -8,10 +8,10 @@ The demo starts from shared raw-like toy input tables, calculates taxon relative
 
 - Taxonomic count table processing from feature-level pseudo-counts.
 - Relative abundance calculation by sample.
-- Aggregation to a user-selected taxonomic level.
+- Aggregation to all major taxonomic levels by default, matching the original `taxa_level = "all"` LEfSe script logic.
 - Group-wise biomarker screening using Kruskal-Wallis tests and one-vs-rest Wilcoxon tests.
 - A LEfSe-style log-ratio effect score for ranked biomarker plotting.
-- Group-colored biomarker barplot and abundance heatmap.
+- Group-colored biomarker barplot, taxonomic cladogram, KW abundance plot, combined figures, and auxiliary abundance heatmap.
 
 This is a portfolio-friendly, simplified LEfSe-style workflow. It preserves the biomarker-discovery logic and figure style, but it is not a full replacement for the original LEfSe implementation.
 
@@ -51,12 +51,23 @@ Results:
 - `results/lefse_candidate_statistics.csv`
 - `results/lefse_biomarker_table.csv`
 - `results/lefse_barplot_plotting_table.csv`
+- `results/kw_abundance_plotting_table.csv`
+- `results/cladogram_node_table.csv`
+- `results/cladogram_edge_table.csv`
 - `results/biomarker_group_heatmap_table.csv`
 
 Figures:
 
 - `figures/lefse_biomarker_barplot.pdf`
 - `figures/lefse_biomarker_barplot.png`
+- `figures/lefse_cladogram.pdf`
+- `figures/lefse_cladogram.png`
+- `figures/lefse_barplot_cladogram_combined.pdf`
+- `figures/lefse_barplot_cladogram_combined.png`
+- `figures/lefse_kw_abundance_plot.pdf`
+- `figures/lefse_kw_abundance_plot.png`
+- `figures/lefse_lda_kw_combined.pdf`
+- `figures/lefse_lda_kw_combined.png`
 - `figures/biomarker_group_heatmap.pdf`
 - `figures/biomarker_group_heatmap.png`
 
@@ -66,9 +77,11 @@ Edit the settings block at the top of `scripts/run_demo.R` to change:
 
 - `shared_data_dir`
 - `target_taxonomic_level`
+- `taxonomic_levels_for_lefse`
 - `group_order`
 - `top_n_taxa`
 - `max_biomarkers_to_plot`
+- `max_cladogram_labels`
 - `min_prevalence`
 - `min_mean_relative_abundance`
 - `kruskal_fdr_cutoff`
@@ -83,10 +96,14 @@ Use the same input structure:
 
 - `sample_metadata.csv` must contain `sample_id` and `group`.
 - `abundance_table.csv` must contain `feature_id` plus one column per sample.
-- `taxonomy_table.csv` must contain `feature_id` and the selected taxonomic rank, such as `Genus`.
+- `taxonomy_table.csv` must contain `feature_id` and the selected taxonomic ranks. The default all-rank workflow uses `Phylum`, `Class`, `Order`, `Family`, and `Genus`.
 
 Keep sample IDs identical across metadata and abundance table column names. Keep feature IDs identical across abundance and taxonomy tables.
 
 ## Why Not Use A Hand-Edited LEfSe Table?
 
 A precomputed `LDA_score.csv` or manually edited plotting table would only demonstrate plotting. This module recalculates abundance, statistics, effect scores, and plotting tables inside the demo so the workflow remains transparent and reproducible.
+
+## Original-Script Features Preserved
+
+The original reference script produced an LDA score barplot, a taxonomic cladogram, a combined LDA+cladogram figure, a KW abundance figure, and a combined LDA+KW figure. This module now mirrors that functional structure with simulated data and dependency-light R code.

@@ -39,7 +39,7 @@ Required columns:
 | `Genus` | Taxonomic genus. |
 | `taxon_label` | Human-readable feature-level label. |
 
-`target_taxonomic_level` in `scripts/run_demo.R` selects which taxonomy column is used for aggregation. The default is `Genus`.
+`target_taxonomic_level` in `scripts/run_demo.R` selects which taxonomy column is used for aggregation. The default is `all`, which aggregates `Phylum`, `Class`, `Order`, `Family`, and `Genus` to better match the original LEfSe script.
 
 ## Output Tables
 
@@ -49,4 +49,7 @@ Required columns:
 | `lefse_candidate_statistics.csv` | All tested taxa with prevalence, group means, Kruskal-Wallis FDR, Wilcoxon p value, and effect score. |
 | `lefse_biomarker_table.csv` | Filtered biomarkers used for final figures. |
 | `lefse_barplot_plotting_table.csv` | Plot-ready biomarker table for the LEfSe-style barplot. |
+| `kw_abundance_plotting_table.csv` | Plot-ready group mean abundance table for the KW-style abundance plot. |
+| `cladogram_node_table.csv` | Node coordinates, abundance, and enrichment groups for the simplified taxonomic cladogram. |
+| `cladogram_edge_table.csv` | Parent-child edge coordinates for the simplified taxonomic cladogram. |
 | `biomarker_group_heatmap_table.csv` | Plot-ready group mean abundance table for the heatmap. |

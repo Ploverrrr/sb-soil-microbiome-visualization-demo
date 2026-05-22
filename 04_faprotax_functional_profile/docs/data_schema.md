@@ -36,15 +36,17 @@ Required columns:
 | `pathway` | Pathway or function name used as the default function label. |
 | `ko_id` | KO-like identifier. |
 | `count` | Simulated functional pseudo-count. |
-| `abundance` | Optional precomputed abundance. This module recalculates relative abundance from `count`. |
+| `abundance` | Optional precomputed abundance. This module recalculates count-weighted and unweighted profiles from raw-like fields. |
 
 ## Output Tables
 
 | Output | Description |
 |---|---|
-| `functional_relative_abundance_by_sample.csv` | Function-by-sample relative abundance matrix. |
-| `functional_group_summary.csv` | Mean, SD, SE, and sample count by group and function. |
-| `functional_bubble_plotting_table.csv` | Plot-ready sample/function table for the bubble profile. |
+| `functional_relative_abundance_by_sample.csv` | Function-by-sample count-weighted relative abundance matrix. |
+| `functional_unweighted_percent_by_sample.csv` | Function-by-sample unweighted feature-assignment percentage matrix, similar to FAPROTAX `abundance_weighted = FALSE`. |
+| `functional_group_summary.csv` | Mean, SD, SE, and sample count by group and function based on unweighted feature-assignment percentage. |
+| `functional_bubble_plotting_table.csv` | Plot-ready sample/function table for the unweighted percentage bubble profile. |
+| `functional_zscore_bubble_plotting_table.csv` | Plot-ready sample/function table for the scaled z-score bubble profile. |
 | `functional_barplot_table.csv` | Plot-ready group/function table for the grouped barplot. |
 
 ## Notes

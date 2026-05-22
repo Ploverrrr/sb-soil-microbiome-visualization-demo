@@ -66,11 +66,29 @@ aggregate_to_taxon <- function(relative_abundance, taxonomy, target_taxonomic_le
   merged$taxon <- merged[[target_taxonomic_level]]
   merged$taxon[is.na(merged$taxon) | merged$taxon == ""] <- "Unclassified"
   sample_columns <- setdiff(colnames(relative_abundance), "feature_id")
-  aggregate(merged[, sample_columns, drop = FALSE], by = list(taxon = merged$taxon), FUN = sum)
+  aggregated <- aggregate(merged[, sample_columns, drop = FALSE], by = list(taxon = merged$taxon), FUN = sum)
+  aggregated$rank <- target_taxonomic_level
+  aggregated$taxon_name <- aggregated$taxon
+  aggregated$taxon <- paste0(substr(target_taxonomic_level, 1, 1), "__", aggregated$taxon)
+  aggregated[, c("taxon", "rank", "taxon_name", sample_columns), drop = FALSE]
+}
+
+aggregate_to_all_taxonomic_levels <- function(relative_abundance, taxonomy, taxonomic_levels) {
+  sample_columns <- setdiff(colnames(relative_abundance), "feature_id")
+  rows <- vector("list", length(taxonomic_levels))
+
+  for (i in seq_along(taxonomic_levels)) {
+    rank <- taxonomic_levels[i]
+    rank_table <- aggregate_to_taxon(relative_abundance, taxonomy, rank)
+    rows[[i]] <- rank_table[, c("taxon", "rank", "taxon_name", sample_columns), drop = FALSE]
+  }
+
+  combined <- do.call(rbind, rows)
+  combined[order(match(combined$rank, taxonomic_levels), combined$taxon_name), , drop = FALSE]
 }
 
 taxon_table_to_long <- function(taxon_relative_abundance) {
-  sample_columns <- setdiff(colnames(taxon_relative_abundance), "taxon")
+  sample_columns <- setdiff(colnames(taxon_relative_abundance), c("taxon", "rank", "taxon_name", "overall_mean_abundance"))
   rows <- vector("list", length(sample_columns))
   for (i in seq_along(sample_columns)) {
     sample_id <- sample_columns[i]
@@ -167,4 +185,127 @@ select_biomarkers <- function(statistics, min_prevalence, min_mean_abundance, fd
   }
 
   filtered
+}
+
+p_to_stars <- function(p_value) {
+  ifelse(
+    p_value <= 0.001, "***",
+    ifelse(p_value <= 0.01, "**", ifelse(p_value <= 0.05, "*", ""))
+  )
+}
+
+summarize_biomarker_abundance <- function(long_data, biomarkers, group_order) {
+  selected <- long_data[long_data$taxon %in% biomarkers$taxon, , drop = FALSE]
+  selected$group <- factor(selected$group, levels = group_order)
+
+  mean_table <- aggregate(relative_abundance ~ taxon + group, data = selected, FUN = mean)
+  se_table <- aggregate(relative_abundance ~ taxon + group, data = selected, FUN = standard_error)
+  colnames(mean_table)[3] <- "mean_relative_abundance"
+  colnames(se_table)[3] <- "se_relative_abundance"
+
+  summary <- merge(mean_table, se_table, by = c("taxon", "group"), sort = FALSE)
+  summary <- merge(
+    summary,
+    biomarkers[, c("taxon", "enriched_group", "kruskal_fdr", "lefse_like_score")],
+    by = "taxon",
+    all.x = TRUE,
+    sort = FALSE
+  )
+  summary$mean_percent <- summary$mean_relative_abundance * 100
+  summary$se_percent <- summary$se_relative_abundance * 100
+  summary$significance <- p_to_stars(summary$kruskal_fdr)
+  summary
+}
+
+build_cladogram_tables <- function(taxonomy, all_rank_abundance, biomarkers, taxonomic_levels, max_labels) {
+  lineage_columns <- c("Kingdom", taxonomic_levels)
+  lineage <- unique(taxonomy[, lineage_columns, drop = FALSE])
+  lineage <- lineage[do.call(order, lineage[, lineage_columns, drop = FALSE]), , drop = FALSE]
+
+  genus_order <- unique(lineage$Genus)
+  genus_angles <- seq(0, 2 * pi, length.out = length(genus_order) + 1)[seq_along(genus_order)]
+  names(genus_angles) <- genus_order
+
+  nodes <- data.frame(
+    node_key = "Kingdom|Bacteria",
+    taxon = "k__Bacteria",
+    rank = "Kingdom",
+    taxon_name = "Bacteria",
+    parent_key = NA_character_,
+    stringsAsFactors = FALSE
+  )
+
+  for (rank in taxonomic_levels) {
+    parent_rank <- if (rank == taxonomic_levels[1]) "Kingdom" else taxonomic_levels[match(rank, taxonomic_levels) - 1]
+    rank_nodes <- unique(lineage[, c(parent_rank, rank), drop = FALSE])
+    colnames(rank_nodes) <- c("parent_name", "taxon_name")
+    rank_nodes$node_key <- paste(rank, rank_nodes$taxon_name, sep = "|")
+    rank_nodes$taxon <- paste0(substr(rank, 1, 1), "__", rank_nodes$taxon_name)
+    rank_nodes$rank <- rank
+    rank_nodes$parent_key <- paste(parent_rank, rank_nodes$parent_name, sep = "|")
+    nodes <- rbind(nodes, rank_nodes[, c("node_key", "taxon", "rank", "taxon_name", "parent_key")])
+  }
+
+  node_angle <- numeric(nrow(nodes))
+  for (i in seq_len(nrow(nodes))) {
+    node <- nodes[i, ]
+    if (node$rank == "Kingdom") {
+      descendant_genera <- genus_order
+    } else {
+      subset_lineage <- lineage[lineage[[node$rank]] == node$taxon_name, , drop = FALSE]
+      descendant_genera <- unique(subset_lineage$Genus)
+    }
+    node_angle[i] <- mean(genus_angles[descendant_genera], na.rm = TRUE)
+  }
+
+  depth_lookup <- c(Kingdom = 0, setNames(seq_along(taxonomic_levels), taxonomic_levels))
+  nodes$depth <- unname(depth_lookup[nodes$rank])
+  nodes$angle <- node_angle
+  nodes$x <- nodes$depth * cos(nodes$angle)
+  nodes$y <- nodes$depth * sin(nodes$angle)
+
+  abundance_lookup <- all_rank_abundance[, c("taxon", "overall_mean_abundance"), drop = FALSE]
+  nodes <- merge(nodes, abundance_lookup, by = "taxon", all.x = TRUE, sort = FALSE)
+  nodes$overall_mean_abundance[is.na(nodes$overall_mean_abundance)] <- 0
+  nodes$overall_mean_percent <- nodes$overall_mean_abundance * 100
+
+  biomarker_lookup <- biomarkers[, c("taxon", "enriched_group", "lefse_like_score"), drop = FALSE]
+  nodes <- merge(nodes, biomarker_lookup, by = "taxon", all.x = TRUE, sort = FALSE)
+  nodes$enriched_group <- as.character(nodes$enriched_group)
+  nodes$plot_group <- ifelse(is.na(nodes$enriched_group), "Not significant", nodes$enriched_group)
+
+  parent_coordinates <- nodes[, c("node_key", "x", "y"), drop = FALSE]
+  colnames(parent_coordinates) <- c("parent_key", "x_parent", "y_parent")
+  edges <- merge(nodes[!is.na(nodes$parent_key), c("node_key", "parent_key", "x", "y"), drop = FALSE], parent_coordinates, by = "parent_key", all.x = TRUE, sort = FALSE)
+
+  label_nodes <- nodes[!is.na(nodes$enriched_group), , drop = FALSE]
+  label_nodes <- label_nodes[order(-label_nodes$lefse_like_score), , drop = FALSE]
+  label_nodes <- head(label_nodes, max_labels)
+  label_nodes$label <- label_nodes$taxon
+  label_nodes$hjust <- ifelse(cos(label_nodes$angle) >= 0, 0, 1)
+
+  list(nodes = nodes, edges = edges, labels = label_nodes)
+}
+
+save_two_panel_plot <- function(filename, left_plot, right_plot, width, height, left_width = 0.42, dpi = 300) {
+  extension <- tolower(tools::file_ext(filename))
+  if (extension == "pdf") {
+    grDevices::pdf(filename, width = width, height = height)
+  } else if (extension == "png") {
+    grDevices::png(filename, width = width, height = height, units = "in", res = dpi)
+  } else {
+    stop("Unsupported output extension for combined plot: ", extension, call. = FALSE)
+  }
+  on.exit(grDevices::dev.off(), add = TRUE)
+
+  grid::grid.newpage()
+  layout <- grid::grid.layout(
+    nrow = 1,
+    ncol = 2,
+    widths = grid::unit(c(left_width, 1 - left_width), "null")
+  )
+  grid::pushViewport(grid::viewport(layout = layout))
+  print(left_plot, vp = grid::viewport(layout.pos.row = 1, layout.pos.col = 1))
+  print(right_plot, vp = grid::viewport(layout.pos.row = 1, layout.pos.col = 2))
+  invisible(TRUE)
 }
