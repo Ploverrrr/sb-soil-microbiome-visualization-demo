@@ -1,0 +1,1729 @@
+"gene_id","feature_id","sample_id","annotation_source","function_category","pathway","ko_id","count","abundance"
+"gene_001","ASV008","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",68,0.01239519
+"gene_001","ASV008","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",90,0.01665433
+"gene_001","ASV008","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",58,0.01071891
+"gene_001","ASV008","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",78,0.01436993
+"gene_001","ASV008","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",63,0.01179554
+"gene_001","ASV008","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",102,0.01986755
+"gene_001","ASV008","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",105,0.01945525
+"gene_001","ASV008","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",67,0.01267979
+"gene_001","ASV008","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",79,0.01490847
+"gene_001","ASV008","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",85,0.01653053
+"gene_001","ASV008","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",66,0.01213458
+"gene_001","ASV008","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",68,0.01248852
+"gene_001","ASV008","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",64,0.00991787
+"gene_001","ASV008","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",90,0.01336105
+"gene_001","ASV008","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",83,0.01249247
+"gene_001","ASV008","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",68,0.0102626
+"gene_001","ASV008","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",65,0.00984252
+"gene_001","ASV008","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",90,0.0140056
+"gene_001","ASV008","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",87,0.01174089
+"gene_001","ASV008","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",69,0.00908373
+"gene_001","ASV008","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",79,0.0105474
+"gene_001","ASV008","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",59,0.00765041
+"gene_001","ASV008","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",74,0.00978836
+"gene_001","ASV008","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",64,0.00862069
+"gene_002","ASV096","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",31,0.00565075
+"gene_002","ASV096","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",38,0.00703183
+"gene_002","ASV096","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",28,0.00517464
+"gene_002","ASV096","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",32,0.00589536
+"gene_002","ASV096","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",38,0.00711477
+"gene_002","ASV096","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",41,0.00798598
+"gene_002","ASV096","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",51,0.00944969
+"gene_002","ASV096","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",36,0.00681302
+"gene_002","ASV096","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",25,0.00471787
+"gene_002","ASV096","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",24,0.00466744
+"gene_002","ASV096","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",33,0.00606729
+"gene_002","ASV096","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",39,0.00716253
+"gene_002","ASV096","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",32,0.00495893
+"gene_002","ASV096","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",34,0.00504751
+"gene_002","ASV096","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",45,0.00677303
+"gene_002","ASV096","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",43,0.00648959
+"gene_002","ASV096","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",34,0.00514839
+"gene_002","ASV096","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",52,0.00809213
+"gene_002","ASV096","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",38,0.00512821
+"gene_002","ASV096","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",36,0.00473934
+"gene_002","ASV096","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",30,0.00400534
+"gene_002","ASV096","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",35,0.00453838
+"gene_002","ASV096","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",35,0.00462963
+"gene_002","ASV096","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",52,0.00700431
+"gene_003","ASV094","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",76,0.01385345
+"gene_003","ASV094","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",76,0.01406366
+"gene_003","ASV094","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",94,0.01737202
+"gene_003","ASV094","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",73,0.01344878
+"gene_003","ASV094","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",84,0.01572739
+"gene_003","ASV094","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",76,0.01480327
+"gene_003","ASV094","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",173,0.03205485
+"gene_003","ASV094","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",143,0.02706283
+"gene_003","ASV094","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",120,0.02264578
+"gene_003","ASV094","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",151,0.02936601
+"gene_003","ASV094","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",170,0.03125575
+"gene_003","ASV094","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",159,0.0292011
+"gene_003","ASV094","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",189,0.0292887
+"gene_003","ASV094","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",175,0.02597981
+"gene_003","ASV094","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",200,0.03010235
+"gene_003","ASV094","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",234,0.03531542
+"gene_003","ASV094","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",128,0.01938219
+"gene_003","ASV094","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",182,0.02832244
+"gene_003","ASV094","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",272,0.03670715
+"gene_003","ASV094","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",230,0.03027909
+"gene_003","ASV094","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",221,0.02950601
+"gene_003","ASV094","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",244,0.031639
+"gene_003","ASV094","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",202,0.02671958
+"gene_003","ASV094","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",209,0.02815194
+"gene_004","ASV019","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",113,0.02059789
+"gene_004","ASV019","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",111,0.02054034
+"gene_004","ASV019","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",114,0.02106819
+"gene_004","ASV019","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",105,0.01934414
+"gene_004","ASV019","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",70,0.01310616
+"gene_004","ASV019","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",92,0.01791975
+"gene_004","ASV019","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",118,0.021864
+"gene_004","ASV019","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",192,0.03633611
+"gene_004","ASV019","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",130,0.02453293
+"gene_004","ASV019","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",102,0.01983664
+"gene_004","ASV019","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",172,0.03162346
+"gene_004","ASV019","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",122,0.02240588
+"gene_004","ASV019","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",196,0.03037347
+"gene_004","ASV019","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",262,0.03889549
+"gene_004","ASV019","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",211,0.03175798
+"gene_004","ASV019","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",181,0.02731663
+"gene_004","ASV019","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",132,0.01998789
+"gene_004","ASV019","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",159,0.02474323
+"gene_004","ASV019","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",322,0.04345479
+"gene_004","ASV019","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",221,0.02909426
+"gene_004","ASV019","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",283,0.03778371
+"gene_004","ASV019","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",326,0.04227178
+"gene_004","ASV019","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",259,0.03425926
+"gene_004","ASV019","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",358,0.04822198
+"gene_005","ASV024","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",148,0.02697776
+"gene_005","ASV024","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",91,0.01683938
+"gene_005","ASV024","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",144,0.02661246
+"gene_005","ASV024","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",107,0.0197126
+"gene_005","ASV024","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",154,0.02883355
+"gene_005","ASV024","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",73,0.01421893
+"gene_005","ASV024","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",102,0.01889939
+"gene_005","ASV024","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",50,0.00946253
+"gene_005","ASV024","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",86,0.01622948
+"gene_005","ASV024","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.012641
+"gene_005","ASV024","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",89,0.0163633
+"gene_005","ASV024","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",71,0.01303949
+"gene_005","ASV024","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",88,0.01363707
+"gene_005","ASV024","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01157957
+"gene_005","ASV024","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",96,0.01444913
+"gene_005","ASV024","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01177181
+"gene_005","ASV024","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",77,0.0116596
+"gene_005","ASV024","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",88,0.01369437
+"gene_005","ASV024","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",66,0.00890688
+"gene_005","ASV024","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",61,0.00803054
+"gene_005","ASV024","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.01121495
+"gene_005","ASV024","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",54,0.00700207
+"gene_005","ASV024","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",61,0.00806878
+"gene_005","ASV024","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",73,0.00983297
+"gene_006","ASV014","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",151,0.02752461
+"gene_006","ASV014","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",188,0.03478905
+"gene_006","ASV014","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",120,0.02217705
+"gene_006","ASV014","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",141,0.02597642
+"gene_006","ASV014","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",193,0.03613556
+"gene_006","ASV014","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",111,0.02162057
+"gene_006","ASV014","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",77,0.01426719
+"gene_006","ASV014","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",108,0.02043906
+"gene_006","ASV014","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",82,0.01547462
+"gene_006","ASV014","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",110,0.02139245
+"gene_006","ASV014","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",101,0.01856959
+"gene_006","ASV014","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",111,0.02038567
+"gene_006","ASV014","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",71,0.01100263
+"gene_006","ASV014","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",114,0.01692399
+"gene_006","ASV014","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",98,0.01475015
+"gene_006","ASV014","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",72,0.01086628
+"gene_006","ASV014","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",105,0.01589945
+"gene_006","ASV014","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",87,0.01353875
+"gene_006","ASV014","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",87,0.01174089
+"gene_006","ASV014","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",66,0.00868878
+"gene_006","ASV014","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",113,0.01508678
+"gene_006","ASV014","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",126,0.01633817
+"gene_006","ASV014","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",76,0.01005291
+"gene_006","ASV014","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",113,0.01522091
+"gene_007","ASV051","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",40,0.00729129
+"gene_007","ASV051","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",44,0.00814212
+"gene_007","ASV051","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",49,0.00905563
+"gene_007","ASV051","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",33,0.00607959
+"gene_007","ASV051","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00580416
+"gene_007","ASV051","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",46,0.00895988
+"gene_007","ASV051","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",33,0.00611451
+"gene_007","ASV051","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",51,0.00965178
+"gene_007","ASV051","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",27,0.0050953
+"gene_007","ASV051","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",32,0.00622326
+"gene_007","ASV051","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.00459643
+"gene_007","ASV051","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",56,0.01028466
+"gene_007","ASV051","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00480397
+"gene_007","ASV051","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",30,0.00445368
+"gene_007","ASV051","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",34,0.0051174
+"gene_007","ASV051","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",34,0.0051313
+"gene_007","ASV051","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",49,0.00741975
+"gene_007","ASV051","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",41,0.00638033
+"gene_007","ASV051","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",33,0.00445344
+"gene_007","ASV051","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",40,0.00526593
+"gene_007","ASV051","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",45,0.00600801
+"gene_007","ASV051","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00401971
+"gene_007","ASV051","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",35,0.00462963
+"gene_007","ASV051","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",38,0.00511853
+"gene_008","ASV013","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00856726
+"gene_008","ASV013","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",44,0.00814212
+"gene_008","ASV013","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.01219738
+"gene_008","ASV013","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",70,0.01289609
+"gene_008","ASV013","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",46,0.00861262
+"gene_008","ASV013","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",79,0.01538761
+"gene_008","ASV013","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",60,0.01111729
+"gene_008","ASV013","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",60,0.01135503
+"gene_008","ASV013","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",50,0.00943574
+"gene_008","ASV013","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",71,0.01380786
+"gene_008","ASV013","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",79,0.01452473
+"gene_008","ASV013","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",70,0.01285583
+"gene_008","ASV013","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",43,0.00666357
+"gene_008","ASV013","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",69,0.01024347
+"gene_008","ASV013","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",52,0.00782661
+"gene_008","ASV013","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00709327
+"gene_008","ASV013","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",63,0.00953967
+"gene_008","ASV013","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",82,0.01276066
+"gene_008","ASV013","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.00890688
+"gene_008","ASV013","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00618747
+"gene_008","ASV013","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",55,0.00734312
+"gene_008","ASV013","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",60,0.00778008
+"gene_008","ASV013","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00621693
+"gene_008","ASV013","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",56,0.0075431
+"gene_009","ASV069","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",79,0.01440029
+"gene_009","ASV069","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",111,0.02054034
+"gene_009","ASV069","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",95,0.01755683
+"gene_009","ASV069","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",97,0.0178703
+"gene_009","ASV069","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",103,0.01928478
+"gene_009","ASV069","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",123,0.02395793
+"gene_009","ASV069","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",146,0.02705207
+"gene_009","ASV069","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",131,0.02479182
+"gene_009","ASV069","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",173,0.03264767
+"gene_009","ASV069","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",183,0.03558926
+"gene_009","ASV069","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",156,0.02868174
+"gene_009","ASV069","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",196,0.03599633
+"gene_009","ASV069","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",168,0.0260344
+"gene_009","ASV069","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",247,0.03666865
+"gene_009","ASV069","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",200,0.03010235
+"gene_009","ASV069","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",165,0.0249019
+"gene_009","ASV069","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",246,0.03725015
+"gene_009","ASV069","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",228,0.03548086
+"gene_009","ASV069","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",209,0.02820513
+"gene_009","ASV069","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",285,0.03751975
+"gene_009","ASV069","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",296,0.03951936
+"gene_009","ASV069","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",222,0.02878631
+"gene_009","ASV069","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",312,0.04126984
+"gene_009","ASV069","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",262,0.03529095
+"gene_010","ASV008","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",35,0.00637988
+"gene_010","ASV008","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",34,0.00629164
+"gene_010","ASV008","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",39,0.00720754
+"gene_010","ASV008","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",55,0.01013265
+"gene_010","ASV008","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",42,0.0078637
+"gene_010","ASV008","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",45,0.0087651
+"gene_010","ASV008","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",53,0.00982027
+"gene_010","ASV008","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",65,0.01230129
+"gene_010","ASV008","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",79,0.01490847
+"gene_010","ASV008","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",53,0.01030727
+"gene_010","ASV008","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",47,0.00864129
+"gene_010","ASV008","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",61,0.01120294
+"gene_010","ASV008","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",117,0.0181311
+"gene_010","ASV008","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",110,0.01633017
+"gene_010","ASV008","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",98,0.01475015
+"gene_010","ASV008","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",104,0.01569574
+"gene_010","ASV008","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",89,0.01347668
+"gene_010","ASV008","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",104,0.01618425
+"gene_010","ASV008","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",109,0.01470985
+"gene_010","ASV008","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",134,0.01764086
+"gene_010","ASV008","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",106,0.0141522
+"gene_010","ASV008","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",91,0.01179979
+"gene_010","ASV008","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",100,0.01322751
+"gene_010","ASV008","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",94,0.01266164
+"gene_011","ASV067","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",120,0.02187386
+"gene_011","ASV067","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",111,0.02054034
+"gene_011","ASV067","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",106,0.01958972
+"gene_011","ASV067","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",91,0.01676492
+"gene_011","ASV067","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",80,0.01497847
+"gene_011","ASV067","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",94,0.01830931
+"gene_011","ASV067","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.0155642
+"gene_011","ASV067","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",59,0.01116578
+"gene_011","ASV067","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",74,0.0139649
+"gene_011","ASV067","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",57,0.01108518
+"gene_011","ASV067","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01397316
+"gene_011","ASV067","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",50,0.00918274
+"gene_011","ASV067","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",57,0.0088331
+"gene_011","ASV067","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",85,0.01261876
+"gene_011","ASV067","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",59,0.00888019
+"gene_011","ASV067","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",89,0.01343193
+"gene_011","ASV067","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",55,0.00832829
+"gene_011","ASV067","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",42,0.00653595
+"gene_011","ASV067","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.00877193
+"gene_011","ASV067","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",73,0.00961032
+"gene_011","ASV067","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",80,0.01068091
+"gene_011","ASV067","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",81,0.01050311
+"gene_011","ASV067","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",66,0.00873016
+"gene_011","ASV067","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",70,0.00942888
+"gene_012","ASV035","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",176,0.03208166
+"gene_012","ASV035","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",151,0.02794226
+"gene_012","ASV035","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",190,0.03511366
+"gene_012","ASV035","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",174,0.03205601
+"gene_012","ASV035","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",128,0.02396555
+"gene_012","ASV035","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",171,0.03330736
+"gene_012","ASV035","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",103,0.01908468
+"gene_012","ASV035","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",88,0.01665405
+"gene_012","ASV035","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",101,0.0190602
+"gene_012","ASV035","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",105,0.02042007
+"gene_012","ASV035","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",129,0.0237176
+"gene_012","ASV035","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",126,0.0231405
+"gene_012","ASV035","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",125,0.01937084
+"gene_012","ASV035","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.01410333
+"gene_012","ASV035","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.01429862
+"gene_012","ASV035","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",81,0.01222457
+"gene_012","ASV035","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",106,0.01605088
+"gene_012","ASV035","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",121,0.01882975
+"gene_012","ASV035","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",108,0.0145749
+"gene_012","ASV035","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.01250658
+"gene_012","ASV035","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",88,0.011749
+"gene_012","ASV035","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",65,0.00842842
+"gene_012","ASV035","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",88,0.01164021
+"gene_012","ASV035","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",76,0.01023707
+"gene_013","ASV078","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",62,0.01130149
+"gene_013","ASV078","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",124,0.02294597
+"gene_013","ASV078","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",92,0.0170024
+"gene_013","ASV078","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",96,0.01768607
+"gene_013","ASV078","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",125,0.02340386
+"gene_013","ASV078","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",99,0.01928321
+"gene_013","ASV078","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",94,0.01741708
+"gene_013","ASV078","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",87,0.0164648
+"gene_013","ASV078","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",77,0.01453104
+"gene_013","ASV078","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",72,0.01400233
+"gene_013","ASV078","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",91,0.01673102
+"gene_013","ASV078","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",93,0.01707989
+"gene_013","ASV078","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",86,0.01332713
+"gene_013","ASV078","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",97,0.01440024
+"gene_013","ASV078","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",73,0.01098736
+"gene_013","ASV078","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",86,0.01297917
+"gene_013","ASV078","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",91,0.01377953
+"gene_013","ASV078","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",85,0.01322751
+"gene_013","ASV078","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",90,0.01214575
+"gene_013","ASV078","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",123,0.01619273
+"gene_013","ASV078","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",101,0.01348465
+"gene_013","ASV078","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",83,0.01076245
+"gene_013","ASV078","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",89,0.01177249
+"gene_013","ASV078","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",102,0.01373922
+"gene_014","ASV034","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",52,0.00947867
+"gene_014","ASV034","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00869726
+"gene_014","ASV034","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",71,0.01312142
+"gene_014","ASV034","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",80,0.01473839
+"gene_014","ASV034","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",64,0.01198277
+"gene_014","ASV034","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.01285547
+"gene_014","ASV034","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",85,0.01574949
+"gene_014","ASV034","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",50,0.00946253
+"gene_014","ASV034","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",55,0.01037932
+"gene_014","ASV034","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",45,0.00875146
+"gene_014","ASV034","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",53,0.00974444
+"gene_014","ASV034","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",46,0.00844812
+"gene_014","ASV034","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",172,0.02665427
+"gene_014","ASV034","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",143,0.02122922
+"gene_014","ASV034","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",122,0.01836243
+"gene_014","ASV034","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",142,0.02143073
+"gene_014","ASV034","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",143,0.02165354
+"gene_014","ASV034","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",127,0.01976346
+"gene_014","ASV034","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",129,0.01740891
+"gene_014","ASV034","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",137,0.01803581
+"gene_014","ASV034","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",168,0.02242991
+"gene_014","ASV034","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",198,0.02567427
+"gene_014","ASV034","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",143,0.01891534
+"gene_014","ASV034","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",128,0.01724138
+"gene_015","ASV073","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",15,0.00273423
+"gene_015","ASV073","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",23,0.00425611
+"gene_015","ASV073","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",22,0.00406579
+"gene_015","ASV073","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",33,0.00607959
+"gene_015","ASV073","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",25,0.00468077
+"gene_015","ASV073","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",21,0.00409038
+"gene_015","ASV073","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",43,0.00796739
+"gene_015","ASV073","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",48,0.00908403
+"gene_015","ASV073","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",38,0.00717116
+"gene_015","ASV073","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",40,0.00777907
+"gene_015","ASV073","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",50,0.00919287
+"gene_015","ASV073","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",48,0.00881543
+"gene_015","ASV073","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",38,0.00588873
+"gene_015","ASV073","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",52,0.00771971
+"gene_015","ASV073","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",62,0.00933173
+"gene_015","ASV073","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",44,0.00664051
+"gene_015","ASV073","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",62,0.00938825
+"gene_015","ASV073","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",73,0.0113601
+"gene_015","ASV073","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",90,0.01214575
+"gene_015","ASV073","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",67,0.00882043
+"gene_015","ASV073","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",55,0.00734312
+"gene_015","ASV073","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",81,0.01050311
+"gene_015","ASV073","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",86,0.01137566
+"gene_015","ASV073","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",93,0.01252694
+"gene_016","ASV093","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",48,0.00874954
+"gene_016","ASV093","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",71,0.01313842
+"gene_016","ASV093","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",66,0.01219738
+"gene_016","ASV093","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",58,0.01068534
+"gene_016","ASV093","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",59,0.01104662
+"gene_016","ASV093","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",78,0.01519283
+"gene_016","ASV093","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",108,0.02001112
+"gene_016","ASV093","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",75,0.01419379
+"gene_016","ASV093","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",127,0.02396679
+"gene_016","ASV093","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",87,0.01691949
+"gene_016","ASV093","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",92,0.01691487
+"gene_016","ASV093","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",84,0.015427
+"gene_016","ASV093","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",169,0.02618937
+"gene_016","ASV093","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",111,0.01647862
+"gene_016","ASV093","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",131,0.01971704
+"gene_016","ASV093","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",88,0.01328101
+"gene_016","ASV093","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",167,0.0252877
+"gene_016","ASV093","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",138,0.02147526
+"gene_016","ASV093","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",223,0.03009447
+"gene_016","ASV093","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",181,0.02382833
+"gene_016","ASV093","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",189,0.02523364
+"gene_016","ASV093","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",188,0.02437759
+"gene_016","ASV093","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",197,0.0260582
+"gene_016","ASV093","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",121,0.01629849
+"gene_017","ASV006","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",180,0.03281079
+"gene_017","ASV006","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",187,0.034604
+"gene_017","ASV006","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",128,0.02365552
+"gene_017","ASV006","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",113,0.02081798
+"gene_017","ASV006","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",118,0.02209324
+"gene_017","ASV006","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",165,0.03213868
+"gene_017","ASV006","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",89,0.01649064
+"gene_017","ASV006","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",104,0.01968206
+"gene_017","ASV006","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",86,0.01622948
+"gene_017","ASV006","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",98,0.01905873
+"gene_017","ASV006","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",82,0.0150763
+"gene_017","ASV006","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",89,0.01634527
+"gene_017","ASV006","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01177747
+"gene_017","ASV006","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01157957
+"gene_017","ASV006","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",81,0.01219145
+"gene_017","ASV006","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",115,0.01735587
+"gene_017","ASV006","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",72,0.01090248
+"gene_017","ASV006","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",74,0.01151572
+"gene_017","ASV006","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",90,0.01214575
+"gene_017","ASV006","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.01040021
+"gene_017","ASV006","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",88,0.011749
+"gene_017","ASV006","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.00842842
+"gene_017","ASV006","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",74,0.00978836
+"gene_017","ASV006","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",69,0.00929418
+"gene_018","ASV028","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",71,0.01294203
+"gene_018","ASV028","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",56,0.01036269
+"gene_018","ASV028","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",56,0.01034929
+"gene_018","ASV028","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",79,0.01455416
+"gene_018","ASV028","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",68,0.0127317
+"gene_018","ASV028","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",69,0.01343981
+"gene_018","ASV028","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",40,0.00741152
+"gene_018","ASV028","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",32,0.00605602
+"gene_018","ASV028","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",40,0.00754859
+"gene_018","ASV028","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",57,0.01108518
+"gene_018","ASV028","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",36,0.00661886
+"gene_018","ASV028","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",39,0.00716253
+"gene_018","ASV028","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",43,0.00666357
+"gene_018","ASV028","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",36,0.00534442
+"gene_018","ASV028","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",53,0.00797712
+"gene_018","ASV028","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",46,0.00694235
+"gene_018","ASV028","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",43,0.00651121
+"gene_018","ASV028","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",37,0.00575786
+"gene_018","ASV028","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",51,0.00688259
+"gene_018","ASV028","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",29,0.0038178
+"gene_018","ASV028","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",48,0.00640854
+"gene_018","ASV028","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",46,0.00596473
+"gene_018","ASV028","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",45,0.00595238
+"gene_018","ASV028","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",27,0.00363685
+"gene_019","ASV077","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",60,0.01093693
+"gene_019","ASV077","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",61,0.01128793
+"gene_019","ASV077","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",55,0.01016448
+"gene_019","ASV077","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",48,0.00884304
+"gene_019","ASV077","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",48,0.00898708
+"gene_019","ASV077","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",65,0.01266069
+"gene_019","ASV077","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",40,0.00741152
+"gene_019","ASV077","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",60,0.01135503
+"gene_019","ASV077","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",58,0.01094546
+"gene_019","ASV077","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",55,0.01069623
+"gene_019","ASV077","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",49,0.00900901
+"gene_019","ASV077","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",55,0.01010101
+"gene_019","ASV077","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",67,0.01038277
+"gene_019","ASV077","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",73,0.01083729
+"gene_019","ASV077","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",58,0.00872968
+"gene_019","ASV077","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",51,0.00769695
+"gene_019","ASV077","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",52,0.00787402
+"gene_019","ASV077","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",63,0.00980392
+"gene_019","ASV077","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",52,0.00701754
+"gene_019","ASV077","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",61,0.00803054
+"gene_019","ASV077","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",68,0.00907877
+"gene_019","ASV077","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",49,0.00635373
+"gene_019","ASV077","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",66,0.00873016
+"gene_019","ASV077","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",59,0.0079472
+"gene_020","ASV077","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",57,0.01039008
+"gene_020","ASV077","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",85,0.01572909
+"gene_020","ASV077","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",80,0.0147847
+"gene_020","ASV077","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",75,0.01381724
+"gene_020","ASV077","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",97,0.01816139
+"gene_020","ASV077","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",56,0.01090767
+"gene_020","ASV077","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",83,0.01537891
+"gene_020","ASV077","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",119,0.02252082
+"gene_020","ASV077","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",107,0.02019249
+"gene_020","ASV077","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",109,0.02119798
+"gene_020","ASV077","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",110,0.02022431
+"gene_020","ASV077","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",97,0.01781451
+"gene_020","ASV077","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",103,0.01596157
+"gene_020","ASV077","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",98,0.01454869
+"gene_020","ASV077","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",71,0.01068633
+"gene_020","ASV077","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",107,0.01614851
+"gene_020","ASV077","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",107,0.0162023
+"gene_020","ASV077","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",62,0.0096483
+"gene_020","ASV077","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",82,0.01106613
+"gene_020","ASV077","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",96,0.01263823
+"gene_020","ASV077","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",91,0.01214953
+"gene_020","ASV077","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",126,0.01633817
+"gene_020","ASV077","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",84,0.01111111
+"gene_020","ASV077","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",106,0.01427802
+"gene_021","ASV020","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",76,0.01385345
+"gene_021","ASV020","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",50,0.00925241
+"gene_021","ASV020","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",74,0.01367585
+"gene_021","ASV020","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",65,0.01197494
+"gene_021","ASV020","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",73,0.01366785
+"gene_021","ASV020","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",56,0.01090767
+"gene_021","ASV020","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",109,0.02019641
+"gene_021","ASV020","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",112,0.02119606
+"gene_021","ASV020","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",165,0.03113795
+"gene_021","ASV020","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",97,0.01886426
+"gene_021","ASV020","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",145,0.02665931
+"gene_021","ASV020","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",109,0.02001837
+"gene_021","ASV020","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",120,0.018596
+"gene_021","ASV020","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",119,0.01766627
+"gene_021","ASV020","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",195,0.02934979
+"gene_021","ASV020","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",163,0.02460006
+"gene_021","ASV020","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",203,0.03073895
+"gene_021","ASV020","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",136,0.02116402
+"gene_021","ASV020","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",177,0.02388664
+"gene_021","ASV020","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",233,0.03067404
+"gene_021","ASV020","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",182,0.02429907
+"gene_021","ASV020","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",234,0.03034232
+"gene_021","ASV020","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",195,0.02579365
+"gene_021","ASV020","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",152,0.02047414
+"gene_022","ASV034","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",44,0.00802042
+"gene_022","ASV034","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",48,0.00888231
+"gene_022","ASV034","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",29,0.00535945
+"gene_022","ASV034","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",57,0.01050111
+"gene_022","ASV034","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",45,0.00842539
+"gene_022","ASV034","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",49,0.00954422
+"gene_022","ASV034","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",64,0.01185844
+"gene_022","ASV034","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",98,0.01854656
+"gene_022","ASV034","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",94,0.0177392
+"gene_022","ASV034","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",73,0.01419681
+"gene_022","ASV034","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",86,0.01581173
+"gene_022","ASV034","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",83,0.01524334
+"gene_022","ASV034","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",96,0.0148768
+"gene_022","ASV034","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",124,0.01840855
+"gene_022","ASV034","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",109,0.01640578
+"gene_022","ASV034","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",163,0.02460006
+"gene_022","ASV034","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",137,0.020745
+"gene_022","ASV034","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",127,0.01976346
+"gene_022","ASV034","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",165,0.02226721
+"gene_022","ASV034","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",127,0.01671933
+"gene_022","ASV034","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",146,0.01949266
+"gene_022","ASV034","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",165,0.02139523
+"gene_022","ASV034","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",197,0.0260582
+"gene_022","ASV034","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",146,0.01966595
+"gene_023","ASV028","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",137,0.02497266
+"gene_023","ASV028","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",122,0.02257587
+"gene_023","ASV028","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",118,0.02180743
+"gene_023","ASV028","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",80,0.01473839
+"gene_023","ASV028","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",115,0.02153155
+"gene_023","ASV028","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",120,0.02337359
+"gene_023","ASV028","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",63,0.01167315
+"gene_023","ASV028","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.01230129
+"gene_023","ASV028","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",98,0.01849406
+"gene_023","ASV028","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",51,0.00991832
+"gene_023","ASV028","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",67,0.01231844
+"gene_023","ASV028","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",74,0.01359045
+"gene_023","ASV028","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",81,0.0125523
+"gene_023","ASV028","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.01172803
+"gene_023","ASV028","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",58,0.00872968
+"gene_023","ASV028","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",96,0.01448838
+"gene_023","ASV028","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",95,0.01438522
+"gene_023","ASV028","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.01011516
+"gene_023","ASV028","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",61,0.00823212
+"gene_023","ASV028","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",57,0.00750395
+"gene_023","ASV028","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",64,0.00854473
+"gene_023","ASV028","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",46,0.00596473
+"gene_023","ASV028","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",81,0.01071429
+"gene_023","ASV028","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",80,0.01077586
+"gene_024","ASV095","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",133,0.02424353
+"gene_024","ASV095","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",147,0.02720207
+"gene_024","ASV095","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",149,0.0275365
+"gene_024","ASV095","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",108,0.01989683
+"gene_024","ASV095","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",123,0.0230294
+"gene_024","ASV095","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",99,0.01928321
+"gene_024","ASV095","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",81,0.01500834
+"gene_024","ASV095","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",96,0.01816805
+"gene_024","ASV095","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",75,0.01415361
+"gene_024","ASV095","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",91,0.01769739
+"gene_024","ASV095","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",83,0.01526016
+"gene_024","ASV095","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",69,0.01267218
+"gene_024","ASV095","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",120,0.018596
+"gene_024","ASV095","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",89,0.01321259
+"gene_024","ASV095","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",74,0.01113787
+"gene_024","ASV095","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",72,0.01086628
+"gene_024","ASV095","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",41,0.00620836
+"gene_024","ASV095","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",63,0.00980392
+"gene_024","ASV095","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",81,0.01093117
+"gene_024","ASV095","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.01250658
+"gene_024","ASV095","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",87,0.01161549
+"gene_024","ASV095","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",76,0.00985477
+"gene_024","ASV095","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",115,0.01521164
+"gene_024","ASV095","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",76,0.01023707
+"gene_025","ASV095","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00565075
+"gene_025","ASV095","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.0053664
+"gene_025","ASV095","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",32,0.00591388
+"gene_025","ASV095","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",37,0.00681651
+"gene_025","ASV095","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",33,0.00617862
+"gene_025","ASV095","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",27,0.00525906
+"gene_025","ASV095","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00537336
+"gene_025","ASV095","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",49,0.00927328
+"gene_025","ASV095","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",52,0.00981317
+"gene_025","ASV095","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",41,0.00797355
+"gene_025","ASV095","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",27,0.00496415
+"gene_025","ASV095","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",46,0.00844812
+"gene_025","ASV095","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",39,0.0060437
+"gene_025","ASV095","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",34,0.00504751
+"gene_025","ASV095","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",21,0.00316075
+"gene_025","ASV095","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",59,0.00890432
+"gene_025","ASV095","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",30,0.0045427
+"gene_025","ASV095","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",36,0.00560224
+"gene_025","ASV095","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00418354
+"gene_025","ASV095","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",51,0.00671406
+"gene_025","ASV095","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",48,0.00640854
+"gene_025","ASV095","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",47,0.0060944
+"gene_025","ASV095","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",38,0.00502646
+"gene_025","ASV095","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",37,0.00498384
+"gene_026","ASV085","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",20,0.00364564
+"gene_026","ASV085","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",21,0.00388601
+"gene_026","ASV085","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",20,0.00369617
+"gene_026","ASV085","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",30,0.0055269
+"gene_026","ASV085","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",16,0.00299569
+"gene_026","ASV085","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",19,0.00370082
+"gene_026","ASV085","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",31,0.00574393
+"gene_026","ASV085","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",21,0.00397426
+"gene_026","ASV085","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",16,0.00301944
+"gene_026","ASV085","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",20,0.00388954
+"gene_026","ASV085","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",25,0.00459643
+"gene_026","ASV085","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",15,0.00275482
+"gene_026","ASV085","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",15,0.0023245
+"gene_026","ASV085","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",21,0.00311758
+"gene_026","ASV085","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",30,0.00451535
+"gene_026","ASV085","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",16,0.00241473
+"gene_026","ASV085","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",16,0.00242277
+"gene_026","ASV085","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",27,0.00420168
+"gene_026","ASV085","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",21,0.00283401
+"gene_026","ASV085","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",20,0.00263296
+"gene_026","ASV085","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",22,0.00293725
+"gene_026","ASV085","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",23,0.00298237
+"gene_026","ASV085","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",20,0.0026455
+"gene_026","ASV085","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",25,0.00336746
+"gene_027","ASV023","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",42,0.00765585
+"gene_027","ASV023","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",72,0.01332346
+"gene_027","ASV023","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",47,0.00868601
+"gene_027","ASV023","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",48,0.00884304
+"gene_027","ASV023","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",39,0.007302
+"gene_027","ASV023","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",59,0.01149201
+"gene_027","ASV023","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",67,0.0124143
+"gene_027","ASV023","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",84,0.01589705
+"gene_027","ASV023","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",76,0.01434233
+"gene_027","ASV023","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",95,0.0184753
+"gene_027","ASV023","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",90,0.01654716
+"gene_027","ASV023","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",90,0.01652893
+"gene_027","ASV023","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",124,0.01921587
+"gene_027","ASV023","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",105,0.01558789
+"gene_027","ASV023","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",98,0.01475015
+"gene_027","ASV023","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",140,0.02112889
+"gene_027","ASV023","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",143,0.02165354
+"gene_027","ASV023","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",96,0.01493931
+"gene_027","ASV023","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",155,0.02091768
+"gene_027","ASV023","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",128,0.01685097
+"gene_027","ASV023","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",150,0.0200267
+"gene_027","ASV023","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",101,0.01309647
+"gene_027","ASV023","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",163,0.02156085
+"gene_027","ASV023","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",108,0.01454741
+"gene_028","ASV082","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",76,0.01385345
+"gene_028","ASV082","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",114,0.02109548
+"gene_028","ASV082","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",69,0.0127518
+"gene_028","ASV082","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",63,0.01160648
+"gene_028","ASV082","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",91,0.01703801
+"gene_028","ASV082","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",95,0.01850409
+"gene_028","ASV082","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",117,0.02167871
+"gene_028","ASV082","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",135,0.02554883
+"gene_028","ASV082","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",125,0.02358936
+"gene_028","ASV082","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",155,0.03014391
+"gene_028","ASV082","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",103,0.0189373
+"gene_028","ASV082","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",135,0.02479339
+"gene_028","ASV082","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",213,0.0330079
+"gene_028","ASV082","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",167,0.02479216
+"gene_028","ASV082","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",236,0.03552077
+"gene_028","ASV082","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",193,0.02912768
+"gene_028","ASV082","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",209,0.03164749
+"gene_028","ASV082","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",171,0.02661064
+"gene_028","ASV082","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",293,0.03954116
+"gene_028","ASV082","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",273,0.03593997
+"gene_028","ASV082","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",239,0.03190921
+"gene_028","ASV082","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",222,0.02878631
+"gene_028","ASV082","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",328,0.04338624
+"gene_028","ASV082","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",200,0.02693966
+"gene_029","ASV036","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",134,0.02442581
+"gene_029","ASV036","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",175,0.03238342
+"gene_029","ASV036","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",117,0.02162262
+"gene_029","ASV036","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",133,0.02450258
+"gene_029","ASV036","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",102,0.01909755
+"gene_029","ASV036","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",117,0.02278925
+"gene_029","ASV036","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",119,0.02204929
+"gene_029","ASV036","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",94,0.01778955
+"gene_029","ASV036","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",110,0.02075863
+"gene_029","ASV036","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",77,0.01497472
+"gene_029","ASV036","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",99,0.01820188
+"gene_029","ASV036","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",98,0.01799816
+"gene_029","ASV036","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",117,0.0181311
+"gene_029","ASV036","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",110,0.01633017
+"gene_029","ASV036","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",99,0.01490066
+"gene_029","ASV036","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",114,0.01720495
+"gene_029","ASV036","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",88,0.01332526
+"gene_029","ASV036","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",110,0.01711796
+"gene_029","ASV036","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",125,0.0168691
+"gene_029","ASV036","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",107,0.01408636
+"gene_029","ASV036","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",96,0.01281709
+"gene_029","ASV036","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",61,0.00790975
+"gene_029","ASV036","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",92,0.01216931
+"gene_029","ASV036","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",105,0.01414332
+"gene_030","ASV011","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",126,0.02296755
+"gene_030","ASV011","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",86,0.01591414
+"gene_030","ASV011","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",132,0.02439475
+"gene_030","ASV011","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",112,0.02063375
+"gene_030","ASV011","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.01778693
+"gene_030","ASV011","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",119,0.02317881
+"gene_030","ASV011","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",89,0.01649064
+"gene_030","ASV011","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",48,0.00908403
+"gene_030","ASV011","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",47,0.0088696
+"gene_030","ASV011","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",67,0.01302995
+"gene_030","ASV011","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",74,0.01360544
+"gene_030","ASV011","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",54,0.00991736
+"gene_030","ASV011","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",43,0.00666357
+"gene_030","ASV011","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",49,0.00727435
+"gene_030","ASV011","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",68,0.0102348
+"gene_030","ASV011","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",44,0.00664051
+"gene_030","ASV011","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",55,0.00832829
+"gene_030","ASV011","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",57,0.00887021
+"gene_030","ASV011","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",38,0.00512821
+"gene_030","ASV011","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",45,0.00592417
+"gene_030","ASV011","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",62,0.0082777
+"gene_030","ASV011","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",60,0.00778008
+"gene_030","ASV011","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",52,0.00687831
+"gene_030","ASV011","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",77,0.01037177
+"gene_031","ASV045","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",58,0.01057237
+"gene_031","ASV045","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",34,0.00629164
+"gene_031","ASV045","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",72,0.01330623
+"gene_031","ASV045","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",68,0.01252763
+"gene_031","ASV045","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",77,0.01441678
+"gene_031","ASV045","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",85,0.01655629
+"gene_031","ASV045","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",65,0.01204373
+"gene_031","ASV045","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",71,0.01343679
+"gene_031","ASV045","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",65,0.01226647
+"gene_031","ASV045","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",87,0.01691949
+"gene_031","ASV045","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",74,0.01360544
+"gene_031","ASV045","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",70,0.01285583
+"gene_031","ASV045","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",55,0.00852317
+"gene_031","ASV045","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",66,0.0097981
+"gene_031","ASV045","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",88,0.01324503
+"gene_031","ASV045","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",79,0.01192273
+"gene_031","ASV045","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",69,0.01044821
+"gene_031","ASV045","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",60,0.00933707
+"gene_031","ASV045","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",64,0.00863698
+"gene_031","ASV045","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",50,0.00658241
+"gene_031","ASV045","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",71,0.00947931
+"gene_031","ASV045","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",55,0.00713174
+"gene_031","ASV045","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",68,0.00899471
+"gene_031","ASV045","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",47,0.00633082
+"gene_032","ASV037","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.01203062
+"gene_032","ASV037","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",89,0.01646928
+"gene_032","ASV037","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",60,0.01108852
+"gene_032","ASV037","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",77,0.0141857
+"gene_032","ASV037","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",104,0.01947201
+"gene_032","ASV037","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",74,0.01441371
+"gene_032","ASV037","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",101,0.0187141
+"gene_032","ASV037","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",102,0.01930356
+"gene_032","ASV037","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",70,0.01321004
+"gene_032","ASV037","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",113,0.02197588
+"gene_032","ASV037","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",101,0.01856959
+"gene_032","ASV037","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",79,0.01450872
+"gene_032","ASV037","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",92,0.01425693
+"gene_032","ASV037","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",65,0.00964964
+"gene_032","ASV037","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.00993377
+"gene_032","ASV037","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",85,0.01282825
+"gene_032","ASV037","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",89,0.01347668
+"gene_032","ASV037","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",67,0.01042639
+"gene_032","ASV037","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",77,0.01039136
+"gene_032","ASV037","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",99,0.01303318
+"gene_032","ASV037","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",73,0.00974633
+"gene_032","ASV037","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",77,0.00998444
+"gene_032","ASV037","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",81,0.01071429
+"gene_032","ASV037","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",104,0.01400862
+"gene_033","ASV091","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",36,0.00656216
+"gene_033","ASV091","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",37,0.00684678
+"gene_033","ASV091","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",57,0.0105341
+"gene_033","ASV091","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",35,0.00644805
+"gene_033","ASV091","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",40,0.00748923
+"gene_033","ASV091","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",28,0.00545384
+"gene_033","ASV091","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",60,0.01111729
+"gene_033","ASV091","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",46,0.00870553
+"gene_033","ASV091","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",47,0.0088696
+"gene_033","ASV091","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",64,0.01244652
+"gene_033","ASV091","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",49,0.00900901
+"gene_033","ASV091","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",83,0.01524334
+"gene_033","ASV091","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",89,0.01379203
+"gene_033","ASV091","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",86,0.01276722
+"gene_033","ASV091","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",69,0.01038531
+"gene_033","ASV091","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",78,0.01177181
+"gene_033","ASV091","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",98,0.01483949
+"gene_033","ASV091","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",64,0.00995954
+"gene_033","ASV091","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",130,0.01754386
+"gene_033","ASV091","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",119,0.01566614
+"gene_033","ASV091","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",117,0.01562083
+"gene_033","ASV091","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",124,0.01607884
+"gene_033","ASV091","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",128,0.01693122
+"gene_033","ASV091","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",112,0.01508621
+"gene_034","ASV001","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",101,0.0184105
+"gene_034","ASV001","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",87,0.01609919
+"gene_034","ASV001","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",97,0.01792645
+"gene_034","ASV001","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",104,0.01915991
+"gene_034","ASV001","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",91,0.01703801
+"gene_034","ASV001","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",95,0.01850409
+"gene_034","ASV001","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",136,0.02519918
+"gene_034","ASV001","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",135,0.02554883
+"gene_034","ASV001","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",132,0.02491036
+"gene_034","ASV001","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",138,0.02683781
+"gene_034","ASV001","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",162,0.02978489
+"gene_034","ASV001","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",200,0.03673095
+"gene_034","ASV001","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",159,0.0246397
+"gene_034","ASV001","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",250,0.03711401
+"gene_034","ASV001","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",160,0.02408188
+"gene_034","ASV001","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",177,0.02671295
+"gene_034","ASV001","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",191,0.02892187
+"gene_034","ASV001","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",165,0.02567694
+"gene_034","ASV001","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",245,0.03306343
+"gene_034","ASV001","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",338,0.0444971
+"gene_034","ASV001","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",331,0.04419226
+"gene_034","ASV001","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",298,0.03864108
+"gene_034","ASV001","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",206,0.02724868
+"gene_034","ASV001","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",241,0.03246228
+"gene_035","ASV005","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",127,0.02314984
+"gene_035","ASV005","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",117,0.02165063
+"gene_035","ASV005","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",138,0.0255036
+"gene_035","ASV005","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",130,0.02394989
+"gene_035","ASV005","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",130,0.02434001
+"gene_035","ASV005","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.01636151
+"gene_035","ASV005","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",77,0.01426719
+"gene_035","ASV005","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",75,0.01419379
+"gene_035","ASV005","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.01490847
+"gene_035","ASV005","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",64,0.01244652
+"gene_035","ASV005","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01397316
+"gene_035","ASV005","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01432507
+"gene_035","ASV005","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",52,0.00805827
+"gene_035","ASV005","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",77,0.01143112
+"gene_035","ASV005","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",66,0.00993377
+"gene_035","ASV005","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",57,0.00860248
+"gene_035","ASV005","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",61,0.00923683
+"gene_035","ASV005","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",72,0.01120448
+"gene_035","ASV005","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",63,0.00850202
+"gene_035","ASV005","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",63,0.00829384
+"gene_035","ASV005","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.00867824
+"gene_035","ASV005","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",86,0.01115145
+"gene_035","ASV005","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.01111111
+"gene_035","ASV005","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",93,0.01252694
+"gene_036","ASV062","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",110,0.02005104
+"gene_036","ASV062","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",115,0.02128053
+"gene_036","ASV062","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",90,0.01663279
+"gene_036","ASV062","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",124,0.02284451
+"gene_036","ASV062","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",115,0.02153155
+"gene_036","ASV062","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",118,0.02298403
+"gene_036","ASV062","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",75,0.01389661
+"gene_036","ASV062","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",55,0.01040878
+"gene_036","ASV062","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",71,0.01339875
+"gene_036","ASV062","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",75,0.01458576
+"gene_036","ASV062","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",80,0.01470859
+"gene_036","ASV062","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",63,0.01157025
+"gene_036","ASV062","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",49,0.00759337
+"gene_036","ASV062","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",78,0.01157957
+"gene_036","ASV062","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",77,0.0115894
+"gene_036","ASV062","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",52,0.00784787
+"gene_036","ASV062","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",69,0.01044821
+"gene_036","ASV062","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",79,0.01229381
+"gene_036","ASV062","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",56,0.00755735
+"gene_036","ASV062","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",86,0.01132175
+"gene_036","ASV062","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",59,0.00787717
+"gene_036","ASV062","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",78,0.01011411
+"gene_036","ASV062","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",68,0.00899471
+"gene_036","ASV062","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",79,0.01064116
+"gene_037","ASV033","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00528618
+"gene_037","ASV033","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",34,0.00629164
+"gene_037","ASV033","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00535945
+"gene_037","ASV033","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",28,0.00515844
+"gene_037","ASV033","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",23,0.00430631
+"gene_037","ASV033","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",22,0.00428516
+"gene_037","ASV033","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",39,0.00722624
+"gene_037","ASV033","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.00473126
+"gene_037","ASV033","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",37,0.00698245
+"gene_037","ASV033","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00602878
+"gene_037","ASV033","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",21,0.003861
+"gene_037","ASV033","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",41,0.00752984
+"gene_037","ASV033","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",39,0.0060437
+"gene_037","ASV033","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00430523
+"gene_037","ASV033","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",30,0.00451535
+"gene_037","ASV033","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",35,0.00528222
+"gene_037","ASV033","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",28,0.00423985
+"gene_037","ASV033","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",20,0.00311236
+"gene_037","ASV033","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",39,0.00526316
+"gene_037","ASV033","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.00329121
+"gene_037","ASV033","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",45,0.00600801
+"gene_037","ASV033","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",34,0.00440871
+"gene_037","ASV033","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",21,0.00277778
+"gene_037","ASV033","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",34,0.00457974
+"gene_038","ASV006","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",98,0.01786365
+"gene_038","ASV006","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",77,0.0142487
+"gene_038","ASV006","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",69,0.0127518
+"gene_038","ASV006","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",98,0.01805453
+"gene_038","ASV006","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",80,0.01497847
+"gene_038","ASV006","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",45,0.0087651
+"gene_038","ASV006","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",77,0.01426719
+"gene_038","ASV006","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",96,0.01816805
+"gene_038","ASV006","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",79,0.01490847
+"gene_038","ASV006","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",75,0.01458576
+"gene_038","ASV006","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",91,0.01673102
+"gene_038","ASV006","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",107,0.01965106
+"gene_038","ASV006","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",89,0.01379203
+"gene_038","ASV006","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",72,0.01068884
+"gene_038","ASV006","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",105,0.01580373
+"gene_038","ASV006","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",67,0.01011168
+"gene_038","ASV006","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",84,0.01271956
+"gene_038","ASV006","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",90,0.0140056
+"gene_038","ASV006","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",75,0.01012146
+"gene_038","ASV006","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",106,0.01395471
+"gene_038","ASV006","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",115,0.01535381
+"gene_038","ASV006","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",96,0.01244813
+"gene_038","ASV006","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",80,0.01058201
+"gene_038","ASV006","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",68,0.00915948
+"gene_039","ASV020","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",41,0.00747357
+"gene_039","ASV020","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",32,0.00592154
+"gene_039","ASV020","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",28,0.00517464
+"gene_039","ASV020","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",36,0.00663228
+"gene_039","ASV020","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",34,0.00636585
+"gene_039","ASV020","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",31,0.00603818
+"gene_039","ASV020","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",51,0.00944969
+"gene_039","ASV020","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",61,0.01154428
+"gene_039","ASV020","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",62,0.01170032
+"gene_039","ASV020","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",47,0.00914041
+"gene_039","ASV020","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",57,0.01047987
+"gene_039","ASV020","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",66,0.01212121
+"gene_039","ASV020","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",97,0.01503177
+"gene_039","ASV020","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",90,0.01336105
+"gene_039","ASV020","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",77,0.0115894
+"gene_039","ASV020","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",63,0.009508
+"gene_039","ASV020","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",86,0.01302241
+"gene_039","ASV020","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",65,0.01011516
+"gene_039","ASV020","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",132,0.01781377
+"gene_039","ASV020","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",115,0.01513955
+"gene_039","ASV020","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",60,0.00801068
+"gene_039","ASV020","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",81,0.01050311
+"gene_039","ASV020","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",124,0.01640212
+"gene_039","ASV020","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",114,0.0153556
+"gene_040","ASV084","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",56,0.0102078
+"gene_040","ASV084","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",89,0.01646928
+"gene_040","ASV084","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",99,0.01829606
+"gene_040","ASV084","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",80,0.01473839
+"gene_040","ASV084","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",90,0.01685078
+"gene_040","ASV084","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",94,0.01830931
+"gene_040","ASV084","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",165,0.03057254
+"gene_040","ASV084","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",115,0.02176382
+"gene_040","ASV084","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",113,0.02132478
+"gene_040","ASV084","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",121,0.0235317
+"gene_040","ASV084","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",134,0.02463688
+"gene_040","ASV084","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",150,0.02754821
+"gene_040","ASV084","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",148,0.02293507
+"gene_040","ASV084","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",162,0.02404988
+"gene_040","ASV084","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",205,0.03085491
+"gene_040","ASV084","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",157,0.02369454
+"gene_040","ASV084","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",156,0.02362205
+"gene_040","ASV084","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",160,0.02489885
+"gene_040","ASV084","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",219,0.02955466
+"gene_040","ASV084","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",228,0.0300158
+"gene_040","ASV084","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",229,0.0305741
+"gene_040","ASV084","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",308,0.03993776
+"gene_040","ASV084","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",279,0.03690476
+"gene_040","ASV084","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",284,0.03825431
+"gene_041","ASV048","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",93,0.01695224
+"gene_041","ASV048","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",93,0.01720947
+"gene_041","ASV048","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",115,0.021253
+"gene_041","ASV048","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",105,0.01934414
+"gene_041","ASV048","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",114,0.02134432
+"gene_041","ASV048","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",88,0.01714063
+"gene_041","ASV048","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",59,0.010932
+"gene_041","ASV048","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",47,0.00889478
+"gene_041","ASV048","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",54,0.0101906
+"gene_041","ASV048","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",66,0.01283547
+"gene_041","ASV048","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",58,0.01066372
+"gene_041","ASV048","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",48,0.00881543
+"gene_041","ASV048","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",45,0.0069735
+"gene_041","ASV048","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01128266
+"gene_041","ASV048","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",70,0.01053582
+"gene_041","ASV048","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",47,0.00709327
+"gene_041","ASV048","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",67,0.01014537
+"gene_041","ASV048","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",55,0.00855898
+"gene_041","ASV048","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",60,0.00809717
+"gene_041","ASV048","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01000527
+"gene_041","ASV048","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.0105474
+"gene_041","ASV048","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",55,0.00713174
+"gene_041","ASV048","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",69,0.00912698
+"gene_041","ASV048","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",55,0.00740841
+"gene_042","ASV058","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",154,0.02807145
+"gene_042","ASV058","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",108,0.0199852
+"gene_042","ASV058","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",125,0.02310109
+"gene_042","ASV058","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",132,0.02431835
+"gene_042","ASV058","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",111,0.02078262
+"gene_042","ASV058","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",90,0.01753019
+"gene_042","ASV058","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",64,0.01185844
+"gene_042","ASV058","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",97,0.01835731
+"gene_042","ASV058","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",94,0.0177392
+"gene_042","ASV058","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",79,0.01536367
+"gene_042","ASV058","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.01746645
+"gene_042","ASV058","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.0174472
+"gene_042","ASV058","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",87,0.0134821
+"gene_042","ASV058","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",72,0.01068884
+"gene_042","ASV058","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",102,0.0153522
+"gene_042","ASV058","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",64,0.00965892
+"gene_042","ASV058","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",89,0.01347668
+"gene_042","ASV058","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",69,0.01073763
+"gene_042","ASV058","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",79,0.01066127
+"gene_042","ASV058","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",91,0.01197999
+"gene_042","ASV058","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",88,0.011749
+"gene_042","ASV058","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",87,0.01128112
+"gene_042","ASV058","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",63,0.00833333
+"gene_042","ASV058","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",92,0.01239224
+"gene_043","ASV048","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",20,0.00364564
+"gene_043","ASV048","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",26,0.00481125
+"gene_043","ASV048","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",38,0.00702273
+"gene_043","ASV048","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",21,0.00386883
+"gene_043","ASV048","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",39,0.007302
+"gene_043","ASV048","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",20,0.0038956
+"gene_043","ASV048","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00537336
+"gene_043","ASV048","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",28,0.00529902
+"gene_043","ASV048","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.00471787
+"gene_043","ASV048","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",23,0.00447297
+"gene_043","ASV048","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",33,0.00606729
+"gene_043","ASV048","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",33,0.00606061
+"gene_043","ASV048","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00480397
+"gene_043","ASV048","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",28,0.00415677
+"gene_043","ASV048","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",30,0.00451535
+"gene_043","ASV048","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",26,0.00392394
+"gene_043","ASV048","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",24,0.00363416
+"gene_043","ASV048","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",26,0.00404606
+"gene_043","ASV048","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",35,0.00472335
+"gene_043","ASV048","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.0038178
+"gene_043","ASV048","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",27,0.00360481
+"gene_043","ASV048","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.0032417
+"gene_043","ASV048","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00383598
+"gene_043","ASV048","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",17,0.00228987
+"gene_044","ASV073","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",26,0.00473934
+"gene_044","ASV073","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",27,0.0049963
+"gene_044","ASV073","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",19,0.00351137
+"gene_044","ASV073","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",21,0.00386883
+"gene_044","ASV073","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",16,0.00299569
+"gene_044","ASV073","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",24,0.00467472
+"gene_044","ASV073","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",23,0.00426163
+"gene_044","ASV073","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",29,0.00548827
+"gene_044","ASV073","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",18,0.00339687
+"gene_044","ASV073","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",21,0.00408401
+"gene_044","ASV073","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",23,0.00422872
+"gene_044","ASV073","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",18,0.00330579
+"gene_044","ASV073","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",35,0.00542383
+"gene_044","ASV073","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",19,0.00282067
+"gene_044","ASV073","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",22,0.00331126
+"gene_044","ASV073","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",19,0.00286749
+"gene_044","ASV073","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",31,0.00469412
+"gene_044","ASV073","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",23,0.00357921
+"gene_044","ASV073","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",19,0.0025641
+"gene_044","ASV073","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",27,0.0035545
+"gene_044","ASV073","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",24,0.00320427
+"gene_044","ASV073","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",28,0.00363071
+"gene_044","ASV073","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",31,0.00410053
+"gene_044","ASV073","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",30,0.00404095
+"gene_045","ASV010","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",74,0.01348888
+"gene_045","ASV010","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",84,0.01554404
+"gene_045","ASV010","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",66,0.01219738
+"gene_045","ASV010","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",105,0.01934414
+"gene_045","ASV010","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",92,0.01722524
+"gene_045","ASV010","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",78,0.01519283
+"gene_045","ASV010","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",161,0.02983139
+"gene_045","ASV010","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",153,0.02895534
+"gene_045","ASV010","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",191,0.03604454
+"gene_045","ASV010","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",141,0.02742124
+"gene_045","ASV010","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",143,0.0262916
+"gene_045","ASV010","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",161,0.02956841
+"gene_045","ASV010","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",165,0.0255695
+"gene_045","ASV010","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",242,0.03592637
+"gene_045","ASV010","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",207,0.03115593
+"gene_045","ASV010","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",237,0.03576819
+"gene_045","ASV010","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",176,0.02665051
+"gene_045","ASV010","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",204,0.03174603
+"gene_045","ASV010","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",196,0.02645074
+"gene_045","ASV010","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",299,0.03936282
+"gene_045","ASV010","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",231,0.03084112
+"gene_045","ASV010","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",336,0.04356846
+"gene_045","ASV010","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",196,0.02592593
+"gene_045","ASV010","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",236,0.03178879
+"gene_046","ASV087","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",62,0.01130149
+"gene_046","ASV087","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",52,0.0096225
+"gene_046","ASV087","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",69,0.0127518
+"gene_046","ASV087","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",54,0.00994842
+"gene_046","ASV087","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",77,0.01441678
+"gene_046","ASV087","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",55,0.01071289
+"gene_046","ASV087","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",100,0.01852881
+"gene_046","ASV087","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",91,0.0172218
+"gene_046","ASV087","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",98,0.01849406
+"gene_046","ASV087","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",112,0.02178141
+"gene_046","ASV087","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",82,0.0150763
+"gene_046","ASV087","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",99,0.01818182
+"gene_046","ASV087","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",153,0.0237099
+"gene_046","ASV087","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",143,0.02122922
+"gene_046","ASV087","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",128,0.0192655
+"gene_046","ASV087","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",154,0.02324177
+"gene_046","ASV087","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",137,0.020745
+"gene_046","ASV087","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",141,0.02194211
+"gene_046","ASV087","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",163,0.0219973
+"gene_046","ASV087","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",179,0.02356503
+"gene_046","ASV087","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",183,0.02443258
+"gene_046","ASV087","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",119,0.0154305
+"gene_046","ASV087","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",136,0.01798942
+"gene_046","ASV087","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",194,0.02613147
+"gene_047","ASV052","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",120,0.02187386
+"gene_047","ASV052","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",93,0.01720947
+"gene_047","ASV052","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",154,0.02846054
+"gene_047","ASV052","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",114,0.02100221
+"gene_047","ASV052","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",141,0.02639955
+"gene_047","ASV052","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",111,0.02162057
+"gene_047","ASV052","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.0140819
+"gene_047","ASV052","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",111,0.02100681
+"gene_047","ASV052","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",62,0.01170032
+"gene_047","ASV052","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",56,0.0108907
+"gene_047","ASV052","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.01544402
+"gene_047","ASV052","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",63,0.01157025
+"gene_047","ASV052","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",66,0.0102278
+"gene_047","ASV052","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",66,0.0097981
+"gene_047","ASV052","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01173992
+"gene_047","ASV052","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",72,0.01086628
+"gene_047","ASV052","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",67,0.01014537
+"gene_047","ASV052","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",68,0.01058201
+"gene_047","ASV052","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",59,0.00796221
+"gene_047","ASV052","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.00855714
+"gene_047","ASV052","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",55,0.00734312
+"gene_047","ASV052","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",66,0.00855809
+"gene_047","ASV052","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01031746
+"gene_047","ASV052","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",74,0.00996767
+"gene_048","ASV018","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",185,0.0337222
+"gene_048","ASV018","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",166,0.03071799
+"gene_048","ASV018","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",144,0.02661246
+"gene_048","ASV018","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",135,0.02487104
+"gene_048","ASV018","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",159,0.02976971
+"gene_048","ASV018","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",164,0.0319439
+"gene_048","ASV018","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",111,0.02056698
+"gene_048","ASV018","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",102,0.01930356
+"gene_048","ASV018","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",112,0.02113606
+"gene_048","ASV018","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",84,0.01633606
+"gene_048","ASV018","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",89,0.0163633
+"gene_048","ASV018","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",72,0.01322314
+"gene_048","ASV018","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",99,0.0153417
+"gene_048","ASV018","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",63,0.00935273
+"gene_048","ASV018","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",80,0.01204094
+"gene_048","ASV018","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",72,0.01086628
+"gene_048","ASV018","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",77,0.0116596
+"gene_048","ASV018","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",72,0.01120448
+"gene_048","ASV018","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",109,0.01470985
+"gene_048","ASV018","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",116,0.0152712
+"gene_048","ASV018","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",91,0.01214953
+"gene_048","ASV018","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",106,0.01374481
+"gene_048","ASV018","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",95,0.01256614
+"gene_048","ASV018","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",71,0.00956358
+"gene_049","ASV043","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00528618
+"gene_049","ASV043","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",14,0.00259067
+"gene_049","ASV043","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",22,0.00406579
+"gene_049","ASV043","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",14,0.00257922
+"gene_049","ASV043","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",24,0.00449354
+"gene_049","ASV043","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",22,0.00428516
+"gene_049","ASV043","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",15,0.00277932
+"gene_049","ASV043","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",18,0.00340651
+"gene_049","ASV043","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00547273
+"gene_049","ASV043","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",18,0.00350058
+"gene_049","ASV043","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",28,0.00514801
+"gene_049","ASV043","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",23,0.00422406
+"gene_049","ASV043","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",21,0.0032543
+"gene_049","ASV043","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",10,0.00148456
+"gene_049","ASV043","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",30,0.00451535
+"gene_049","ASV043","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",27,0.00407486
+"gene_049","ASV043","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",20,0.00302847
+"gene_049","ASV043","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",15,0.00233427
+"gene_049","ASV043","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",23,0.00310391
+"gene_049","ASV043","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.0040811
+"gene_049","ASV043","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",23,0.00307076
+"gene_049","ASV043","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",19,0.00246369
+"gene_049","ASV043","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",20,0.0026455
+"gene_049","ASV043","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",24,0.00323276
+"gene_050","ASV037","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",59,0.01075465
+"gene_050","ASV037","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",48,0.00888231
+"gene_050","ASV037","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",39,0.00720754
+"gene_050","ASV037","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",62,0.01142225
+"gene_050","ASV037","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",50,0.00936154
+"gene_050","ASV037","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",40,0.0077912
+"gene_050","ASV037","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",46,0.00852325
+"gene_050","ASV037","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",46,0.00870553
+"gene_050","ASV037","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",51,0.00962446
+"gene_050","ASV037","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",37,0.00719564
+"gene_050","ASV037","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",55,0.01011215
+"gene_050","ASV037","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",52,0.00955005
+"gene_050","ASV037","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.0102278
+"gene_050","ASV037","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00697743
+"gene_050","ASV037","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",50,0.00752559
+"gene_050","ASV037","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",43,0.00648959
+"gene_050","ASV037","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",68,0.01029679
+"gene_050","ASV037","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00731404
+"gene_050","ASV037","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",52,0.00701754
+"gene_050","ASV037","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",41,0.00539758
+"gene_050","ASV037","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",47,0.00627503
+"gene_050","ASV037","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",65,0.00842842
+"gene_050","ASV037","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",70,0.00925926
+"gene_050","ASV037","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.00889009
+"gene_051","ASV091","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",21,0.00382793
+"gene_051","ASV091","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",21,0.00388601
+"gene_051","ASV091","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",18,0.00332656
+"gene_051","ASV091","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",27,0.00497421
+"gene_051","ASV091","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",16,0.00299569
+"gene_051","ASV091","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",15,0.0029217
+"gene_051","ASV091","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",28,0.00518807
+"gene_051","ASV091","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",29,0.00548827
+"gene_051","ASV091","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",24,0.00452916
+"gene_051","ASV091","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",34,0.00661221
+"gene_051","ASV091","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",21,0.003861
+"gene_051","ASV091","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",28,0.00514233
+"gene_051","ASV091","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",54,0.0083682
+"gene_051","ASV091","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",32,0.00475059
+"gene_051","ASV091","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",53,0.00797712
+"gene_051","ASV091","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",39,0.0058859
+"gene_051","ASV091","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",44,0.00666263
+"gene_051","ASV091","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",69,0.01073763
+"gene_051","ASV091","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",64,0.00863698
+"gene_051","ASV091","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",58,0.0076356
+"gene_051","ASV091","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",66,0.00881175
+"gene_051","ASV091","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",64,0.00829876
+"gene_051","ASV091","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",51,0.00674603
+"gene_051","ASV091","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",72,0.00969828
+"gene_052","ASV019","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",44,0.00802042
+"gene_052","ASV019","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",40,0.00740192
+"gene_052","ASV019","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",30,0.00554426
+"gene_052","ASV019","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",33,0.00607959
+"gene_052","ASV019","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",43,0.00805093
+"gene_052","ASV019","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",43,0.00837554
+"gene_052","ASV019","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",53,0.00982027
+"gene_052","ASV019","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",50,0.00946253
+"gene_052","ASV019","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",71,0.01339875
+"gene_052","ASV019","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",70,0.01361338
+"gene_052","ASV019","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",75,0.0137893
+"gene_052","ASV019","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",84,0.015427
+"gene_052","ASV019","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",81,0.0125523
+"gene_052","ASV019","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",115,0.01707245
+"gene_052","ASV019","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",98,0.01475015
+"gene_052","ASV019","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",86,0.01297917
+"gene_052","ASV019","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",108,0.01635373
+"gene_052","ASV019","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",62,0.0096483
+"gene_052","ASV019","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",141,0.01902834
+"gene_052","ASV019","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",99,0.01303318
+"gene_052","ASV019","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",107,0.01428571
+"gene_052","ASV019","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",116,0.01504149
+"gene_052","ASV019","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",95,0.01256614
+"gene_052","ASV019","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",140,0.01885776
+"gene_053","ASV052","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",136,0.02479038
+"gene_053","ASV052","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",100,0.01850481
+"gene_053","ASV052","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",134,0.02476437
+"gene_053","ASV052","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",133,0.02450258
+"gene_053","ASV052","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",117,0.02190601
+"gene_053","ASV052","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",113,0.02201013
+"gene_053","ASV052","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",82,0.01519363
+"gene_053","ASV052","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",62,0.01173354
+"gene_053","ASV052","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01471976
+"gene_053","ASV052","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",63,0.01225204
+"gene_053","ASV052","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.01452473
+"gene_053","ASV052","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",81,0.01487603
+"gene_053","ASV052","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",89,0.01379203
+"gene_053","ASV052","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",93,0.01380641
+"gene_053","ASV052","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",85,0.0127935
+"gene_053","ASV052","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",92,0.0138847
+"gene_053","ASV052","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.01196245
+"gene_053","ASV052","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",77,0.01198257
+"gene_053","ASV052","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",68,0.00917679
+"gene_053","ASV052","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",96,0.01263823
+"gene_053","ASV052","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",94,0.01255007
+"gene_053","ASV052","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.01089212
+"gene_053","ASV052","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",89,0.01177249
+"gene_053","ASV052","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",90,0.01212284
+"gene_054","ASV009","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",38,0.00692672
+"gene_054","ASV009","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",50,0.00925241
+"gene_054","ASV009","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",40,0.00739235
+"gene_054","ASV009","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",42,0.00773766
+"gene_054","ASV009","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",22,0.00411908
+"gene_054","ASV009","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",31,0.00603818
+"gene_054","ASV009","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",29,0.00537336
+"gene_054","ASV009","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",34,0.00643452
+"gene_054","ASV009","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",23,0.00434044
+"gene_054","ASV009","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",20,0.00388954
+"gene_054","ASV009","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",22,0.00404486
+"gene_054","ASV009","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",28,0.00514233
+"gene_054","ASV009","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",31,0.00480397
+"gene_054","ASV009","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",31,0.00460214
+"gene_054","ASV009","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",33,0.00496689
+"gene_054","ASV009","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",21,0.00316933
+"gene_054","ASV009","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",28,0.00423985
+"gene_054","ASV009","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",28,0.0043573
+"gene_054","ASV009","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",21,0.00283401
+"gene_054","ASV009","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",30,0.00394945
+"gene_054","ASV009","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",17,0.00226969
+"gene_054","ASV009","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",27,0.00350104
+"gene_054","ASV009","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",21,0.00277778
+"gene_054","ASV009","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",23,0.00309806
+"gene_055","ASV019","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",86,0.01567627
+"gene_055","ASV019","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",58,0.01073279
+"gene_055","ASV019","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",71,0.01312142
+"gene_055","ASV019","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",57,0.01050111
+"gene_055","ASV019","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",59,0.01104662
+"gene_055","ASV019","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",48,0.00934944
+"gene_055","ASV019","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",65,0.01204373
+"gene_055","ASV019","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",59,0.01116578
+"gene_055","ASV019","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",76,0.01434233
+"gene_055","ASV019","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",84,0.01633606
+"gene_055","ASV019","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",84,0.01544402
+"gene_055","ASV019","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",52,0.00955005
+"gene_055","ASV019","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",62,0.00960793
+"gene_055","ASV019","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",43,0.00638361
+"gene_055","ASV019","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",87,0.01309452
+"gene_055","ASV019","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",51,0.00769695
+"gene_055","ASV019","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",50,0.00757117
+"gene_055","ASV019","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",40,0.00622471
+"gene_055","ASV019","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",75,0.01012146
+"gene_055","ASV019","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",62,0.00816219
+"gene_055","ASV019","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",72,0.00961282
+"gene_055","ASV019","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",77,0.00998444
+"gene_055","ASV019","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",56,0.00740741
+"gene_055","ASV019","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",55,0.00740841
+"gene_056","ASV028","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",65,0.01184834
+"gene_056","ASV028","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",78,0.01443375
+"gene_056","ASV028","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",84,0.01552393
+"gene_056","ASV028","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",69,0.01271186
+"gene_056","ASV028","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",75,0.01404231
+"gene_056","ASV028","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",86,0.01675107
+"gene_056","ASV028","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",78,0.01445247
+"gene_056","ASV028","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",76,0.01438304
+"gene_056","ASV028","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",66,0.01245518
+"gene_056","ASV028","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",80,0.01555815
+"gene_056","ASV028","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",91,0.01673102
+"gene_056","ASV028","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",86,0.01579431
+"gene_056","ASV028","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",200,0.03099334
+"gene_056","ASV028","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",180,0.02672209
+"gene_056","ASV028","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",175,0.02633955
+"gene_056","ASV028","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",235,0.03546634
+"gene_056","ASV028","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",226,0.03422168
+"gene_056","ASV028","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",193,0.03003424
+"gene_056","ASV028","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",205,0.02766532
+"gene_056","ASV028","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",156,0.02053712
+"gene_056","ASV028","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",146,0.01949266
+"gene_056","ASV028","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",195,0.02528527
+"gene_056","ASV028","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",196,0.02592593
+"gene_056","ASV028","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",214,0.02882543
+"gene_057","ASV077","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",72,0.01312432
+"gene_057","ASV077","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",35,0.00647668
+"gene_057","ASV077","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",46,0.0085012
+"gene_057","ASV077","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",72,0.01326455
+"gene_057","ASV077","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",43,0.00805093
+"gene_057","ASV077","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",71,0.01382937
+"gene_057","ASV077","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",101,0.0187141
+"gene_057","ASV077","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",105,0.01987131
+"gene_057","ASV077","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",64,0.01207775
+"gene_057","ASV077","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",82,0.0159471
+"gene_057","ASV077","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",116,0.02132745
+"gene_057","ASV077","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",112,0.02056933
+"gene_057","ASV077","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",116,0.01797614
+"gene_057","ASV077","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",175,0.02597981
+"gene_057","ASV077","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",139,0.02092113
+"gene_057","ASV077","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",132,0.01992152
+"gene_057","ASV077","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",119,0.01801938
+"gene_057","ASV077","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",160,0.02489885
+"gene_057","ASV077","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",162,0.02186235
+"gene_057","ASV077","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",204,0.02685624
+"gene_057","ASV077","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",181,0.02416555
+"gene_057","ASV077","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",208,0.02697095
+"gene_057","ASV077","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",152,0.02010582
+"gene_057","ASV077","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",173,0.0233028
+"gene_058","ASV047","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",83,0.01512942
+"gene_058","ASV047","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",47,0.00869726
+"gene_058","ASV047","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",95,0.01755683
+"gene_058","ASV047","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",85,0.01565954
+"gene_058","ASV047","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",84,0.01572739
+"gene_058","ASV047","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",76,0.01480327
+"gene_058","ASV047","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",88,0.01630535
+"gene_058","ASV047","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",116,0.02195307
+"gene_058","ASV047","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",100,0.01887149
+"gene_058","ASV047","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",84,0.01633606
+"gene_058","ASV047","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",114,0.02095974
+"gene_058","ASV047","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",104,0.01910009
+"gene_058","ASV047","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",153,0.0237099
+"gene_058","ASV047","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",180,0.02672209
+"gene_058","ASV047","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",181,0.02724262
+"gene_058","ASV047","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",195,0.02942952
+"gene_058","ASV047","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",153,0.02316778
+"gene_058","ASV047","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",185,0.02878929
+"gene_058","ASV047","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",192,0.02591093
+"gene_058","ASV047","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",177,0.02330174
+"gene_058","ASV047","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",218,0.02910547
+"gene_058","ASV047","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",231,0.02995332
+"gene_058","ASV047","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",214,0.02830688
+"gene_058","ASV047","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",206,0.02774784
+"gene_059","ASV075","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",146,0.0266132
+"gene_059","ASV075","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",128,0.02368616
+"gene_059","ASV075","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",132,0.02439475
+"gene_059","ASV075","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",182,0.03352985
+"gene_059","ASV075","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",125,0.02340386
+"gene_059","ASV075","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",137,0.02668485
+"gene_059","ASV075","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",105,0.01945525
+"gene_059","ASV075","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.01230129
+"gene_059","ASV075","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",96,0.01811663
+"gene_059","ASV075","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.01633606
+"gene_059","ASV075","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",87,0.01599559
+"gene_059","ASV075","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",90,0.01652893
+"gene_059","ASV075","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",74,0.01146753
+"gene_059","ASV075","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",110,0.01633017
+"gene_059","ASV075","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",72,0.01083685
+"gene_059","ASV075","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.01192273
+"gene_059","ASV075","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.00984252
+"gene_059","ASV075","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",91,0.01416122
+"gene_059","ASV075","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",84,0.01133603
+"gene_059","ASV075","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",69,0.00908373
+"gene_059","ASV075","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01041389
+"gene_059","ASV075","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",95,0.01231846
+"gene_059","ASV075","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",116,0.01534392
+"gene_059","ASV075","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",60,0.0080819
+"gene_060","ASV079","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",53,0.00966096
+"gene_060","ASV079","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",67,0.01239822
+"gene_060","ASV079","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",57,0.0105341
+"gene_060","ASV079","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",63,0.01160648
+"gene_060","ASV079","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",42,0.0078637
+"gene_060","ASV079","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",36,0.00701208
+"gene_060","ASV079","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",29,0.00537336
+"gene_060","ASV079","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",33,0.00624527
+"gene_060","ASV079","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",28,0.00528402
+"gene_060","ASV079","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",33,0.00641774
+"gene_060","ASV079","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",16,0.00294172
+"gene_060","ASV079","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",27,0.00495868
+"gene_060","ASV079","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",33,0.0051139
+"gene_060","ASV079","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",27,0.00400831
+"gene_060","ASV079","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",39,0.00586996
+"gene_060","ASV079","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",27,0.00407486
+"gene_060","ASV079","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",28,0.00423985
+"gene_060","ASV079","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",14,0.00217865
+"gene_060","ASV079","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",34,0.00458839
+"gene_060","ASV079","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",31,0.0040811
+"gene_060","ASV079","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",36,0.00480641
+"gene_060","ASV079","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",25,0.0032417
+"gene_060","ASV079","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",21,0.00277778
+"gene_060","ASV079","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",20,0.00269397
+"gene_061","ASV015","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.00455705
+"gene_061","ASV015","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",32,0.00592154
+"gene_061","ASV015","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",17,0.00314175
+"gene_061","ASV015","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",20,0.0036846
+"gene_061","ASV015","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",28,0.00524246
+"gene_061","ASV015","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.0048695
+"gene_061","ASV015","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",23,0.00426163
+"gene_061","ASV015","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",31,0.00586677
+"gene_061","ASV015","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",23,0.00434044
+"gene_061","ASV015","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",16,0.00311163
+"gene_061","ASV015","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",21,0.003861
+"gene_061","ASV015","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",21,0.00385675
+"gene_061","ASV015","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",25,0.00387417
+"gene_061","ASV015","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",20,0.00296912
+"gene_061","ASV015","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",19,0.00285972
+"gene_061","ASV015","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",19,0.00286749
+"gene_061","ASV015","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",26,0.00393701
+"gene_061","ASV015","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",27,0.00420168
+"gene_061","ASV015","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",19,0.0025641
+"gene_061","ASV015","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",19,0.00250132
+"gene_061","ASV015","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",17,0.00226969
+"gene_061","ASV015","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",19,0.00246369
+"gene_061","ASV015","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",26,0.00343915
+"gene_061","ASV015","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",29,0.00390625
+"gene_062","ASV009","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",79,0.01440029
+"gene_062","ASV009","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",51,0.00943745
+"gene_062","ASV009","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",65,0.01201257
+"gene_062","ASV009","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",60,0.0110538
+"gene_062","ASV009","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",62,0.01160831
+"gene_062","ASV009","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",58,0.01129723
+"gene_062","ASV009","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",84,0.0155642
+"gene_062","ASV009","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",73,0.01381529
+"gene_062","ASV009","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",68,0.01283261
+"gene_062","ASV009","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",50,0.00972384
+"gene_062","ASV009","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",71,0.01305387
+"gene_062","ASV009","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",57,0.01046832
+"gene_062","ASV009","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",118,0.01828607
+"gene_062","ASV009","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",152,0.02256532
+"gene_062","ASV009","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",145,0.0218242
+"gene_062","ASV009","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",206,0.03108965
+"gene_062","ASV009","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",182,0.02755906
+"gene_062","ASV009","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",190,0.02956738
+"gene_062","ASV009","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",130,0.01754386
+"gene_062","ASV009","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",129,0.01698262
+"gene_062","ASV009","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",170,0.02269693
+"gene_062","ASV009","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",216,0.0280083
+"gene_062","ASV009","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",176,0.02328042
+"gene_062","ASV009","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",222,0.02990302
+"gene_063","ASV043","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",23,0.00419249
+"gene_063","ASV043","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",14,0.00259067
+"gene_063","ASV043","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",18,0.00332656
+"gene_063","ASV043","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",22,0.00405306
+"gene_063","ASV043","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",22,0.00411908
+"gene_063","ASV043","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",29,0.00564862
+"gene_063","ASV043","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",29,0.00537336
+"gene_063","ASV043","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",41,0.00775927
+"gene_063","ASV043","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",57,0.01075675
+"gene_063","ASV043","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",35,0.00680669
+"gene_063","ASV043","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",35,0.00643501
+"gene_063","ASV043","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",41,0.00752984
+"gene_063","ASV043","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",65,0.01007283
+"gene_063","ASV043","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",54,0.00801663
+"gene_063","ASV043","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",54,0.00812763
+"gene_063","ASV043","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",56,0.00845155
+"gene_063","ASV043","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",86,0.01302241
+"gene_063","ASV043","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",55,0.00855898
+"gene_063","ASV043","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",79,0.01066127
+"gene_063","ASV043","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",80,0.01053186
+"gene_063","ASV043","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",96,0.01281709
+"gene_063","ASV043","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",73,0.00946577
+"gene_063","ASV043","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",77,0.01018519
+"gene_063","ASV043","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",68,0.00915948
+"gene_064","ASV089","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",87,0.01585855
+"gene_064","ASV089","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",88,0.01628423
+"gene_064","ASV089","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",62,0.01145814
+"gene_064","ASV089","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",79,0.01455416
+"gene_064","ASV089","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",94,0.0175997
+"gene_064","ASV089","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",78,0.01519283
+"gene_064","ASV089","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",134,0.02482861
+"gene_064","ASV089","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",137,0.02592733
+"gene_064","ASV089","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",111,0.02094735
+"gene_064","ASV089","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",100,0.01944769
+"gene_064","ASV089","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",135,0.02482074
+"gene_064","ASV089","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",155,0.02846648
+"gene_064","ASV089","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",148,0.02293507
+"gene_064","ASV089","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",211,0.03132423
+"gene_064","ASV089","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",206,0.03100542
+"gene_064","ASV089","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",202,0.03048596
+"gene_064","ASV089","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",233,0.03528165
+"gene_064","ASV089","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",223,0.03470277
+"gene_064","ASV089","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",273,0.03684211
+"gene_064","ASV089","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",289,0.03804634
+"gene_064","ASV089","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",222,0.02963952
+"gene_064","ASV089","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",250,0.03241701
+"gene_064","ASV089","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",378,0.05
+"gene_064","ASV089","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",202,0.02720905
+"gene_065","ASV006","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",54,0.00984324
+"gene_065","ASV006","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",61,0.01128793
+"gene_065","ASV006","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01404546
+"gene_065","ASV006","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",65,0.01197494
+"gene_065","ASV006","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",63,0.01179554
+"gene_065","ASV006","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",56,0.01090767
+"gene_065","ASV006","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",49,0.00907912
+"gene_065","ASV006","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",23,0.00435276
+"gene_065","ASV006","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",23,0.00434044
+"gene_065","ASV006","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",44,0.00855698
+"gene_065","ASV006","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",49,0.00900901
+"gene_065","ASV006","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",30,0.00550964
+"gene_065","ASV006","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",31,0.00480397
+"gene_065","ASV006","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",39,0.00578979
+"gene_065","ASV006","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",37,0.00556893
+"gene_065","ASV006","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",37,0.00558406
+"gene_065","ASV006","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",42,0.00635978
+"gene_065","ASV006","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",42,0.00653595
+"gene_065","ASV006","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",24,0.00323887
+"gene_065","ASV006","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",31,0.0040811
+"gene_065","ASV006","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",43,0.00574099
+"gene_065","ASV006","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",34,0.00440871
+"gene_065","ASV006","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",32,0.0042328
+"gene_065","ASV006","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",25,0.00336746
+"gene_066","ASV056","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",93,0.01695224
+"gene_066","ASV056","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",121,0.02239082
+"gene_066","ASV056","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",91,0.01681759
+"gene_066","ASV056","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",156,0.02873987
+"gene_066","ASV056","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",93,0.01741247
+"gene_066","ASV056","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",109,0.02123101
+"gene_066","ASV056","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",59,0.010932
+"gene_066","ASV056","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",50,0.00946253
+"gene_066","ASV056","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",92,0.01736177
+"gene_066","ASV056","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",65,0.012641
+"gene_066","ASV056","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",57,0.01047987
+"gene_066","ASV056","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",69,0.01267218
+"gene_066","ASV056","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",64,0.00991787
+"gene_066","ASV056","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",62,0.00920428
+"gene_066","ASV056","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",78,0.01173992
+"gene_066","ASV056","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",69,0.01041352
+"gene_066","ASV056","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",40,0.00605694
+"gene_066","ASV056","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",82,0.01276066
+"gene_066","ASV056","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",84,0.01133603
+"gene_066","ASV056","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",57,0.00750395
+"gene_066","ASV056","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",69,0.00921228
+"gene_066","ASV056","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",70,0.00907676
+"gene_066","ASV056","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",44,0.00582011
+"gene_066","ASV056","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",81,0.01091056
+"gene_067","ASV041","C01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",80,0.01458257
+"gene_067","ASV041","C02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",64,0.01184308
+"gene_067","ASV041","C03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",78,0.01441508
+"gene_067","ASV041","C04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",62,0.01142225
+"gene_067","ASV041","C05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",96,0.01797416
+"gene_067","ASV041","C06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",62,0.01207635
+"gene_067","ASV041","T01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",102,0.01889939
+"gene_067","ASV041","T02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",64,0.01211204
+"gene_067","ASV041","T03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",80,0.01509719
+"gene_067","ASV041","T04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",96,0.01866978
+"gene_067","ASV041","T05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",49,0.00900901
+"gene_067","ASV041","T06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",75,0.0137741
+"gene_067","ASV041","M01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",102,0.0158066
+"gene_067","ASV041","M02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",75,0.0111342
+"gene_067","ASV041","M03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",74,0.01113787
+"gene_067","ASV041","M04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",66,0.00996076
+"gene_067","ASV041","M05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",62,0.00938825
+"gene_067","ASV041","M06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",83,0.01291628
+"gene_067","ASV041","S01","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",66,0.00890688
+"gene_067","ASV041","S02","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",63,0.00829384
+"gene_067","ASV041","S03","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",60,0.00801068
+"gene_067","ASV041","S04","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",70,0.00907676
+"gene_067","ASV041","S05","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",55,0.00727513
+"gene_067","ASV041","S06","KEGG","Energy metabolism","Oxidative phosphorylation","K02111",46,0.00619612
+"gene_068","ASV076","C01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",68,0.01239519
+"gene_068","ASV076","C02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",69,0.01276832
+"gene_068","ASV076","C03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",73,0.01349104
+"gene_068","ASV076","C04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",81,0.01492262
+"gene_068","ASV076","C05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",85,0.01591462
+"gene_068","ASV076","C06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",73,0.01421893
+"gene_068","ASV076","T01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",70,0.01297017
+"gene_068","ASV076","T02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",88,0.01665405
+"gene_068","ASV076","T03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",58,0.01094546
+"gene_068","ASV076","T04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",93,0.01808635
+"gene_068","ASV076","T05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",85,0.01562787
+"gene_068","ASV076","T06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",84,0.015427
+"gene_068","ASV076","M01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",232,0.03595227
+"gene_068","ASV076","M02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",201,0.02983967
+"gene_068","ASV076","M03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",203,0.03055388
+"gene_068","ASV076","M04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",217,0.03274977
+"gene_068","ASV076","M05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",230,0.03482738
+"gene_068","ASV076","M06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",151,0.02349829
+"gene_068","ASV076","S01","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",174,0.02348178
+"gene_068","ASV076","S02","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",221,0.02909426
+"gene_068","ASV076","S03","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",159,0.0212283
+"gene_068","ASV076","S04","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",203,0.02632261
+"gene_068","ASV076","S05","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",167,0.02208995
+"gene_068","ASV076","S06","FAPROTAX","Element cycling","Aerobic chemoheterotrophy","FAP001",240,0.03232759
+"gene_069","ASV080","C01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",26,0.00473934
+"gene_069","ASV080","C02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",25,0.0046262
+"gene_069","ASV080","C03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",40,0.00739235
+"gene_069","ASV080","C04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",27,0.00497421
+"gene_069","ASV080","C05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",27,0.00505523
+"gene_069","ASV080","C06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",24,0.00467472
+"gene_069","ASV080","T01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",36,0.00667037
+"gene_069","ASV080","T02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",64,0.01211204
+"gene_069","ASV080","T03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",28,0.00528402
+"gene_069","ASV080","T04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",46,0.00894594
+"gene_069","ASV080","T05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",45,0.00827358
+"gene_069","ASV080","T06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",22,0.0040404
+"gene_069","ASV080","M01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",74,0.01146753
+"gene_069","ASV080","M02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",59,0.00875891
+"gene_069","ASV080","M03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",55,0.00827815
+"gene_069","ASV080","M04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",73,0.0110172
+"gene_069","ASV080","M05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",76,0.01150818
+"gene_069","ASV080","M06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",64,0.00995954
+"gene_069","ASV080","S01","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",71,0.00958165
+"gene_069","ASV080","S02","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",91,0.01197999
+"gene_069","ASV080","S03","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",66,0.00881175
+"gene_069","ASV080","S04","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",51,0.00661307
+"gene_069","ASV080","S05","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",83,0.01097884
+"gene_069","ASV080","S06","BacMet","Metal resistance","Metal efflux and detoxification","BMR001",75,0.01010237
+"gene_070","ASV026","C01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",17,0.0030988
+"gene_070","ASV026","C02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",30,0.00555144
+"gene_070","ASV026","C03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",18,0.00332656
+"gene_070","ASV026","C04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",25,0.00460575
+"gene_070","ASV026","C05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",18,0.00337016
+"gene_070","ASV026","C06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",20,0.0038956
+"gene_070","ASV026","T01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",39,0.00722624
+"gene_070","ASV026","T02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",42,0.00794852
+"gene_070","ASV026","T03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",52,0.00981317
+"gene_070","ASV026","T04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",37,0.00719564
+"gene_070","ASV026","T05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",42,0.00772201
+"gene_070","ASV026","T06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",31,0.0056933
+"gene_070","ASV026","M01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",67,0.01038277
+"gene_070","ASV026","M02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",68,0.01009501
+"gene_070","ASV026","M03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",45,0.00677303
+"gene_070","ASV026","M04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",70,0.01056444
+"gene_070","ASV026","M05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",64,0.0096911
+"gene_070","ASV026","M06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",68,0.01058201
+"gene_070","ASV026","S01","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",51,0.00688259
+"gene_070","ASV026","S02","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",54,0.007109
+"gene_070","ASV026","S03","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",46,0.00614152
+"gene_070","ASV026","S04","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",72,0.0093361
+"gene_070","ASV026","S05","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",69,0.00912698
+"gene_070","ASV026","S06","SulfurCycle","Sulfur cycling","Dissimilatory sulfur metabolism","K11180",87,0.01171875
+"gene_071","ASV015","C01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",112,0.0204156
+"gene_071","ASV015","C02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",121,0.02239082
+"gene_071","ASV015","C03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",115,0.021253
+"gene_071","ASV015","C04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",83,0.01529108
+"gene_071","ASV015","C05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",72,0.01348062
+"gene_071","ASV015","C06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",82,0.01597195
+"gene_071","ASV015","T01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",78,0.01445247
+"gene_071","ASV015","T02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",60,0.01135503
+"gene_071","ASV015","T03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",75,0.01415361
+"gene_071","ASV015","T04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",55,0.01069623
+"gene_071","ASV015","T05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",60,0.01103144
+"gene_071","ASV015","T06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01395776
+"gene_071","ASV015","M01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",54,0.0083682
+"gene_071","ASV015","M02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",60,0.00890736
+"gene_071","ASV015","M03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",76,0.01143889
+"gene_071","ASV015","M04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",74,0.01116813
+"gene_071","ASV015","M05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",42,0.00635978
+"gene_071","ASV015","M06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",80,0.01244942
+"gene_071","ASV015","S01","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",53,0.0071525
+"gene_071","ASV015","S02","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",82,0.01079516
+"gene_071","ASV015","S03","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",82,0.01094793
+"gene_071","ASV015","S04","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",79,0.01024378
+"gene_071","ASV015","S05","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",44,0.00582011
+"gene_071","ASV015","S06","NitrogenCycle","Nitrogen cycling","Nitrification and denitrification","K00370",49,0.00660022
+"gene_072","ASV024","C01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",86,0.01567627
+"gene_072","ASV024","C02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",75,0.01387861
+"gene_072","ASV024","C03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",61,0.01127333
+"gene_072","ASV024","C04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",71,0.01308032
+"gene_072","ASV024","C05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",80,0.01497847
+"gene_072","ASV024","C06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",62,0.01207635
+"gene_072","ASV024","T01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",50,0.00926441
+"gene_072","ASV024","T02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",52,0.00984103
+"gene_072","ASV024","T03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",45,0.00849217
+"gene_072","ASV024","T04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",51,0.00991832
+"gene_072","ASV024","T05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",45,0.00827358
+"gene_072","ASV024","T06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",38,0.00697888
+"gene_072","ASV024","M01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",40,0.00619867
+"gene_072","ASV024","M02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",34,0.00504751
+"gene_072","ASV024","M03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",40,0.00602047
+"gene_072","ASV024","M04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",34,0.0051313
+"gene_072","ASV024","M05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",31,0.00469412
+"gene_072","ASV024","M06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",57,0.00887021
+"gene_072","ASV024","S01","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",29,0.00391363
+"gene_072","ASV024","S02","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",49,0.00645076
+"gene_072","ASV024","S03","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",48,0.00640854
+"gene_072","ASV024","S04","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",45,0.00583506
+"gene_072","ASV024","S05","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",52,0.00687831
+"gene_072","ASV024","S06","CarbonCycle","Carbon cycling","Organic carbon degradation","K01190",36,0.00484914
