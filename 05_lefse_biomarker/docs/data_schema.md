@@ -52,4 +52,5 @@ Required columns:
 | `kw_abundance_plotting_table.csv` | Plot-ready group mean abundance table for the KW-style abundance plot. |
 | `cladogram_node_table.csv` | Node coordinates, abundance, and enrichment groups for the simplified taxonomic cladogram. |
 | `cladogram_edge_table.csv` | Parent-child edge coordinates for the simplified taxonomic cladogram. |
+| `cladogram_label_table.csv` | Letter annotations used in the cladogram and their corresponding taxa. |
 | `biomarker_group_heatmap_table.csv` | Plot-ready group mean abundance table for the heatmap. |

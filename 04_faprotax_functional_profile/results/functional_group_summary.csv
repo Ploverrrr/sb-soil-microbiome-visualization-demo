@@ -1,29 +1,29 @@
 "function_name","group","mean_relative_abundance","sd_relative_abundance","n_samples","se_relative_abundance","mean_percent","se_percent"
-"Nitrification","Control",0.159090909090909,0,6,0,15.9090909090909,0
-"Sulfate assimilation","Control",0.159090909090909,0,6,0,15.9090909090909,0
-"Dissimilatory sulfite reduction","Control",0.159090909090909,0,6,0,15.9090909090909,0
-"Organic carbon degradation","Control",0.181818181818182,0,6,0,18.1818181818182,0
-"Denitrification","Control",0.181818181818182,0,6,0,18.1818181818182,0
-"Thiosulfate oxidation","Control",0.181818181818182,0,6,0,18.1818181818182,0
-"Aerobic chemoheterotrophy","Control",0.181818181818182,0,6,0,18.1818181818182,0
-"Nitrification","Tailing",0.159090909090909,0,6,0,15.9090909090909,0
-"Sulfate assimilation","Tailing",0.159090909090909,0,6,0,15.9090909090909,0
-"Dissimilatory sulfite reduction","Tailing",0.159090909090909,0,6,0,15.9090909090909,0
-"Organic carbon degradation","Tailing",0.181818181818182,0,6,0,18.1818181818182,0
-"Denitrification","Tailing",0.181818181818182,0,6,0,18.1818181818182,0
-"Thiosulfate oxidation","Tailing",0.181818181818182,0,6,0,18.1818181818182,0
-"Aerobic chemoheterotrophy","Tailing",0.181818181818182,0,6,0,18.1818181818182,0
-"Nitrification","Mining",0.159090909090909,0,6,0,15.9090909090909,0
-"Sulfate assimilation","Mining",0.159090909090909,0,6,0,15.9090909090909,0
-"Dissimilatory sulfite reduction","Mining",0.159090909090909,0,6,0,15.9090909090909,0
-"Organic carbon degradation","Mining",0.181818181818182,0,6,0,18.1818181818182,0
-"Denitrification","Mining",0.181818181818182,0,6,0,18.1818181818182,0
-"Thiosulfate oxidation","Mining",0.181818181818182,0,6,0,18.1818181818182,0
-"Aerobic chemoheterotrophy","Mining",0.181818181818182,0,6,0,18.1818181818182,0
-"Nitrification","Smelting",0.159090909090909,0,6,0,15.9090909090909,0
-"Sulfate assimilation","Smelting",0.159090909090909,0,6,0,15.9090909090909,0
-"Dissimilatory sulfite reduction","Smelting",0.159090909090909,0,6,0,15.9090909090909,0
-"Organic carbon degradation","Smelting",0.181818181818182,0,6,0,18.1818181818182,0
-"Denitrification","Smelting",0.181818181818182,0,6,0,18.1818181818182,0
-"Thiosulfate oxidation","Smelting",0.181818181818182,0,6,0,18.1818181818182,0
-"Aerobic chemoheterotrophy","Smelting",0.181818181818182,0,6,0,18.1818181818182,0
+"Organic carbon degradation","Control",0.155555555555556,0,6,0,15.5555555555556,0
+"Denitrification","Control",0.155555555555556,0,6,0,15.5555555555556,0
+"Thiosulfate oxidation","Control",0.155555555555556,0,6,0,15.5555555555556,0
+"Nitrification","Control",0.177777777777778,0,6,0,17.7777777777778,0
+"Sulfate assimilation","Control",0.177777777777778,0,6,0,17.7777777777778,0
+"Dissimilatory sulfite reduction","Control",0.177777777777778,0,6,0,17.7777777777778,0
+"Aerobic chemoheterotrophy","Control",0.177777777777778,0,6,0,17.7777777777778,0
+"Organic carbon degradation","Tailing",0.155555555555556,0,6,0,15.5555555555556,0
+"Denitrification","Tailing",0.155555555555556,0,6,0,15.5555555555556,0
+"Thiosulfate oxidation","Tailing",0.155555555555556,0,6,0,15.5555555555556,0
+"Nitrification","Tailing",0.177777777777778,0,6,0,17.7777777777778,0
+"Sulfate assimilation","Tailing",0.177777777777778,0,6,0,17.7777777777778,0
+"Dissimilatory sulfite reduction","Tailing",0.177777777777778,0,6,0,17.7777777777778,0
+"Aerobic chemoheterotrophy","Tailing",0.177777777777778,0,6,0,17.7777777777778,0
+"Organic carbon degradation","Mining",0.155555555555556,0,6,0,15.5555555555556,0
+"Denitrification","Mining",0.155555555555556,0,6,0,15.5555555555556,0
+"Thiosulfate oxidation","Mining",0.155555555555556,0,6,0,15.5555555555556,0
+"Nitrification","Mining",0.177777777777778,0,6,0,17.7777777777778,0
+"Sulfate assimilation","Mining",0.177777777777778,0,6,0,17.7777777777778,0
+"Dissimilatory sulfite reduction","Mining",0.177777777777778,0,6,0,17.7777777777778,0
+"Aerobic chemoheterotrophy","Mining",0.177777777777778,0,6,0,17.7777777777778,0
+"Organic carbon degradation","Smelting",0.155555555555556,0,6,0,15.5555555555556,0
+"Denitrification","Smelting",0.155555555555556,0,6,0,15.5555555555556,0
+"Thiosulfate oxidation","Smelting",0.155555555555556,0,6,0,15.5555555555556,0
+"Nitrification","Smelting",0.177777777777778,0,6,0,17.7777777777778,0
+"Sulfate assimilation","Smelting",0.177777777777778,0,6,0,17.7777777777778,0
+"Dissimilatory sulfite reduction","Smelting",0.177777777777778,0,6,0,17.7777777777778,0
+"Aerobic chemoheterotrophy","Smelting",0.177777777777778,0,6,0,17.7777777777778,0

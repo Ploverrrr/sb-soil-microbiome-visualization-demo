@@ -25,7 +25,7 @@ log10((mean abundance in enriched group + pseudocount) /
 13. Filter biomarkers by prevalence, mean abundance, FDR, and effect score.
 14. If strict filters return too few biomarkers for a useful demo figure, keep the strongest ranked taxa and mark them as relaxed demo selections.
 15. Write intermediate result tables to `results/`.
-16. Build a simplified taxonomic cladogram from the taxonomy hierarchy.
+16. Build a LEfSe-style concentric-ring cladogram from the taxonomy hierarchy.
 17. Draw a group-colored biomarker barplot, cladogram, KW abundance plot, combined LDA+cladogram figure, combined LDA+KW figure, and auxiliary group mean heatmap.
 18. Save PDF and PNG figures to `figures/`.
 
@@ -35,7 +35,7 @@ The barplot ranks taxa by a transparent effect-size score. The color indicates t
 
 The heatmap shows the same selected biomarkers across all groups, making it easier to see whether the detected signal follows the simulated contamination gradient.
 
-The cladogram follows the original figure intent: nodes are arranged by taxonomic hierarchy and colored by the group where each biomarker is enriched. It is a simplified ggplot-based implementation rather than the original `microeco::plot_diff_cladogram()` output.
+The cladogram follows the original figure intent: nodes are arranged by taxonomic hierarchy, rings represent taxonomic depth from Phylum to Genus, and colored nodes mark taxa enriched in different groups. It is a ggplot-based implementation rather than a direct `microeco::plot_diff_cladogram()` call, but its visual grammar is intentionally aligned with the original LEfSe cladogram.
 
 The KW abundance plot uses the same selected biomarkers as the LDA-style barplot and displays group mean relative abundance with standard error, paralleling the original `plot_diff_abund()` figure.
 

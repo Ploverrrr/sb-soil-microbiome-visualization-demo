@@ -72,7 +72,7 @@ Supported modules: `01_rf_correlation_heatmap`, `02_microbe_env_network`, `06_pl
 
 ## `taxonomy_table.csv`
 
-Feature-level taxonomic annotation table. The toy taxonomy is generated from a predefined set of internally consistent bacterial lineages, so each `Phylum`, `Class`, `Order`, `Family`, and `Genus` combination is coherent within the simulated example.
+Feature-level taxonomic annotation table. The toy taxonomy is generated from a predefined set of internally consistent bacterial lineages, so each `Phylum`, `Class`, `Order`, `Family`, and `Genus` combination is coherent within the simulated example. The lineage set is intentionally broad enough to support LEfSe-style taxonomic cladogram visualization.
 
 | Column | Description |
 |---|---|

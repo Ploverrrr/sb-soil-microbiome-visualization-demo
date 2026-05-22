@@ -1,2 +1,2 @@
 "target_taxonomic_level","top_n_taxa","environmental_variable_count","correlation_method","correlation_threshold","adjusted_p_threshold","node_count","edge_count","positive_edges","negative_edges"
-"Genus",14,10,"spearman",0.55,0.05,16,60,28,32
+"Genus",14,10,"spearman",0.55,0.05,23,127,64,63

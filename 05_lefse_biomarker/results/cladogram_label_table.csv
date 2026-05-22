@@ -1,0 +1,13 @@
+"label","taxon","rank","taxon_name","enriched_group","lefse_like_score"
+"a","C__Vicinamibacteria","Class","Vicinamibacteria","Control",0.758683261008205
+"b","O__Vicinamibacterales","Order","Vicinamibacterales","Control",0.758683261008205
+"c","O__Solirubrobacterales","Order","Solirubrobacterales","Control",0.753087431921467
+"d","F__Solirubrobacteraceae","Family","Solirubrobacteraceae","Control",0.753087431921467
+"e","G__Solirubrobacter","Genus","Solirubrobacter","Control",0.753087431921467
+"f","O__Sphingomonadales","Order","Sphingomonadales","Tailing",0.744940040704455
+"g","F__Sphingomonadaceae","Family","Sphingomonadaceae","Tailing",0.744940040704455
+"h","G__Sphingomonas","Genus","Sphingomonas","Tailing",0.744940040704455
+"i","O__Gaiellales","Order","Gaiellales","Tailing",0.708262878159876
+"j","F__Gaiellaceae","Family","Gaiellaceae","Tailing",0.708262878159876
+"k","G__Gaiella","Genus","Gaiella","Tailing",0.708262878159876
+"l","O__Rhodospirillales","Order","Rhodospirillales","Mining",0.694590793639811

@@ -157,7 +157,7 @@ make_biomarker_statistics <- function(long_data, group_order, pseudocount) {
   statistics[order(statistics$kruskal_fdr, -statistics$lefse_like_score), , drop = FALSE]
 }
 
-select_biomarkers <- function(statistics, min_prevalence, min_mean_abundance, fdr_cutoff, effect_score_cutoff, max_biomarkers_to_plot, minimum_biomarkers_to_plot) {
+select_biomarkers <- function(statistics, min_prevalence, min_mean_abundance, fdr_cutoff, effect_score_cutoff, max_biomarkers_to_plot, minimum_biomarkers_to_plot, group_order) {
   filtered <- statistics[
     statistics$prevalence >= min_prevalence &
       statistics$overall_mean_abundance >= min_mean_abundance &
@@ -180,11 +180,28 @@ select_biomarkers <- function(statistics, min_prevalence, min_mean_abundance, fd
     relaxed$selection_reason <- "relaxed_for_demo_plot"
     filtered <- relaxed
   } else {
-    filtered <- filtered[order(filtered$enriched_group, -filtered$lefse_like_score), , drop = FALSE]
-    filtered <- head(filtered, max_biomarkers_to_plot)
+    filtered <- filtered[order(filtered$kruskal_fdr, -filtered$lefse_like_score), , drop = FALSE]
   }
 
-  filtered
+  per_group_target <- max(1, floor(max_biomarkers_to_plot / length(group_order)))
+  balanced <- do.call(
+    rbind,
+    lapply(group_order, function(group_name) {
+      group_rows <- filtered[filtered$enriched_group == group_name, , drop = FALSE]
+      group_rows <- group_rows[order(group_rows$kruskal_fdr, -group_rows$lefse_like_score), , drop = FALSE]
+      head(group_rows, per_group_target)
+    })
+  )
+
+  remaining_slots <- max_biomarkers_to_plot - nrow(balanced)
+  if (remaining_slots > 0) {
+    remaining <- filtered[!filtered$taxon %in% balanced$taxon, , drop = FALSE]
+    remaining <- remaining[order(remaining$kruskal_fdr, -remaining$lefse_like_score), , drop = FALSE]
+    balanced <- rbind(balanced, head(remaining, remaining_slots))
+  }
+
+  balanced <- balanced[order(match(balanced$enriched_group, group_order), -balanced$lefse_like_score), , drop = FALSE]
+  balanced
 }
 
 p_to_stars <- function(p_value) {
@@ -223,7 +240,7 @@ build_cladogram_tables <- function(taxonomy, all_rank_abundance, biomarkers, tax
   lineage <- lineage[do.call(order, lineage[, lineage_columns, drop = FALSE]), , drop = FALSE]
 
   genus_order <- unique(lineage$Genus)
-  genus_angles <- seq(0, 2 * pi, length.out = length(genus_order) + 1)[seq_along(genus_order)]
+  genus_angles <- seq(pi / 2, pi / 2 - 2 * pi, length.out = length(genus_order) + 1)[seq_along(genus_order)]
   names(genus_angles) <- genus_order
 
   nodes <- data.frame(
@@ -260,6 +277,7 @@ build_cladogram_tables <- function(taxonomy, all_rank_abundance, biomarkers, tax
 
   depth_lookup <- c(Kingdom = 0, setNames(seq_along(taxonomic_levels), taxonomic_levels))
   nodes$depth <- unname(depth_lookup[nodes$rank])
+  nodes$radius <- nodes$depth
   nodes$angle <- node_angle
   nodes$x <- nodes$depth * cos(nodes$angle)
   nodes$y <- nodes$depth * sin(nodes$angle)
@@ -281,10 +299,35 @@ build_cladogram_tables <- function(taxonomy, all_rank_abundance, biomarkers, tax
   label_nodes <- nodes[!is.na(nodes$enriched_group), , drop = FALSE]
   label_nodes <- label_nodes[order(-label_nodes$lefse_like_score), , drop = FALSE]
   label_nodes <- head(label_nodes, max_labels)
-  label_nodes$label <- label_nodes$taxon
-  label_nodes$hjust <- ifelse(cos(label_nodes$angle) >= 0, 0, 1)
+  label_nodes$label <- c(letters, LETTERS)[seq_len(nrow(label_nodes))]
+  label_nodes$label_x <- label_nodes$x * 1.03
+  label_nodes$label_y <- label_nodes$y * 1.03
 
-  list(nodes = nodes, edges = edges, labels = label_nodes)
+  ring_angles <- seq(0, 2 * pi, length.out = 361)
+  rings <- do.call(
+    rbind,
+    lapply(seq_along(taxonomic_levels), function(radius_value) {
+      data.frame(
+        rank = taxonomic_levels[radius_value],
+        radius = radius_value,
+        angle = ring_angles,
+        x = radius_value * cos(ring_angles),
+        y = radius_value * sin(ring_angles),
+        stringsAsFactors = FALSE
+      )
+    })
+  )
+
+  rank_labels <- data.frame(
+    rank = c("Kingdom", taxonomic_levels),
+    radius = c(0, seq_along(taxonomic_levels)),
+    x = c(0, seq_along(taxonomic_levels)),
+    y = 0,
+    label = c("Kingdom", taxonomic_levels),
+    stringsAsFactors = FALSE
+  )
+
+  list(nodes = nodes, edges = edges, labels = label_nodes, rings = rings, rank_labels = rank_labels)
 }
 
 save_two_panel_plot <- function(filename, left_plot, right_plot, width, height, left_width = 0.42, dpi = 300) {

@@ -69,6 +69,7 @@ kw_abundance_table_output <- "kw_abundance_plotting_table.csv"
 heatmap_table_output <- "biomarker_group_heatmap_table.csv"
 cladogram_node_output <- "cladogram_node_table.csv"
 cladogram_edge_output <- "cladogram_edge_table.csv"
+cladogram_label_output <- "cladogram_label_table.csv"
 
 barplot_pdf <- "lefse_biomarker_barplot.pdf"
 barplot_png <- "lefse_biomarker_barplot.png"
@@ -215,7 +216,8 @@ biomarkers <- select_biomarkers(
   fdr_cutoff = kruskal_fdr_cutoff,
   effect_score_cutoff = effect_score_cutoff,
   max_biomarkers_to_plot = max_biomarkers_to_plot,
-  minimum_biomarkers_to_plot = minimum_biomarkers_to_plot
+  minimum_biomarkers_to_plot = minimum_biomarkers_to_plot,
+  group_order = group_order
 )
 
 if (nrow(biomarkers) == 0) {
@@ -254,6 +256,11 @@ cladogram_tables <- build_cladogram_tables(
 )
 write.csv(cladogram_tables$nodes, file.path(results_dir, cladogram_node_output), row.names = FALSE)
 write.csv(cladogram_tables$edges, file.path(results_dir, cladogram_edge_output), row.names = FALSE)
+write.csv(
+  cladogram_tables$labels[, c("label", "taxon", "rank", "taxon_name", "enriched_group", "lefse_like_score"), drop = FALSE],
+  file.path(results_dir, cladogram_label_output),
+  row.names = FALSE
+)
 
 bar_plot <- ggplot(biomarkers, aes(x = lefse_like_score, y = taxon, fill = enriched_group)) +
   geom_col(width = 0.72, color = "grey20", linewidth = 0.18) +
@@ -306,11 +313,17 @@ kw_abundance_plot <- ggplot(kw_abundance_summary, aes(x = mean_percent, y = taxo
 cladogram_nodes <- cladogram_tables$nodes
 cladogram_nodes$plot_group <- factor(cladogram_nodes$plot_group, levels = c("Not significant", group_order))
 cladogram_plot <- ggplot() +
+  geom_path(
+    data = cladogram_tables$rings,
+    aes(x = x, y = y, group = rank),
+    color = "grey88",
+    linewidth = 0.28
+  ) +
   geom_segment(
     data = cladogram_tables$edges,
     aes(x = x_parent, y = y_parent, xend = x, yend = y),
-    color = "grey74",
-    linewidth = 0.38
+    color = "grey72",
+    linewidth = 0.34
   ) +
   geom_point(
     data = cladogram_nodes,
@@ -322,13 +335,13 @@ cladogram_plot <- ggplot() +
   ) +
   geom_text(
     data = cladogram_tables$labels,
-    aes(x = x * 1.08, y = y * 1.08, label = label, hjust = hjust),
-    size = 2.6,
-    fontface = "italic",
+    aes(x = label_x, y = label_y, label = label),
+    size = 3.2,
+    fontface = "bold",
     color = "black"
   ) +
   scale_fill_manual(values = c("Not significant" = "white", group_colors), drop = FALSE) +
-  scale_size_continuous(range = c(1.6, 7.2), name = "Mean relative\nabundance (%)") +
+  scale_size_continuous(range = c(1.2, 6.4), name = "Mean relative\nabundance (%)") +
   coord_equal(clip = "off") +
   labs(
     title = "LEfSe-style taxonomic cladogram",
@@ -340,6 +353,10 @@ cladogram_plot <- ggplot() +
     legend.position = "right",
     plot.title = element_text(face = "bold", hjust = 0.5),
     plot.subtitle = element_text(hjust = 0.5),
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA),
+    legend.background = element_rect(fill = "white", color = NA),
+    legend.key = element_rect(fill = "white", color = NA),
     plot.margin = margin(12, 24, 12, 24)
   )
 

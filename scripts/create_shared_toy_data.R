@@ -87,44 +87,79 @@ environmental_variables <- data.frame(
   stringsAsFactors = FALSE
 )
 
-feature_count <- 96
-feature_ids <- paste0("ASV", sprintf("%03d", seq_len(feature_count)))
-
 taxonomy_lineages <- data.frame(
   Phylum = c(
-    "Pseudomonadota", "Pseudomonadota", "Actinobacteriota", "Actinobacteriota",
-    "Acidobacteriota", "Acidobacteriota", "Chloroflexi", "Chloroflexi",
-    "Bacteroidota", "Bacteroidota", "Bacillota", "Bacillota",
-    "Gemmatimonadota", "Nitrospirota", "Pseudomonadota", "Pseudomonadota"
+    "Pseudomonadota", "Pseudomonadota", "Pseudomonadota", "Pseudomonadota",
+    "Pseudomonadota", "Pseudomonadota", "Pseudomonadota", "Pseudomonadota",
+    "Actinobacteriota", "Actinobacteriota", "Actinobacteriota", "Actinobacteriota",
+    "Actinobacteriota", "Actinobacteriota",
+    "Acidobacteriota", "Acidobacteriota", "Acidobacteriota", "Acidobacteriota",
+    "Acidobacteriota",
+    "Bacteroidota", "Bacteroidota", "Bacteroidota", "Bacteroidota", "Bacteroidota",
+    "Bacillota", "Bacillota", "Bacillota", "Bacillota", "Bacillota",
+    "Chloroflexi", "Chloroflexi", "Chloroflexi", "Chloroflexi",
+    "Gemmatimonadota", "Gemmatimonadota", "Nitrospirota", "Methylomirabilota",
+    "Desulfobacterota"
   ),
   Class = c(
-    "Alphaproteobacteria", "Gammaproteobacteria", "Actinomycetia", "Thermoleophilia",
-    "Acidobacteriae", "Blastocatellia", "Anaerolineae", "Ktedonobacteria",
-    "Bacteroidia", "Chitinophagia", "Bacilli", "Clostridia",
-    "Gemmatimonadetes", "Nitrospiria", "Betaproteobacteria", "Acidithiobacillia"
+    "Alphaproteobacteria", "Alphaproteobacteria", "Alphaproteobacteria", "Gammaproteobacteria",
+    "Gammaproteobacteria", "Gammaproteobacteria", "Betaproteobacteria", "Acidithiobacillia",
+    "Actinomycetia", "Actinomycetia", "Actinomycetia", "Actinomycetia",
+    "Thermoleophilia", "Thermoleophilia",
+    "Acidobacteriae", "Acidobacteriae", "Blastocatellia", "Blastocatellia",
+    "Vicinamibacteria",
+    "Bacteroidia", "Bacteroidia", "Bacteroidia", "Chitinophagia", "Chitinophagia",
+    "Bacilli", "Bacilli", "Bacilli", "Clostridia", "Clostridia",
+    "Anaerolineae", "Anaerolineae", "Ktedonobacteria", "Thermomicrobia",
+    "Gemmatimonadetes", "Gemmatimonadetes", "Nitrospiria", "Methylomirabilia",
+    "Desulfobacteria"
   ),
   Order = c(
-    "Rhizobiales", "Burkholderiales", "Streptomycetales", "Solirubrobacterales",
-    "Acidobacteriales", "Blastocatellales", "Anaerolineales", "Ktedonobacterales",
-    "Flavobacteriales", "Chitinophagales", "Bacillales", "Clostridiales",
-    "Gemmatimonadales", "Nitrospirales", "Nitrosomonadales", "Acidithiobacillales"
+    "Rhizobiales", "Sphingomonadales", "Rhodospirillales", "Burkholderiales",
+    "Pseudomonadales", "Xanthomonadales", "Nitrosomonadales", "Acidithiobacillales",
+    "Streptomycetales", "Micrococcales", "Frankiales", "Propionibacteriales",
+    "Solirubrobacterales", "Gaiellales",
+    "Acidobacteriales", "Acidobacteriales", "Blastocatellales", "Pyrinomonadales",
+    "Vicinamibacterales",
+    "Flavobacteriales", "Sphingobacteriales", "Cytophagales", "Chitinophagales", "Chitinophagales",
+    "Bacillales", "Bacillales", "Lactobacillales", "Clostridiales", "Lachnospirales",
+    "Anaerolineales", "Anaerolineales", "Ktedonobacterales", "Thermomicrobiales",
+    "Gemmatimonadales", "Longimicrobiales", "Nitrospirales", "Methylomirabilales",
+    "Desulfobacterales"
   ),
   Family = c(
-    "Rhizobiaceae", "Comamonadaceae", "Streptomycetaceae", "Solirubrobacteraceae",
-    "Acidobacteriaceae", "Blastocatellaceae", "Anaerolineaceae", "Ktedonobacteraceae",
-    "Flavobacteriaceae", "Chitinophagaceae", "Bacillaceae", "Clostridiaceae",
-    "Gemmatimonadaceae", "Nitrospiraceae", "Nitrosomonadaceae", "Acidithiobacillaceae"
+    "Rhizobiaceae", "Sphingomonadaceae", "Acetobacteraceae", "Comamonadaceae",
+    "Pseudomonadaceae", "Xanthomonadaceae", "Nitrosomonadaceae", "Acidithiobacillaceae",
+    "Streptomycetaceae", "Micrococcaceae", "Frankiaceae", "Nocardioidaceae",
+    "Solirubrobacteraceae", "Gaiellaceae",
+    "Acidobacteriaceae", "Terriglobaceae", "Blastocatellaceae", "Pyrinomonadaceae",
+    "Vicinamibacteraceae",
+    "Flavobacteriaceae", "Sphingobacteriaceae", "Cytophagaceae", "Chitinophagaceae", "Chitinophagaceae",
+    "Bacillaceae", "Paenibacillaceae", "Lactobacillaceae", "Clostridiaceae", "Lachnospiraceae",
+    "Anaerolineaceae", "Caldilineaceae", "Ktedonobacteraceae", "Thermomicrobiaceae",
+    "Gemmatimonadaceae", "Longimicrobiaceae", "Nitrospiraceae", "Methylomirabilaceae",
+    "Desulfobacteraceae"
   ),
   Genus = c(
-    "Bradyrhizobium", "Cupriavidus", "Streptomyces", "Pseudarthrobacter",
-    "Acidipila", "Blastocatella", "Anaerolinea", "Ktedonobacter",
-    "Flavobacterium", "Terrimonas", "Bacillus", "Clostridium",
-    "Gemmatimonas", "Nitrospira", "Nitrosomonas", "Acidithiobacillus"
+    "Bradyrhizobium", "Sphingomonas", "Acidocella", "Cupriavidus",
+    "Pseudomonas", "Lysobacter", "Nitrosomonas", "Acidithiobacillus",
+    "Streptomyces", "Arthrobacter", "Frankia", "Nocardioides",
+    "Solirubrobacter", "Gaiella",
+    "Acidipila", "Terriglobus", "Blastocatella", "Pyrinomonas",
+    "Vicinamibacter",
+    "Flavobacterium", "Pedobacter", "Cytophaga", "Terrimonas", "Segetibacter",
+    "Bacillus", "Paenibacillus", "Lactobacillus", "Clostridium", "Anaerostipes",
+    "Anaerolinea", "Caldilinea", "Ktedonobacter", "Thermomicrobium",
+    "Gemmatimonas", "Longimicrobium", "Nitrospira", "Methylomirabilis",
+    "Desulfobacter"
   ),
   stringsAsFactors = FALSE
 )
 
-lineage_index <- rep(seq_len(nrow(taxonomy_lineages)), length.out = feature_count)
+features_per_lineage <- 4
+feature_count <- nrow(taxonomy_lineages) * features_per_lineage
+feature_ids <- paste0("ASV", sprintf("%03d", seq_len(feature_count)))
+lineage_index <- rep(seq_len(nrow(taxonomy_lineages)), each = features_per_lineage)
 taxonomy_table <- cbind(
   data.frame(
     feature_id = feature_ids,
@@ -140,10 +175,11 @@ taxonomy_table$taxon_label <- paste0(
 )
 rownames(taxonomy_table) <- NULL
 
-taxon_pattern <- rep(
+lineage_pattern <- rep(
   c("control_enriched", "tailing_enriched", "mining_enriched", "smelting_enriched", "broad", "rare"),
-  length.out = feature_count
+  length.out = nrow(taxonomy_lineages)
 )
+taxon_pattern <- lineage_pattern[lineage_index]
 names(taxon_pattern) <- feature_ids
 
 base_means <- runif(feature_count, min = 55, max = 520)
