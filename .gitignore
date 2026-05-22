@@ -1,0 +1,70 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*.log
+*.tmp
+
+# raw/private data
+raw/
+private/
+original_data/
+data/raw/
+data/private/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# large sequencing / analysis files
+*.fastq
+*.fq
+*.fa
+*.fasta
+*.fna
+*.bam
+*.sam
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# manuscript/private outputs
+manuscript/
+submission/
+真实数据/
+原始数据/
+
+# keep the copied original project private
+_private_original/
+
+# local/session files
+*.Rhistory
+*.RData
+*.Rapp.history
+*.DS_Store
+
+# private raw tables and archives
+*.xlsx
+*.xls
+*.csv
+*.CSV
+*.numbers
+*.rar
+*.zip
+
+# private analysis/session outputs from old project
+*.prism
+*.gephi
+
+# allow public toy/demo data
+!data/toy/*.csv
+!data/toy/*.tsv
+!data/toy/**/
+!data/toy/**/*.csv
+!data/toy/**/*.CSV
+
+# allow public demo figures
+!figures/demo_outputs/
+!figures/demo_outputs/*.pdf
+!figures/demo_outputs/*.png
