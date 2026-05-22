@@ -1,0 +1,17 @@
+"node","node_type","display_label","Phylum","Class","Order","Family","Genus","degree"
+"Flavobacterium","taxon","Flavobacterium","Bacteroidota","Bacteroidia","Flavobacteriales","Flavobacteriaceae","Flavobacterium",9
+"Streptomyces","taxon","Streptomyces","Actinobacteriota","Actinomycetia","Streptomycetales","Streptomycetaceae","Streptomyces",9
+"Bacillus","taxon","Bacillus","Bacillota","Bacilli","Bacillales","Bacillaceae","Bacillus",9
+"Clostridium","taxon","Clostridium","Bacillota","Clostridia","Clostridiales","Clostridiaceae","Clostridium",9
+"Blastocatella","taxon","Blastocatella","Acidobacteriota","Blastocatellia","Blastocatellales","Blastocatellaceae","Blastocatella",6
+"Bradyrhizobium","taxon","Bradyrhizobium","Pseudomonadota","Alphaproteobacteria","Rhizobiales","Rhizobiaceae","Bradyrhizobium",9
+"Ktedonobacter","taxon","Ktedonobacter","Chloroflexi","Ktedonobacteria","Ktedonobacterales","Ktedonobacteraceae","Ktedonobacter",9
+"pH","environment","pH",NA,NA,NA,NA,NA,6
+"EC","environment","EC",NA,NA,NA,NA,NA,6
+"TOC","environment","TOC",NA,NA,NA,NA,NA,6
+"SO4","environment","SO4",NA,NA,NA,NA,NA,7
+"Sb_total","environment","Sb_total",NA,NA,NA,NA,NA,7
+"As","environment","As",NA,NA,NA,NA,NA,7
+"Cu","environment","Cu",NA,NA,NA,NA,NA,7
+"Zn","environment","Zn",NA,NA,NA,NA,NA,7
+"Cd","environment","Cd",NA,NA,NA,NA,NA,7
