@@ -39,18 +39,20 @@ Required columns:
 | `Genus` | Taxonomic genus. |
 | `taxon_label` | Human-readable feature-level label. |
 
-`target_taxonomic_level` in `scripts/run_demo.R` selects which taxonomy column is used for aggregation. The default is `all`, which aggregates `Phylum`, `Class`, `Order`, `Family`, and `Genus` to better match the original LEfSe script.
+`target_taxonomic_level` in `scripts/run_demo.R` selects the LEfSe taxonomy level. The default is `all`, matching the original `microeco::trans_diff$new(taxa_level = "all")` script.
+
+The shared CSV keeps clean taxonomy names without prefixes. The script adds `k__`, `p__`, `c__`, `o__`, `f__`, and `g__` prefixes internally before creating the `microeco::microtable`, because `microeco::plot_diff_cladogram()` expects prefixed taxonomy labels for native cladogram rendering.
 
 ## Output Tables
 
 | Output | Description |
 | --- | --- |
 | `taxon_relative_abundance_by_sample.csv` | Selected taxonomic level by sample relative abundance table. |
-| `lefse_candidate_statistics.csv` | All tested taxa with prevalence, group means, Kruskal-Wallis FDR, Wilcoxon p value, and effect score. |
-| `lefse_biomarker_table.csv` | Filtered biomarkers used for final figures. |
-| `lefse_barplot_plotting_table.csv` | Plot-ready biomarker table for the LEfSe-style barplot. |
-| `kw_abundance_plotting_table.csv` | Plot-ready group mean abundance table for the KW-style abundance plot. |
-| `cladogram_node_table.csv` | Node coordinates, abundance, and enrichment groups for the simplified taxonomic cladogram. |
-| `cladogram_edge_table.csv` | Parent-child edge coordinates for the simplified taxonomic cladogram. |
-| `cladogram_label_table.csv` | Letter annotations used in the cladogram and their corresponding taxa. |
-| `biomarker_group_heatmap_table.csv` | Plot-ready group mean abundance table for the heatmap. |
+| `lefse_candidate_statistics.csv` | Complete `microeco` LEfSe `res_diff` table exported after recalculation. |
+| `lefse_biomarker_table.csv` | Top recalculated biomarkers used for final figures. |
+| `lefse_barplot_plotting_table.csv` | Native `plot_diff_bar()` plotting data. |
+| `kw_abundance_plotting_table.csv` | Native `plot_diff_abund()` plotting data. |
+| `cladogram_node_table.csv` | Native `plot_diff_cladogram()` data exported from the returned plot object. |
+| `cladogram_edge_table.csv` | Parent-child cladogram fields exported from the native plot object where available. |
+| `cladogram_label_table.csv` | Letter annotation fields exported from the native cladogram plot object where available. |
+| `biomarker_group_heatmap_table.csv` | Model-derived group mean abundance table for the auxiliary heatmap. |

@@ -1,97 +1,161 @@
-"taxon","group","relative_abundance","mean_percent"
-"C__Thermoleophilia","Control",0.113987685778718,11.3987685778718
-"C__Thermomicrobia","Control",0.0166686959419998,1.66686959419998
-"C__Vicinamibacteria","Control",0.0841654488834025,8.41654488834025
-"F__Acetobacteraceae","Control",0.0147207988592128,1.47207988592128
-"F__Clostridiaceae","Control",0.0147631263083861,1.47631263083861
-"F__Gaiellaceae","Control",0.0209083815481185,2.09083815481185
-"F__Micrococcaceae","Control",0.0156747696369224,1.56747696369224
-"F__Solirubrobacteraceae","Control",0.0930793042305999,9.30793042305999
-"F__Sphingomonadaceae","Control",0.0186726481562843,1.86726481562843
-"F__Thermomicrobiaceae","Control",0.0166686959419998,1.66686959419998
-"G__Acidocella","Control",0.0147207988592128,1.47207988592128
-"G__Arthrobacter","Control",0.0156747696369224,1.56747696369224
-"G__Clostridium","Control",0.0147631263083861,1.47631263083861
-"G__Gaiella","Control",0.0209083815481185,2.09083815481185
-"G__Solirubrobacter","Control",0.0930793042305999,9.30793042305999
-"G__Sphingomonas","Control",0.0186726481562843,1.86726481562843
-"O__Clostridiales","Control",0.0147631263083861,1.47631263083861
-"O__Gaiellales","Control",0.0209083815481185,2.09083815481185
-"O__Micrococcales","Control",0.0156747696369224,1.56747696369224
-"O__Rhodospirillales","Control",0.0147207988592128,1.47207988592128
-"O__Solirubrobacterales","Control",0.0930793042305999,9.30793042305999
-"O__Sphingomonadales","Control",0.0186726481562843,1.86726481562843
-"O__Thermomicrobiales","Control",0.0166686959419998,1.66686959419998
-"O__Vicinamibacterales","Control",0.0841654488834025,8.41654488834025
-"C__Thermoleophilia","Tailing",0.107330295288805,10.7330295288805
-"C__Thermomicrobia","Tailing",0.0185165194033941,1.85165194033941
-"C__Vicinamibacteria","Tailing",0.0162483853611305,1.62483853611305
-"F__Acetobacteraceae","Tailing",0.0157421881887727,1.57421881887727
-"F__Clostridiaceae","Tailing",0.0168667492786087,1.68667492786087
-"F__Gaiellaceae","Tailing",0.0891090772280127,8.91090772280127
-"F__Micrococcaceae","Tailing",0.0171263054777081,1.71263054777081
-"F__Solirubrobacteraceae","Tailing",0.0182212180607925,1.82212180607925
-"F__Sphingomonadaceae","Tailing",0.0881185014283673,8.81185014283673
-"F__Thermomicrobiaceae","Tailing",0.0185165194033941,1.85165194033941
-"G__Acidocella","Tailing",0.0157421881887727,1.57421881887727
-"G__Arthrobacter","Tailing",0.0171263054777081,1.71263054777081
-"G__Clostridium","Tailing",0.0168667492786087,1.68667492786087
-"G__Gaiella","Tailing",0.0891090772280127,8.91090772280127
-"G__Solirubrobacter","Tailing",0.0182212180607925,1.82212180607925
-"G__Sphingomonas","Tailing",0.0881185014283673,8.81185014283673
-"O__Clostridiales","Tailing",0.0168667492786087,1.68667492786087
-"O__Gaiellales","Tailing",0.0891090772280127,8.91090772280127
-"O__Micrococcales","Tailing",0.0171263054777081,1.71263054777081
-"O__Rhodospirillales","Tailing",0.0157421881887727,1.57421881887727
-"O__Solirubrobacterales","Tailing",0.0182212180607925,1.82212180607925
-"O__Sphingomonadales","Tailing",0.0881185014283673,8.81185014283673
-"O__Thermomicrobiales","Tailing",0.0185165194033941,1.85165194033941
-"O__Vicinamibacterales","Tailing",0.0162483853611305,1.62483853611305
-"C__Thermoleophilia","Mining",0.033173081658002,3.3173081658002
-"C__Thermomicrobia","Mining",0.0966838888054222,9.66838888054222
-"C__Vicinamibacteria","Mining",0.0149769787746403,1.49769787746403
-"F__Acetobacteraceae","Mining",0.0872035052558501,8.72035052558502
-"F__Clostridiaceae","Mining",0.0253115664518706,2.53115664518706
-"F__Gaiellaceae","Mining",0.0166371016056726,1.66371016056726
-"F__Micrococcaceae","Mining",0.0254624482003249,2.54624482003249
-"F__Solirubrobacteraceae","Mining",0.0165359800523295,1.65359800523295
-"F__Sphingomonadaceae","Mining",0.0152306427048953,1.52306427048953
-"F__Thermomicrobiaceae","Mining",0.0966838888054222,9.66838888054222
-"G__Acidocella","Mining",0.0872035052558501,8.72035052558502
-"G__Arthrobacter","Mining",0.0254624482003249,2.54624482003249
-"G__Clostridium","Mining",0.0253115664518706,2.53115664518706
-"G__Gaiella","Mining",0.0166371016056726,1.66371016056726
-"G__Solirubrobacter","Mining",0.0165359800523295,1.65359800523295
-"G__Sphingomonas","Mining",0.0152306427048953,1.52306427048953
-"O__Clostridiales","Mining",0.0253115664518706,2.53115664518706
-"O__Gaiellales","Mining",0.0166371016056726,1.66371016056726
-"O__Micrococcales","Mining",0.0254624482003249,2.54624482003249
-"O__Rhodospirillales","Mining",0.0872035052558501,8.72035052558502
-"O__Solirubrobacterales","Mining",0.0165359800523295,1.65359800523295
-"O__Sphingomonadales","Mining",0.0152306427048953,1.52306427048953
-"O__Thermomicrobiales","Mining",0.0966838888054222,9.66838888054222
-"O__Vicinamibacterales","Mining",0.0149769787746403,1.49769787746403
-"C__Thermoleophilia","Smelting",0.0293305455769328,2.93305455769328
-"C__Thermomicrobia","Smelting",0.0246563323436964,2.46563323436964
-"C__Vicinamibacteria","Smelting",0.0127842331145926,1.27842331145926
-"F__Acetobacteraceae","Smelting",0.0223869813315405,2.23869813315405
-"F__Clostridiaceae","Smelting",0.0924259982900477,9.24259982900477
-"F__Gaiellaceae","Smelting",0.014785669469496,1.4785669469496
-"F__Micrococcaceae","Smelting",0.0957072282529602,9.57072282529602
-"F__Solirubrobacteraceae","Smelting",0.0145448761074368,1.45448761074368
-"F__Sphingomonadaceae","Smelting",0.0136549575096917,1.36549575096917
-"F__Thermomicrobiaceae","Smelting",0.0246563323436964,2.46563323436964
-"G__Acidocella","Smelting",0.0223869813315405,2.23869813315405
-"G__Arthrobacter","Smelting",0.0957072282529602,9.57072282529602
-"G__Clostridium","Smelting",0.0924259982900477,9.24259982900477
-"G__Gaiella","Smelting",0.014785669469496,1.4785669469496
-"G__Solirubrobacter","Smelting",0.0145448761074368,1.45448761074368
-"G__Sphingomonas","Smelting",0.0136549575096917,1.36549575096917
-"O__Clostridiales","Smelting",0.0924259982900477,9.24259982900477
-"O__Gaiellales","Smelting",0.014785669469496,1.4785669469496
-"O__Micrococcales","Smelting",0.0957072282529602,9.57072282529602
-"O__Rhodospirillales","Smelting",0.0223869813315405,2.23869813315405
-"O__Solirubrobacterales","Smelting",0.0145448761074368,1.45448761074368
-"O__Sphingomonadales","Smelting",0.0136549575096917,1.36549575096917
-"O__Thermomicrobiales","Smelting",0.0246563323436964,2.46563323436964
-"O__Vicinamibacterales","Smelting",0.0127842331145926,1.27842331145926
+"Group","Taxa","N","Mean","SD","SE","Taxa_clean","Mean_percent"
+"Control","k__Bacteria|p__Acidobacteriota",6,0.149042416652046,0.00357200092618017,0.00145826327164839,"Bacteria | Acidobacteriota",14.9042416652046
+"Control","k__Bacteria|p__Bacteroidota",6,0.078196488031649,0.00221041293345295,0.000902397301301381,"Bacteria | Bacteroidota",7.8196488031649
+"Control","k__Bacteria|p__Gemmatimonadota",6,0.0333856362063495,0.000316577856929398,0.00012924236889014,"Bacteria | Gemmatimonadota",3.33856362063495
+"Control","k__Bacteria|p__Methylomirabilota",6,0.103426405949083,0.00374655042462236,0.00152952280598874,"Bacteria | Methylomirabilota",10.3426405949083
+"Control","k__Bacteria|p__Actinobacteriota|c__Actinomycetia",6,0.0642477495207386,0.00356135262082064,0.00145391611918902,"Bacteria | Actinobacteriota | Actinomycetia",6.42477495207386
+"Control","k__Bacteria|p__Bacteroidota|c__Bacteroidia",6,0.0454078931785897,0.00128589938262991,0.000524966224667198,"Bacteria | Bacteroidota | Bacteroidia",4.54078931785897
+"Control","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia",6,0.113987685778718,0.00756544477561335,0.00308857989624291,"Bacteria | Actinobacteriota | Thermoleophilia",11.3987685778718
+"Control","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae",6,0.0285568355284078,0.00168412217239077,0.00068753999781082,"Bacteria | Acidobacteriota | Acidobacteriae",2.85568355284078
+"Control","k__Bacteria|p__Bacillota|c__Clostridia",6,0.0452421008262844,0.00211667452773411,0.000864128757415856,"Bacteria | Bacillota | Clostridia",4.52421008262844
+"Control","k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria",6,0.0369169314623023,0.000925474781041164,0.000377823497227473,"Bacteria | Pseudomonadota | Gammaproteobacteria",3.69169314623023
+"Control","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes",6,0.0333856362063495,0.000316577856929402,0.000129242368890142,"Bacteria | Gemmatimonadota | Gemmatimonadetes",3.33856362063495
+"Control","k__Bacteria|p__Chloroflexi|c__Thermomicrobia",6,0.0166686959419998,0.000572060518514065,0.000233542728725238,"Bacteria | Chloroflexi | Thermomicrobia",1.66686959419998
+"Control","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia",6,0.103426405949083,0.00374655042462236,0.00152952280598874,"Bacteria | Methylomirabilota | Methylomirabilia",10.3426405949083
+"Control","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales",6,0.0285568355284078,0.00168412217239077,0.00068753999781082,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales",2.85568355284078
+"Control","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales",6,0.0231978994807306,0.000851152712047065,0.000347481639616895,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales",2.31978994807306
+"Control","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales",6,0.0166686959419998,0.000572060518514065,0.000233542728725238,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales",1.66686959419998
+"Control","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales",6,0.103426405949083,0.00374655042462236,0.00152952280598874,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales",10.3426405949083
+"Control","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales",6,0.0156747696369224,0.000888073583050251,0.000362554522086383,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales",1.56747696369224
+"Control","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales",6,0.0149387264100511,0.000549343099582938,0.000224268381282854,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales",1.49387264100511
+"Control","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales",6,0.0147631263083861,0.000976859481718179,0.000398801213434862,"Bacteria | Bacillota | Clostridia | Clostridiales",1.47631263083861
+"Control","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales",6,0.0930793042305999,0.00706005267134846,0.00288225443366284,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales",9.30793042305999
+"Control","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales",6,0.0186726481562843,0.00103116268346298,0.000420970402713891,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales",1.86726481562843
+"Control","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae",6,0.0182510015820876,0.00114566121119342,0.000467714230920474,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae",1.82510015820876
+"Control","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae",6,0.0231978994807306,0.000851152712047063,0.000347481639616894,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae",2.31978994807306
+"Control","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae",6,0.0166686959419998,0.000572060518514065,0.000233542728725238,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae",1.66686959419998
+"Control","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae",6,0.103426405949083,0.00374655042462236,0.00152952280598874,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae",10.3426405949083
+"Control","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae",6,0.0156747696369224,0.000888073583050251,0.000362554522086383,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae",1.56747696369224
+"Control","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae",6,0.0149387264100511,0.000549343099582938,0.000224268381282854,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae",1.49387264100511
+"Control","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae",6,0.0147631263083861,0.000976859481718179,0.000398801213434862,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae",1.47631263083861
+"Control","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae",6,0.0930793042305999,0.00706005267134847,0.00288225443366284,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae",9.30793042306
+"Control","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae",6,0.0186726481562843,0.00103116268346298,0.000420970402713891,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae",1.86726481562843
+"Control","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae|g__Acidipila",6,0.0182510015820876,0.00114566121119342,0.000467714230920474,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae | Acidipila",1.82510015820876
+"Control","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium",6,0.0231978994807306,0.000851152712047062,0.000347481639616894,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae | Flavobacterium",2.31978994807306
+"Control","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae|g__Thermomicrobium",6,0.0166686959419998,0.000572060518514065,0.000233542728725238,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae | Thermomicrobium",1.66686959419998
+"Control","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae|g__Methylomirabilis",6,0.103426405949083,0.00374655042462236,0.00152952280598874,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae | Methylomirabilis",10.3426405949083
+"Control","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae|g__Arthrobacter",6,0.0156747696369224,0.000888073583050251,0.000362554522086382,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae | Arthrobacter",1.56747696369224
+"Control","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae|g__Gemmatimonas",6,0.0149387264100511,0.00054934309958294,0.000224268381282855,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae | Gemmatimonas",1.49387264100511
+"Control","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium",6,0.0147631263083861,0.00097685948171818,0.000398801213434862,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae | Clostridium",1.47631263083861
+"Control","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae|g__Solirubrobacter",6,0.0930793042305999,0.00706005267134847,0.00288225443366284,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae | Solirubrobacter",9.30793042305999
+"Control","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas",6,0.0186726481562843,0.00103116268346298,0.000420970402713892,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae | Sphingomonas",1.86726481562843
+"Tailing","k__Bacteria|p__Acidobacteriota",6,0.088037883414374,0.00227627804766762,0.000929286621580724,"Bacteria | Acidobacteriota",8.8037883414374
+"Tailing","k__Bacteria|p__Bacteroidota",6,0.158764340045025,0.00309402916555874,0.00126313211748469,"Bacteria | Bacteroidota",15.8764340045025
+"Tailing","k__Bacteria|p__Gemmatimonadota",6,0.0368435758158943,0.00201843389285979,0.00082402218617433,"Bacteria | Gemmatimonadota",3.68435758158943
+"Tailing","k__Bacteria|p__Methylomirabilota",6,0.0188917638420843,0.00089972160199962,0.000367309805909753,"Bacteria | Methylomirabilota",1.88917638420843
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Actinomycetia",6,0.0695599980508021,0.00300963322025153,0.00122867761709094,"Bacteria | Actinobacteriota | Actinomycetia",6.95599980508021
+"Tailing","k__Bacteria|p__Bacteroidota|c__Bacteroidia",6,0.123514611937918,0.00284821547855865,0.00116277909999428,"Bacteria | Bacteroidota | Bacteroidia",12.3514611937918
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia",6,0.107330295288805,0.00598221952886342,0.00244223089583803,"Bacteria | Actinobacteriota | Thermoleophilia",10.7330295288805
+"Tailing","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae",6,0.0307504575875795,0.00131149392309904,0.000535415152058928,"Bacteria | Acidobacteriota | Acidobacteriae",3.07504575875795
+"Tailing","k__Bacteria|p__Bacillota|c__Clostridia",6,0.0514716440514856,0.00253202196118184,0.00103369363706944,"Bacteria | Bacillota | Clostridia",5.14716440514856
+"Tailing","k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria",6,0.0421604873593364,0.00199707311702784,0.000815301685957955,"Bacteria | Pseudomonadota | Gammaproteobacteria",4.21604873593364
+"Tailing","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes",6,0.0368435758158943,0.00201843389285979,0.000824022186174329,"Bacteria | Gemmatimonadota | Gemmatimonadetes",3.68435758158943
+"Tailing","k__Bacteria|p__Chloroflexi|c__Thermomicrobia",6,0.0185165194033941,0.00171778912151183,0.000701284472234626,"Bacteria | Chloroflexi | Thermomicrobia",1.85165194033941
+"Tailing","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia",6,0.0188917638420843,0.00089972160199962,0.000367309805909753,"Bacteria | Methylomirabilota | Methylomirabilia",1.88917638420843
+"Tailing","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales",6,0.0307504575875795,0.00131149392309905,0.000535415152058931,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales",3.07504575875795
+"Tailing","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales",6,0.0996078849491121,0.00267903782724053,0.00109371261305897,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales",9.96078849491121
+"Tailing","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales",6,0.0185165194033941,0.00171778912151183,0.000701284472234626,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales",1.85165194033941
+"Tailing","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales",6,0.0188917638420843,0.000899721601999618,0.000367309805909752,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales",1.88917638420843
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales",6,0.0171263054777081,0.00103790090982525,0.000423721272107048,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales",1.71263054777081
+"Tailing","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales",6,0.0156621584684946,0.00104543703329038,0.000426797881628411,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales",1.56621584684946
+"Tailing","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales",6,0.0168667492786087,0.00117301397225909,0.000478880948865,"Bacteria | Bacillota | Clostridia | Clostridiales",1.68667492786087
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales",6,0.0182212180607925,0.00111270215848002,0.000454258753994921,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales",1.82212180607925
+"Tailing","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales",6,0.0881185014283673,0.00326471249471366,0.00133281329482286,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales",8.81185014283673
+"Tailing","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae",6,0.0191274812037183,0.000890152721822669,0.000363403326935859,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae",1.91274812037183
+"Tailing","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae",6,0.0996078849491121,0.00267903782724054,0.00109371261305897,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae",9.96078849491121
+"Tailing","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae",6,0.0185165194033941,0.00171778912151183,0.000701284472234626,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae",1.85165194033941
+"Tailing","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae",6,0.0188917638420843,0.00089972160199962,0.000367309805909753,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae",1.88917638420843
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae",6,0.0171263054777081,0.00103790090982525,0.000423721272107047,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae",1.71263054777081
+"Tailing","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae",6,0.0156621584684946,0.00104543703329038,0.000426797881628411,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae",1.56621584684946
+"Tailing","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae",6,0.0168667492786087,0.0011730139722591,0.000478880948865001,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae",1.68667492786087
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae",6,0.0182212180607925,0.00111270215848003,0.000454258753994921,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae",1.82212180607925
+"Tailing","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae",6,0.0881185014283673,0.00326471249471365,0.00133281329482286,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae",8.81185014283673
+"Tailing","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae|g__Acidipila",6,0.0191274812037183,0.000890152721822669,0.000363403326935859,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae | Acidipila",1.91274812037183
+"Tailing","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium",6,0.0996078849491121,0.00267903782724053,0.00109371261305897,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae | Flavobacterium",9.96078849491121
+"Tailing","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae|g__Thermomicrobium",6,0.0185165194033941,0.00171778912151183,0.000701284472234626,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae | Thermomicrobium",1.85165194033941
+"Tailing","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae|g__Methylomirabilis",6,0.0188917638420843,0.000899721601999619,0.000367309805909753,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae | Methylomirabilis",1.88917638420843
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae|g__Arthrobacter",6,0.0171263054777081,0.00103790090982525,0.000423721272107048,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae | Arthrobacter",1.71263054777081
+"Tailing","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae|g__Gemmatimonas",6,0.0156621584684946,0.00104543703329038,0.000426797881628411,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae | Gemmatimonas",1.56621584684946
+"Tailing","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium",6,0.0168667492786087,0.0011730139722591,0.000478880948865001,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae | Clostridium",1.68667492786087
+"Tailing","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae|g__Solirubrobacter",6,0.0182212180607925,0.00111270215848003,0.000454258753994921,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae | Solirubrobacter",1.82212180607925
+"Tailing","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas",6,0.0881185014283673,0.00326471249471365,0.00133281329482286,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae | Sphingomonas",8.81185014283673
+"Mining","k__Bacteria|p__Acidobacteriota",6,0.181911425181323,0.00619121918037187,0.00252755464627389,"Bacteria | Acidobacteriota",18.1911425181323
+"Mining","k__Bacteria|p__Bacteroidota",6,0.12341910430274,0.00372000050906505,0.00151868384835051,"Bacteria | Bacteroidota",12.341910430274
+"Mining","k__Bacteria|p__Gemmatimonadota",6,0.0429506783579351,0.00150692604065396,0.000615199979952458,"Bacteria | Gemmatimonadota",4.29506783579351
+"Mining","k__Bacteria|p__Methylomirabilota",6,0.0175113632603603,0.00126429025030722,0.000516144333338051,"Bacteria | Methylomirabilota",1.75113632603603
+"Mining","k__Bacteria|p__Actinobacteriota|c__Actinomycetia",6,0.1344385811481,0.00275214191514126,0.00112355723197036,"Bacteria | Actinobacteriota | Actinomycetia",13.44385811481
+"Mining","k__Bacteria|p__Bacteroidota|c__Bacteroidia",6,0.0911208268734397,0.00255613350056318,0.00104353713180233,"Bacteria | Bacteroidota | Bacteroidia",9.11208268734397
+"Mining","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia",6,0.033173081658002,0.00134456216330591,0.000548915204592033,"Bacteria | Actinobacteriota | Thermoleophilia",3.3173081658002
+"Mining","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae",6,0.128761332589774,0.00815117599438631,0.00332770366497829,"Bacteria | Acidobacteriota | Acidobacteriae",12.8761332589774
+"Mining","k__Bacteria|p__Bacillota|c__Clostridia",6,0.0587542838169899,0.00180686200940348,0.000737648326443072,"Bacteria | Bacillota | Clostridia",5.87542838169899
+"Mining","k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria",6,0.0495071537908117,0.0023902100875512,0.000975799182092256,"Bacteria | Pseudomonadota | Gammaproteobacteria",4.95071537908117
+"Mining","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes",6,0.0429506783579351,0.00150692604065397,0.000615199979952462,"Bacteria | Gemmatimonadota | Gemmatimonadetes",4.29506783579351
+"Mining","k__Bacteria|p__Chloroflexi|c__Thermomicrobia",6,0.0966838888054222,0.00361357395896489,0.00147523539121215,"Bacteria | Chloroflexi | Thermomicrobia",9.66838888054222
+"Mining","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia",6,0.0175113632603603,0.00126429025030722,0.00051614433333805,"Bacteria | Methylomirabilota | Methylomirabilia",1.75113632603603
+"Mining","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales",6,0.128761332589774,0.00815117599438631,0.00332770366497829,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales",12.8761332589774
+"Mining","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales",6,0.0176521501035431,0.00150077187514621,0.000612687552404686,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales",1.76521501035431
+"Mining","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales",6,0.0966838888054222,0.0036135739589649,0.00147523539121215,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales",9.66838888054222
+"Mining","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales",6,0.0175113632603603,0.00126429025030722,0.00051614433333805,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales",1.75113632603603
+"Mining","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales",6,0.0254624482003249,0.00117920448448806,0.00048140821489957,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales",2.54624482003249
+"Mining","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales",6,0.024645952924512,0.00150506557262359,0.000614440447059596,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales",2.4645952924512
+"Mining","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales",6,0.0253115664518706,0.000624158770702422,0.00025481175111729,"Bacteria | Bacillota | Clostridia | Clostridiales",2.53115664518706
+"Mining","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales",6,0.0165359800523295,0.000691620178524753,0.000282352755533042,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales",1.65359800523295
+"Mining","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales",6,0.0152306427048953,0.00117270323139253,0.000478754089437448,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales",1.52306427048953
+"Mining","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae",6,0.111278810494791,0.00887668645254456,0.00362389206923505,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae",11.1278810494791
+"Mining","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae",6,0.0176521501035431,0.00150077187514621,0.000612687552404686,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae",1.76521501035431
+"Mining","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae",6,0.0966838888054222,0.0036135739589649,0.00147523539121215,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae",9.66838888054222
+"Mining","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae",6,0.0175113632603603,0.00126429025030722,0.00051614433333805,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae",1.75113632603603
+"Mining","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae",6,0.0254624482003249,0.00117920448448806,0.000481408214899571,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae",2.54624482003249
+"Mining","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae",6,0.024645952924512,0.00150506557262359,0.000614440447059596,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae",2.4645952924512
+"Mining","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae",6,0.0253115664518706,0.000624158770702423,0.000254811751117291,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae",2.53115664518706
+"Mining","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae",6,0.0165359800523295,0.000691620178524753,0.000282352755533042,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae",1.65359800523295
+"Mining","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae",6,0.0152306427048953,0.00117270323139253,0.000478754089437448,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae",1.52306427048953
+"Mining","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae|g__Acidipila",6,0.111278810494791,0.00887668645254457,0.00362389206923505,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae | Acidipila",11.1278810494791
+"Mining","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium",6,0.0176521501035431,0.00150077187514621,0.000612687552404685,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae | Flavobacterium",1.76521501035431
+"Mining","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae|g__Thermomicrobium",6,0.0966838888054222,0.0036135739589649,0.00147523539121215,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae | Thermomicrobium",9.66838888054222
+"Mining","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae|g__Methylomirabilis",6,0.0175113632603603,0.00126429025030722,0.000516144333338051,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae | Methylomirabilis",1.75113632603603
+"Mining","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae|g__Arthrobacter",6,0.0254624482003249,0.00117920448448806,0.00048140821489957,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae | Arthrobacter",2.54624482003249
+"Mining","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae|g__Gemmatimonas",6,0.024645952924512,0.00150506557262359,0.000614440447059597,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae | Gemmatimonas",2.4645952924512
+"Mining","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium",6,0.0253115664518706,0.000624158770702422,0.00025481175111729,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae | Clostridium",2.53115664518706
+"Mining","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae|g__Solirubrobacter",6,0.0165359800523295,0.000691620178524753,0.000282352755533042,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae | Solirubrobacter",1.65359800523295
+"Mining","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas",6,0.0152306427048953,0.00117270323139253,0.000478754089437448,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae | Sphingomonas",1.52306427048953
+"Smelting","k__Bacteria|p__Acidobacteriota",6,0.145756222946112,0.0057125248570843,0.00233212850713699,"Bacteria | Acidobacteriota",14.5756222946112
+"Smelting","k__Bacteria|p__Bacteroidota",6,0.142653908340418,0.00397944947122274,0.00162460344361401,"Bacteria | Bacteroidota",14.2653908340418
+"Smelting","k__Bacteria|p__Gemmatimonadota",6,0.113132438322175,0.00589207637432742,0.00240543010710169,"Bacteria | Gemmatimonadota",11.3132438322175
+"Smelting","k__Bacteria|p__Methylomirabilota",6,0.0158656492035594,0.00110238443601826,0.000450046561438425,"Bacteria | Methylomirabilota",1.58656492035594
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Actinomycetia",6,0.148381008162018,0.00318674108578664,0.00130098160042335,"Bacteria | Actinobacteriota | Actinomycetia",14.8381008162018
+"Smelting","k__Bacteria|p__Bacteroidota|c__Bacteroidia",6,0.109161913622643,0.00332129536631069,0.00135591315542189,"Bacteria | Bacteroidota | Bacteroidia",10.9161913622643
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia",6,0.0293305455769328,0.0012218316862157,0.000498810697132138,"Bacteria | Actinobacteriota | Thermoleophilia",2.93305455769328
+"Smelting","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae",6,0.094282291222982,0.00408088786919382,0.00166601549617309,"Bacteria | Acidobacteriota | Acidobacteriae",9.4282291222982
+"Smelting","k__Bacteria|p__Bacillota|c__Clostridia",6,0.12607490778145,0.00330800238048374,0.00135048631668288,"Bacteria | Bacillota | Clostridia",12.607490778145
+"Smelting","k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria",6,0.115284986003919,0.00475103078172855,0.00193960019458187,"Bacteria | Pseudomonadota | Gammaproteobacteria",11.5284986003919
+"Smelting","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes",6,0.113132438322175,0.00589207637432742,0.00240543010710168,"Bacteria | Gemmatimonadota | Gemmatimonadetes",11.3132438322175
+"Smelting","k__Bacteria|p__Chloroflexi|c__Thermomicrobia",6,0.0246563323436964,0.00130520738744998,0.000532848684627261,"Bacteria | Chloroflexi | Thermomicrobia",2.46563323436964
+"Smelting","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia",6,0.0158656492035594,0.00110238443601826,0.000450046561438426,"Bacteria | Methylomirabilota | Methylomirabilia",1.58656492035594
+"Smelting","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales",6,0.094282291222982,0.00408088786919382,0.00166601549617309,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales",9.4282291222982
+"Smelting","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales",6,0.016719036596595,0.00124763320067099,0.00050934412129989,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales",1.6719036596595
+"Smelting","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales",6,0.0246563323436964,0.00130520738744999,0.000532848684627262,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales",2.46563323436964
+"Smelting","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales",6,0.0158656492035594,0.00110238443601826,0.000450046561438426,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales",1.58656492035594
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales",6,0.0957072282529602,0.00392287543732378,0.00160150719099011,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales",9.57072282529602
+"Smelting","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales",6,0.09466830888075,0.00513010066822017,0.0020943548277084,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales",9.466830888075
+"Smelting","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales",6,0.0924259982900477,0.00465903944860403,0.0019020448900963,"Bacteria | Bacillota | Clostridia | Clostridiales",9.24259982900477
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales",6,0.0145448761074368,0.000898059700417712,0.00036663133743002,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales",1.45448761074368
+"Smelting","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales",6,0.0136549575096917,0.00124697547673945,0.000509075606629242,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales",1.36549575096917
+"Smelting","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae",6,0.0266521878916116,0.00196792266923752,0.0008034010654813,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae",2.66521878916116
+"Smelting","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae",6,0.016719036596595,0.00124763320067099,0.00050934412129989,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae",1.6719036596595
+"Smelting","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae",6,0.0246563323436964,0.00130520738744999,0.000532848684627262,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae",2.46563323436964
+"Smelting","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae",6,0.0158656492035594,0.00110238443601826,0.000450046561438426,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae",1.58656492035594
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae",6,0.0957072282529602,0.00392287543732377,0.00160150719099011,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae",9.57072282529602
+"Smelting","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae",6,0.09466830888075,0.00513010066822017,0.0020943548277084,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae",9.466830888075
+"Smelting","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae",6,0.0924259982900477,0.00465903944860404,0.0019020448900963,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae",9.24259982900477
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae",6,0.0145448761074368,0.000898059700417712,0.00036663133743002,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae",1.45448761074368
+"Smelting","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae",6,0.0136549575096917,0.00124697547673945,0.000509075606629241,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae",1.36549575096917
+"Smelting","k__Bacteria|p__Acidobacteriota|c__Acidobacteriae|o__Acidobacteriales|f__Acidobacteriaceae|g__Acidipila",6,0.0266521878916116,0.00196792266923752,0.0008034010654813,"Bacteria | Acidobacteriota | Acidobacteriae | Acidobacteriales | Acidobacteriaceae | Acidipila",2.66521878916116
+"Smelting","k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium",6,0.016719036596595,0.00124763320067099,0.000509344121299891,"Bacteria | Bacteroidota | Bacteroidia | Flavobacteriales | Flavobacteriaceae | Flavobacterium",1.6719036596595
+"Smelting","k__Bacteria|p__Chloroflexi|c__Thermomicrobia|o__Thermomicrobiales|f__Thermomicrobiaceae|g__Thermomicrobium",6,0.0246563323436964,0.00130520738744999,0.000532848684627262,"Bacteria | Chloroflexi | Thermomicrobia | Thermomicrobiales | Thermomicrobiaceae | Thermomicrobium",2.46563323436964
+"Smelting","k__Bacteria|p__Methylomirabilota|c__Methylomirabilia|o__Methylomirabilales|f__Methylomirabilaceae|g__Methylomirabilis",6,0.0158656492035594,0.00110238443601826,0.000450046561438426,"Bacteria | Methylomirabilota | Methylomirabilia | Methylomirabilales | Methylomirabilaceae | Methylomirabilis",1.58656492035594
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Actinomycetia|o__Micrococcales|f__Micrococcaceae|g__Arthrobacter",6,0.0957072282529602,0.00392287543732377,0.00160150719099011,"Bacteria | Actinobacteriota | Actinomycetia | Micrococcales | Micrococcaceae | Arthrobacter",9.57072282529602
+"Smelting","k__Bacteria|p__Gemmatimonadota|c__Gemmatimonadetes|o__Gemmatimonadales|f__Gemmatimonadaceae|g__Gemmatimonas",6,0.09466830888075,0.00513010066822017,0.0020943548277084,"Bacteria | Gemmatimonadota | Gemmatimonadetes | Gemmatimonadales | Gemmatimonadaceae | Gemmatimonas",9.466830888075
+"Smelting","k__Bacteria|p__Bacillota|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium",6,0.0924259982900477,0.00465903944860404,0.0019020448900963,"Bacteria | Bacillota | Clostridia | Clostridiales | Clostridiaceae | Clostridium",9.24259982900477
+"Smelting","k__Bacteria|p__Actinobacteriota|c__Thermoleophilia|o__Solirubrobacterales|f__Solirubrobacteraceae|g__Solirubrobacter",6,0.0145448761074368,0.000898059700417712,0.00036663133743002,"Bacteria | Actinobacteriota | Thermoleophilia | Solirubrobacterales | Solirubrobacteraceae | Solirubrobacter",1.45448761074368
+"Smelting","k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas",6,0.0136549575096917,0.00124697547673945,0.000509075606629241,"Bacteria | Pseudomonadota | Alphaproteobacteria | Sphingomonadales | Sphingomonadaceae | Sphingomonas",1.36549575096917

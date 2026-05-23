@@ -1,141 +1,142 @@
-"taxon","node_key","rank","taxon_name","parent_key","depth","radius","angle","x","y","overall_mean_abundance","overall_mean_percent","enriched_group","lefse_like_score","plot_group"
-"C__Vicinamibacteria","Class|Vicinamibacteria","Class","Vicinamibacteria","Phylum|Acidobacteriota",2,2,0.909408399723361,1.22842542537934,1.57828101879279,0.0320437615334415,3.20437615334415,"Control",0.758683261008205,"Control"
-"C__Thermoleophilia","Class|Thermoleophilia","Class","Thermoleophilia","Phylum|Actinobacteriota",2,2,0,2,0,0.0709554020756146,7.09554020756146,"Control",0.303950889518169,"Control"
-"C__Thermomicrobia","Class|Thermomicrobia","Class","Thermomicrobia","Phylum|Chloroflexi",2,2,-2.39753123563432,-1.47144782134626,-1.35456314325148,0.0391313591236281,3.91313591236281,"Mining",0.685455267926896,"Mining"
-"O__Vicinamibacterales","Order|Vicinamibacterales","Order","Vicinamibacterales","Class|Vicinamibacteria",3,3,0.909408399723361,1.842638138069,2.36742152818918,0.0320437615334415,3.20437615334415,"Control",0.758683261008205,"Control"
-"O__Micrococcales","Order|Micrococcales","Order","Micrococcales","Class|Actinomycetia",3,3,0.578714436187594,2.51149943478759,1.64084447436728,0.0384926878919789,3.84926878919789,"Smelting",0.692651426285076,"Smelting"
-"O__Gaiellales","Order|Gaiellales","Order","Gaiellales","Class|Thermoleophilia",3,3,0.0826734908839419,2.98975347902001,0.247738036416997,0.0353600574628249,3.53600574628249,"Tailing",0.708262878159876,"Tailing"
-"O__Solirubrobacterales","Order|Solirubrobacterales","Order","Solirubrobacterales","Class|Thermoleophilia",3,3,-0.0826734908839419,2.98975347902001,-0.247738036416997,0.0355953446127897,3.55953446127897,"Control",0.753087431921467,"Control"
-"O__Clostridiales","Order|Clostridiales","Order","Clostridiales","Class|Clostridia",3,3,-0.744061417955477,2.2071717320194,-2.03184471487722,0.0373418600822283,3.73418600822283,"Smelting",0.687468761657213,"Smelting"
-"O__Thermomicrobiales","Order|Thermomicrobiales","Order","Thermomicrobiales","Class|Thermomicrobia",3,3,-2.39753123563432,-2.20717173201939,-2.03184471487722,0.0391313591236281,3.91313591236281,"Mining",0.685455267926896,"Mining"
-"O__Rhodospirillales","Order|Rhodospirillales","Order","Rhodospirillales","Class|Alphaproteobacteria",3,3,-3.72030708977739,-2.51149943478759,1.64084447436728,0.035013368408844,3.5013368408844,"Mining",0.694590793639811,"Mining"
-"O__Sphingomonadales","Order|Sphingomonadales","Order","Sphingomonadales","Class|Alphaproteobacteria",3,3,-3.88565407154527,-2.2071717320194,2.03184471487722,0.0339191874498097,3.39191874498097,"Tailing",0.744940040704455,"Tailing"
-"F__Micrococcaceae","Family|Micrococcaceae","Family","Micrococcaceae","Order|Micrococcales",4,4,0.578714436187594,3.34866591305011,2.18779263248971,0.0384926878919789,3.84926878919789,"Smelting",0.692651426285076,"Smelting"
-"F__Gaiellaceae","Family|Gaiellaceae","Family","Gaiellaceae","Order|Gaiellales",4,4,0.0826734908839419,3.98633797202668,0.330317381889329,0.0353600574628249,3.53600574628249,"Tailing",0.708262878159876,"Tailing"
-"F__Solirubrobacteraceae","Family|Solirubrobacteraceae","Family","Solirubrobacteraceae","Order|Solirubrobacterales",4,4,-0.0826734908839419,3.98633797202668,-0.330317381889329,0.0355953446127897,3.55953446127897,"Control",0.753087431921467,"Control"
-"F__Clostridiaceae","Family|Clostridiaceae","Family","Clostridiaceae","Order|Clostridiales",4,4,-0.744061417955477,2.94289564269253,-2.70912628650296,0.0373418600822283,3.73418600822283,"Smelting",0.687468761657213,"Smelting"
-"F__Thermomicrobiaceae","Family|Thermomicrobiaceae","Family","Thermomicrobiaceae","Order|Thermomicrobiales",4,4,-2.39753123563432,-2.94289564269253,-2.70912628650297,0.0391313591236281,3.91313591236281,"Mining",0.685455267926896,"Mining"
-"F__Acetobacteraceae","Family|Acetobacteraceae","Family","Acetobacteraceae","Order|Rhodospirillales",4,4,-3.72030708977739,-3.34866591305012,2.18779263248971,0.035013368408844,3.5013368408844,"Mining",0.694590793639811,"Mining"
-"F__Sphingomonadaceae","Family|Sphingomonadaceae","Family","Sphingomonadaceae","Order|Sphingomonadales",4,4,-3.88565407154527,-2.94289564269253,2.70912628650296,0.0339191874498097,3.39191874498097,"Tailing",0.744940040704455,"Tailing"
-"G__Arthrobacter","Genus|Arthrobacter","Genus","Arthrobacter","Family|Micrococcaceae",5,5,0.578714436187594,4.18583239131264,2.73474079061213,0.0384926878919789,3.84926878919789,"Smelting",0.692651426285076,"Smelting"
-"G__Gaiella","Genus|Gaiella","Genus","Gaiella","Family|Gaiellaceae",5,5,0.0826734908839419,4.98292246503335,0.412896727361662,0.0353600574628249,3.53600574628249,"Tailing",0.708262878159876,"Tailing"
-"G__Solirubrobacter","Genus|Solirubrobacter","Genus","Solirubrobacter","Family|Solirubrobacteraceae",5,5,-0.0826734908839419,4.98292246503335,-0.412896727361662,0.0355953446127897,3.55953446127897,"Control",0.753087431921467,"Control"
-"G__Clostridium","Genus|Clostridium","Genus","Clostridium","Family|Clostridiaceae",5,5,-0.744061417955477,3.67861955336566,-3.3864078581287,0.0373418600822283,3.73418600822283,"Smelting",0.687468761657213,"Smelting"
-"G__Acidocella","Genus|Acidocella","Genus","Acidocella","Family|Acetobacteraceae",5,5,-3.72030708977739,-4.18583239131264,2.73474079061213,0.035013368408844,3.5013368408844,"Mining",0.694590793639811,"Mining"
-"G__Sphingomonas","Genus|Sphingomonas","Genus","Sphingomonas","Family|Sphingomonadaceae",5,5,-3.88565407154527,-3.67861955336566,3.3864078581287,0.0339191874498097,3.39191874498097,"Tailing",0.744940040704455,"Tailing"
-"P__Acidobacteriota","Phylum|Acidobacteriota","Phylum","Acidobacteriota","Kingdom|Bacteria",1,1,1.24010236325913,0.324699469204684,0.945817241700635,0.141186987048464,14.1186987048464,NA,NA,"Not significant"
-"P__Actinobacteriota","Phylum|Actinobacteriota","Phylum","Actinobacteriota","Kingdom|Bacteria",1,1,0.330693963535768,0.945817241700635,0.324699469204684,0.175112236296029,17.5112236296029,NA,NA,"Not significant"
-"P__Bacillota","Phylum|Bacillota","Phylum","Bacillota","Kingdom|Bacteria",1,1,-0.578714436187593,0.837166478262529,-0.546948158122427,0.132085802218487,13.2085802218487,NA,NA,"Not significant"
-"P__Bacteroidota","Phylum|Bacteroidota","Phylum","Bacteroidota","Kingdom|Bacteria",1,1,-1.40544934502701,0.164594590280734,-0.986361303402722,0.125758460179958,12.5758460179958,NA,NA,"Not significant"
-"P__Chloroflexi","Phylum|Chloroflexi","Phylum","Chloroflexi","Kingdom|Bacteria",1,1,-2.14951076298249,-0.546948158122427,-0.837166478262529,0.10342042137896,10.342042137896,NA,NA,"Not significant"
-"P__Gemmatimonadota","Phylum|Gemmatimonadota","Phylum","Gemmatimonadota","Kingdom|Bacteria",1,1,-2.81089869005403,-0.945817241700635,-0.324699469204684,0.0565780821755886,5.65780821755886,NA,NA,"Not significant"
-"P__Methylomirabilota","Phylum|Methylomirabilota","Phylum","Methylomirabilota","Kingdom|Bacteria",1,1,-3.05891916270585,-0.99658449300667,-0.0825793454723327,0.0389237955637717,3.89237955637717,NA,NA,"Not significant"
-"P__Pseudomonadota","Phylum|Pseudomonadota","Phylum","Pseudomonadota","Kingdom|Bacteria",1,1,-3.96832756242921,-0.677281571625741,0.735723910673131,0.196626030900663,19.6626030900663,NA,NA,"Not significant"
-"C__Acidobacteriae","Class|Acidobacteriae","Class","Acidobacteriae","Phylum|Acidobacteriota",2,2,1.48812283591095,0.165158690944665,1.99316898601334,0.0705877292321859,7.05877292321859,NA,NA,"Not significant"
-"C__Blastocatellia","Class|Blastocatellia","Class","Blastocatellia","Phylum|Acidobacteriota",2,2,1.15742887237519,0.803390849305939,1.83154665331011,0.0385554962828364,3.85554962828364,NA,NA,"Not significant"
-"O__Ktedonobacterales","Order|Ktedonobacterales","Order","Ktedonobacterales","Class|Ktedonobacteria",3,3,-2.23218425386643,-1.842638138069,-2.36742152818918,0,0,NA,NA,"Not significant"
-"C__Actinomycetia","Class|Actinomycetia","Class","Actinomycetia","Phylum|Actinobacteriota",2,2,0.496040945303652,1.75894750241298,0.951894786074147,0.104156834220415,10.4156834220415,NA,NA,"Not significant"
-"F__Cytophagaceae","Family|Cytophagaceae","Family","Cytophagaceae","Order|Cytophagales",4,4,-1.07475538149124,1.90378957214829,-3.51789500482596,0.0320659470720736,3.20659470720736,NA,NA,"Not significant"
-"C__Bacilli","Class|Bacilli","Class","Bacilli","Phylum|Bacillota",2,2,-0.41336745441971,1.83154665331012,-0.803390849305939,0.0617000680994349,6.17000680994349,NA,NA,"Not significant"
-"C__Clostridia","Class|Clostridia","Class","Clostridia","Phylum|Bacillota",2,2,-0.826734908839419,1.35456314325148,-1.47144782134626,0.0703857341190524,7.03857341190524,NA,NA,"Not significant"
-"C__Bacteroidia","Class|Bacteroidia","Class","Bacteroidia","Phylum|Bacteroidota",2,2,-1.24010236325913,0.649398938409367,-1.89163448340127,0.0923013114031477,9.23013114031477,NA,NA,"Not significant"
-"C__Chitinophagia","Class|Chitinophagia","Class","Chitinophagia","Phylum|Bacteroidota",2,2,-1.65346981767884,-0.165158690944665,-1.99316898601334,0.0334571487768103,3.34571487768103,NA,NA,"Not significant"
-"C__Anaerolineae","Class|Anaerolineae","Class","Anaerolineae","Phylum|Chloroflexi",2,2,-1.98416378121461,-0.803390849305939,-1.83154665331011,0.0373791206244677,3.73791206244677,NA,NA,"Not significant"
-"F__Methylomirabilaceae","Family|Methylomirabilaceae","Family","Methylomirabilaceae","Order|Methylomirabilales",4,4,-3.05891916270585,-3.98633797202668,-0.330317381889331,0.0389237955637717,3.89237955637717,NA,NA,"Not significant"
-"C__Gemmatimonadetes","Class|Gemmatimonadetes","Class","Gemmatimonadetes","Phylum|Gemmatimonadota",2,2,-2.81089869005403,-1.89163448340127,-0.649398938409367,0.0565780821755886,5.65780821755886,NA,NA,"Not significant"
-"C__Methylomirabilia","Class|Methylomirabilia","Class","Methylomirabilia","Phylum|Methylomirabilota",2,2,-3.05891916270585,-1.99316898601334,-0.165158690944665,0.0389237955637717,3.89237955637717,NA,NA,"Not significant"
-"C__Alphaproteobacteria","Class|Alphaproteobacteria","Class","Alphaproteobacteria","Phylum|Pseudomonadota",2,2,-3.72030708977739,-1.67433295652506,1.09389631624485,0.0932593926594388,9.32593926594389,NA,NA,"Not significant"
-"C__Gammaproteobacteria","Class|Gammaproteobacteria","Class","Gammaproteobacteria","Phylum|Pseudomonadota",2,2,-4.38169501684892,-0.649398938409367,1.89163448340127,0.0609673896540923,6.09673896540923,NA,NA,"Not significant"
-"O__Acidobacteriales","Order|Acidobacteriales","Order","Acidobacteriales","Class|Acidobacteriae",3,3,1.48812283591095,0.247738036416997,2.98975347902001,0.0705877292321859,7.05877292321859,NA,NA,"Not significant"
-"O__Blastocatellales","Order|Blastocatellales","Order","Blastocatellales","Class|Blastocatellia",3,3,1.24010236325913,0.974098407614051,2.8374517251019,0.0339414986560994,3.39414986560994,NA,NA,"Not significant"
-"G__Frankia","Genus|Frankia","Genus","Frankia","Family|Frankiaceae",5,5,0.744061417955477,3.67861955336566,3.38640785812871,0.0325832028235251,3.25832028235251,NA,NA,"Not significant"
-"O__Frankiales","Order|Frankiales","Order","Frankiales","Class|Actinomycetia",3,3,0.744061417955477,2.20717173201939,2.03184471487722,0.0325832028235251,3.25832028235251,NA,NA,"Not significant"
-"C__Acidithiobacillia","Class|Acidithiobacillia","Class","Acidithiobacillia","Phylum|Pseudomonadota",2,2,-3.38961312624162,-1.93880053187866,0.490970974281598,0,0,NA,NA,"Not significant"
-"F__Pyrinomonadaceae","Family|Pyrinomonadaceae","Family","Pyrinomonadaceae","Order|Pyrinomonadales",4,4,1.07475538149124,1.90378957214829,3.51789500482596,0,0,NA,NA,"Not significant"
-"C__Betaproteobacteria","Class|Betaproteobacteria","Class","Betaproteobacteria","Phylum|Pseudomonadota",2,2,-4.05100105331315,-1.22842542537934,1.57828101879279,0,0,NA,NA,"Not significant"
-"O__Bacillales","Order|Bacillales","Order","Bacillales","Class|Bacilli",3,3,-0.330693963535768,2.8374517251019,-0.97409840761405,0.0337113781109651,3.37113781109651,NA,NA,"Not significant"
-"G__Cytophaga","Genus|Cytophaga","Genus","Cytophaga","Family|Cytophagaceae",5,5,-1.07475538149124,2.37973696518537,-4.39736875603245,0.0320659470720736,3.20659470720736,NA,NA,"Not significant"
-"O__Lachnospirales","Order|Lachnospirales","Order","Lachnospirales","Class|Clostridia",3,3,-0.909408399723361,1.842638138069,-2.36742152818918,0.0330438740368241,3.30438740368241,NA,NA,"Not significant"
-"O__Cytophagales","Order|Cytophagales","Order","Cytophagales","Class|Bacteroidia",3,3,-1.07475538149124,1.42784217911122,-2.63842125361947,0.0320659470720736,3.20659470720736,NA,NA,"Not significant"
-"O__Flavobacteriales","Order|Flavobacteriales","Order","Flavobacteriales","Class|Bacteroidia",3,3,-1.24010236325913,0.974098407614051,-2.8374517251019,0.0392942427824952,3.92942427824952,NA,NA,"Not significant"
-"O__Chitinophagales","Order|Chitinophagales","Order","Chitinophagales","Class|Chitinophagia",3,3,-1.65346981767884,-0.247738036416997,-2.98975347902001,0.0334571487768103,3.34571487768103,NA,NA,"Not significant"
-"O__Anaerolineales","Order|Anaerolineales","Order","Anaerolineales","Class|Anaerolineae",3,3,-1.98416378121461,-1.20508627395891,-2.74731997996517,0.0373791206244677,3.73791206244677,NA,NA,"Not significant"
-"O__Propionibacteriales","Order|Propionibacteriales","Order","Propionibacteriales","Class|Actinomycetia",3,3,0.41336745441971,2.74731997996517,1.20508627395891,0,0,NA,NA,"Not significant"
-"O__Gemmatimonadales","Order|Gemmatimonadales","Order","Gemmatimonadales","Class|Gemmatimonadetes",3,3,-2.72822519917008,-2.74731997996517,-1.20508627395891,0.0374787866709519,3.74787866709519,NA,NA,"Not significant"
-"O__Methylomirabilales","Order|Methylomirabilales","Order","Methylomirabilales","Class|Methylomirabilia",3,3,-3.05891916270585,-2.98975347902001,-0.247738036416998,0.0389237955637717,3.89237955637717,NA,NA,"Not significant"
-"k__Bacteria","Kingdom|Bacteria","Kingdom","Bacteria",NA,0,0,-1.48812283591095,0,0,0,0,NA,NA,"Not significant"
-"G__Segetibacter","Genus|Segetibacter","Genus","Segetibacter","Family|Chitinophagaceae",5,5,-1.5707963267949,3.06161699786838e-16,-5,0,0,NA,NA,"Not significant"
-"O__Burkholderiales","Order|Burkholderiales","Order","Burkholderiales","Class|Gammaproteobacteria",3,3,-4.21634803508104,-1.42784217911122,2.63842125361947,0.0372507738292614,3.72507738292614,NA,NA,"Not significant"
-"F__Acidobacteriaceae","Family|Acidobacteriaceae","Family","Acidobacteriaceae","Order|Acidobacteriales",4,4,1.5707963267949,2.44929359829471e-16,4,0.0438273702930522,4.38273702930522,NA,NA,"Not significant"
-"F__Blastocatellaceae","Family|Blastocatellaceae","Family","Blastocatellaceae","Order|Blastocatellales",4,4,1.24010236325913,1.29879787681873,3.78326896680254,0.0339414986560994,3.39414986560994,NA,NA,"Not significant"
-"F__Vicinamibacteraceae","Family|Vicinamibacteraceae","Family","Vicinamibacteraceae","Order|Vicinamibacterales",4,4,0.909408399723361,2.45685085075867,3.15656203758557,0.0320437615334415,3.20437615334415,NA,NA,"Not significant"
-"F__Frankiaceae","Family|Frankiaceae","Family","Frankiaceae","Order|Frankiales",4,4,0.744061417955477,2.94289564269253,2.70912628650296,0.0325832028235251,3.25832028235251,NA,NA,"Not significant"
-"O__Sphingobacteriales","Order|Sphingobacteriales","Order","Sphingobacteriales","Class|Bacteroidia",3,3,-1.40544934502701,0.493783770842202,-2.95908391020817,0,0,NA,NA,"Not significant"
-"C__Ktedonobacteria","Class|Ktedonobacteria","Class","Ktedonobacteria","Phylum|Chloroflexi",2,2,-2.23218425386643,-1.22842542537934,-1.57828101879279,0,0,NA,NA,"Not significant"
-"P__Nitrospirota","Phylum|Nitrospirota","Phylum","Nitrospirota","Kingdom|Bacteria",1,1,-3.22426614447374,-0.99658449300667,0.0825793454723324,0,0,NA,NA,"Not significant"
-"O__Pseudomonadales","Order|Pseudomonadales","Order","Pseudomonadales","Class|Gammaproteobacteria",3,3,-4.38169501684892,-0.974098407614051,2.8374517251019,0,0,NA,NA,"Not significant"
-"F__Lachnospiraceae","Family|Lachnospiraceae","Family","Lachnospiraceae","Order|Lachnospirales",4,4,-0.909408399723361,2.45685085075867,-3.15656203758557,0.0330438740368241,3.30438740368241,NA,NA,"Not significant"
-"O__Desulfobacterales","Order|Desulfobacterales","Order","Desulfobacterales","Class|Desulfobacteria",3,3,-2.5628782174022,-2.51149943478759,-1.64084447436728,0,0,NA,NA,"Not significant"
-"F__Flavobacteriaceae","Family|Flavobacteriaceae","Family","Flavobacteriaceae","Order|Flavobacteriales",4,4,-1.24010236325913,1.29879787681873,-3.78326896680254,0.0392942427824952,3.92942427824952,NA,NA,"Not significant"
-"F__Chitinophagaceae","Family|Chitinophagaceae","Family","Chitinophagaceae","Order|Chitinophagales",4,4,-1.65346981767884,-0.330317381889329,-3.98633797202668,0.0334571487768103,3.34571487768103,NA,NA,"Not significant"
-"F__Caldilineaceae","Family|Caldilineaceae","Family","Caldilineaceae","Order|Anaerolineales",4,4,-2.06683727209855,-1.90378957214829,-3.51789500482596,0.0340809770001714,3.40809770001714,NA,NA,"Not significant"
-"O__Nitrospirales","Order|Nitrospirales","Order","Nitrospirales","Class|Nitrospiria",3,3,-3.22426614447374,-2.98975347902001,0.247738036416997,0,0,NA,NA,"Not significant"
-"F__Gemmatimonadaceae","Family|Gemmatimonadaceae","Family","Gemmatimonadaceae","Order|Gemmatimonadales",4,4,-2.72822519917008,-3.66309330662023,-1.60678169861188,0.0374787866709519,3.74787866709519,NA,NA,"Not significant"
-"O__Rhizobiales","Order|Rhizobiales","Order","Rhizobiales","Class|Alphaproteobacteria",3,3,-3.5549601080095,-2.74731997996517,1.20508627395891,0,0,NA,NA,"Not significant"
-"G__Lysobacter","Genus|Lysobacter","Genus","Lysobacter","Family|Xanthomonadaceae",5,5,-4.54704199861681,-0.822972951403673,4.93180651701361,0,0,NA,NA,"Not significant"
-"F__Pseudomonadaceae","Family|Pseudomonadaceae","Family","Pseudomonadaceae","Order|Pseudomonadales",4,4,-4.38169501684892,-1.29879787681873,3.78326896680254,0,0,NA,NA,"Not significant"
-"F__Comamonadaceae","Family|Comamonadaceae","Family","Comamonadaceae","Order|Burkholderiales",4,4,-4.21634803508104,-1.9037895721483,3.51789500482595,0.0372507738292614,3.72507738292614,NA,NA,"Not significant"
-"G__Acidipila","Genus|Acidipila","Genus","Acidipila","Family|Acidobacteriaceae",5,5,1.5707963267949,3.06161699786838e-16,5,0.0438273702930522,4.38273702930522,NA,NA,"Not significant"
-"G__Blastocatella","Genus|Blastocatella","Genus","Blastocatella","Family|Blastocatellaceae",5,5,1.24010236325913,1.62349734602342,4.72908620850317,0.0339414986560994,3.39414986560994,NA,NA,"Not significant"
-"G__Vicinamibacter","Genus|Vicinamibacter","Genus","Vicinamibacter","Family|Vicinamibacteraceae",5,5,0.909408399723361,3.07106356344834,3.94570254698197,0.0320437615334415,3.20437615334415,NA,NA,"Not significant"
-"G__Pyrinomonas","Genus|Pyrinomonas","Genus","Pyrinomonas","Family|Pyrinomonadaceae",5,5,1.07475538149124,2.37973696518537,4.39736875603245,0,0,NA,NA,"Not significant"
-"C__Nitrospiria","Class|Nitrospiria","Class","Nitrospiria","Phylum|Nitrospirota",2,2,-3.22426614447374,-1.99316898601334,0.165158690944665,0,0,NA,NA,"Not significant"
-"G__Pedobacter","Genus|Pedobacter","Genus","Pedobacter","Family|Sphingobacteriaceae",5,5,-1.40544934502701,0.82297295140367,-4.93180651701361,0,0,NA,NA,"Not significant"
-"F__Acidithiobacillaceae","Family|Acidithiobacillaceae","Family","Acidithiobacillaceae","Order|Acidithiobacillales",4,4,-3.38961312624162,-3.87760106375732,0.981941948563195,0,0,NA,NA,"Not significant"
-"O__Lactobacillales","Order|Lactobacillales","Order","Lactobacillales","Class|Bacilli",3,3,-0.578714436187593,2.51149943478759,-1.64084447436728,0,0,NA,NA,"Not significant"
-"G__Anaerostipes","Genus|Anaerostipes","Genus","Anaerostipes","Family|Lachnospiraceae",5,5,-0.909408399723361,3.07106356344834,-3.94570254698197,0.0330438740368241,3.30438740368241,NA,NA,"Not significant"
-"O__Nitrosomonadales","Order|Nitrosomonadales","Order","Nitrosomonadales","Class|Betaproteobacteria",3,3,-4.05100105331315,-1.842638138069,2.36742152818918,0,0,NA,NA,"Not significant"
-"G__Flavobacterium","Genus|Flavobacterium","Genus","Flavobacterium","Family|Flavobacteriaceae",5,5,-1.24010236325913,1.62349734602342,-4.72908620850317,0.0392942427824952,3.92942427824952,NA,NA,"Not significant"
-"G__Caldilinea","Genus|Caldilinea","Genus","Caldilinea","Family|Caldilineaceae",5,5,-2.06683727209855,-2.37973696518537,-4.39736875603245,0.0340809770001714,3.40809770001714,NA,NA,"Not significant"
-"G__Thermomicrobium","Genus|Thermomicrobium","Genus","Thermomicrobium","Family|Thermomicrobiaceae",5,5,-2.39753123563432,-3.67861955336566,-3.38640785812871,0.0391313591236281,3.91313591236281,NA,NA,"Not significant"
-"G__Gemmatimonas","Genus|Gemmatimonas","Genus","Gemmatimonas","Family|Gemmatimonadaceae",5,5,-2.72822519917008,-4.57886663327529,-2.00847712326485,0.0374787866709519,3.74787866709519,NA,NA,"Not significant"
-"G__Methylomirabilis","Genus|Methylomirabilis","Genus","Methylomirabilis","Family|Methylomirabilaceae",5,5,-3.05891916270585,-4.98292246503335,-0.412896727361663,0.0389237955637717,3.89237955637717,NA,NA,"Not significant"
-"C__Desulfobacteria","Class|Desulfobacteria","Class","Desulfobacteria","Phylum|Desulfobacterota",2,2,-2.5628782174022,-1.67433295652506,-1.09389631624485,0,0,NA,NA,"Not significant"
-"O__Streptomycetales","Order|Streptomycetales","Order","Streptomycetales","Class|Actinomycetia",3,3,0.248020472651826,2.90820079781799,0.736456461422398,0,0,NA,NA,"Not significant"
-"G__Cupriavidus","Genus|Cupriavidus","Genus","Cupriavidus","Family|Comamonadaceae",5,5,-4.21634803508104,-2.37973696518537,4.39736875603244,0.0372507738292614,3.72507738292614,NA,NA,"Not significant"
-"F__Nitrospiraceae","Family|Nitrospiraceae","Family","Nitrospiraceae","Order|Nitrospirales",4,4,-3.22426614447374,-3.98633797202668,0.33031738188933,0,0,NA,NA,"Not significant"
-"O__Longimicrobiales","Order|Longimicrobiales","Order","Longimicrobiales","Class|Gemmatimonadetes",3,3,-2.89357218093797,-2.90820079781799,-0.736456461422397,0,0,NA,NA,"Not significant"
-"F__Rhizobiaceae","Family|Rhizobiaceae","Family","Rhizobiaceae","Order|Rhizobiales",4,4,-3.5549601080095,-3.66309330662023,1.60678169861188,0,0,NA,NA,"Not significant"
-"F__Sphingobacteriaceae","Family|Sphingobacteriaceae","Family","Sphingobacteriaceae","Order|Sphingobacteriales",4,4,-1.40544934502701,0.658378361122936,-3.94544521361089,0,0,NA,NA,"Not significant"
-"O__Acidithiobacillales","Order|Acidithiobacillales","Order","Acidithiobacillales","Class|Acidithiobacillia",3,3,-3.38961312624162,-2.90820079781799,0.736456461422397,0,0,NA,NA,"Not significant"
-"F__Anaerolineaceae","Family|Anaerolineaceae","Family","Anaerolineaceae","Order|Anaerolineales",4,4,-1.90149029033066,-1.29879787681873,-3.78326896680254,0,0,NA,NA,"Not significant"
-"P__Desulfobacterota","Phylum|Desulfobacterota","Phylum","Desulfobacterota","Kingdom|Bacteria",1,1,-2.5628782174022,-0.837166478262529,-0.546948158122427,0,0,NA,NA,"Not significant"
-"G__Nitrospira","Genus|Nitrospira","Genus","Nitrospira","Family|Nitrospiraceae",5,5,-3.22426614447374,-4.98292246503335,0.412896727361662,0,0,NA,NA,"Not significant"
-"F__Lactobacillaceae","Family|Lactobacillaceae","Family","Lactobacillaceae","Order|Lactobacillales",4,4,-0.578714436187593,3.34866591305011,-2.18779263248971,0,0,NA,NA,"Not significant"
-"F__Desulfobacteraceae","Family|Desulfobacteraceae","Family","Desulfobacteraceae","Order|Desulfobacterales",4,4,-2.5628782174022,-3.34866591305011,-2.18779263248971,0,0,NA,NA,"Not significant"
-"F__Bacillaceae","Family|Bacillaceae","Family","Bacillaceae","Order|Bacillales",4,4,-0.248020472651826,3.87760106375732,-0.981941948563197,0,0,NA,NA,"Not significant"
-"F__Longimicrobiaceae","Family|Longimicrobiaceae","Family","Longimicrobiaceae","Order|Longimicrobiales",4,4,-2.89357218093797,-3.87760106375732,-0.981941948563196,0,0,NA,NA,"Not significant"
-"G__Nocardioides","Genus|Nocardioides","Genus","Nocardioides","Family|Nocardioidaceae",5,5,0.41336745441971,4.57886663327529,2.00847712326485,0,0,NA,NA,"Not significant"
-"G__Nitrosomonas","Genus|Nitrosomonas","Genus","Nitrosomonas","Family|Nitrosomonadaceae",5,5,-4.05100105331315,-3.07106356344834,3.94570254698197,0,0,NA,NA,"Not significant"
-"G__Bradyrhizobium","Genus|Bradyrhizobium","Genus","Bradyrhizobium","Family|Rhizobiaceae",5,5,-3.5549601080095,-4.57886663327529,2.00847712326485,0,0,NA,NA,"Not significant"
-"F__Nitrosomonadaceae","Family|Nitrosomonadaceae","Family","Nitrosomonadaceae","Order|Nitrosomonadales",4,4,-4.05100105331315,-2.45685085075867,3.15656203758557,0,0,NA,NA,"Not significant"
-"G__Bacillus","Genus|Bacillus","Genus","Bacillus","Family|Bacillaceae",5,5,-0.248020472651826,4.84700132969665,-1.227427435704,0,0,NA,NA,"Not significant"
-"G__Streptomyces","Genus|Streptomyces","Genus","Streptomyces","Family|Streptomycetaceae",5,5,0.248020472651826,4.84700132969665,1.227427435704,0,0,NA,NA,"Not significant"
-"G__Terriglobus","Genus|Terriglobus","Genus","Terriglobus","Family|Terriglobaceae",5,5,1.40544934502701,0.82297295140367,4.93180651701361,0,0,NA,NA,"Not significant"
-"F__Terriglobaceae","Family|Terriglobaceae","Family","Terriglobaceae","Order|Acidobacteriales",4,4,1.40544934502701,0.658378361122936,3.94544521361089,0,0,NA,NA,"Not significant"
-"O__Pyrinomonadales","Order|Pyrinomonadales","Order","Pyrinomonadales","Class|Blastocatellia",3,3,1.07475538149124,1.42784217911122,2.63842125361947,0,0,NA,NA,"Not significant"
-"G__Paenibacillus","Genus|Paenibacillus","Genus","Paenibacillus","Family|Paenibacillaceae",5,5,-0.413367454419709,4.57886663327529,-2.00847712326485,0,0,NA,NA,"Not significant"
-"G__Lactobacillus","Genus|Lactobacillus","Genus","Lactobacillus","Family|Lactobacillaceae",5,5,-0.578714436187593,4.18583239131264,-2.73474079061213,0,0,NA,NA,"Not significant"
-"G__Desulfobacter","Genus|Desulfobacter","Genus","Desulfobacter","Family|Desulfobacteraceae",5,5,-2.5628782174022,-4.18583239131264,-2.73474079061213,0,0,NA,NA,"Not significant"
-"O__Xanthomonadales","Order|Xanthomonadales","Order","Xanthomonadales","Class|Gammaproteobacteria",3,3,-4.54704199861681,-0.493783770842204,2.95908391020817,0,0,NA,NA,"Not significant"
-"G__Longimicrobium","Genus|Longimicrobium","Genus","Longimicrobium","Family|Longimicrobiaceae",5,5,-2.89357218093797,-4.84700132969665,-1.227427435704,0,0,NA,NA,"Not significant"
-"G__Anaerolinea","Genus|Anaerolinea","Genus","Anaerolinea","Family|Anaerolineaceae",5,5,-1.90149029033066,-1.62349734602342,-4.72908620850317,0,0,NA,NA,"Not significant"
-"G__Acidithiobacillus","Genus|Acidithiobacillus","Genus","Acidithiobacillus","Family|Acidithiobacillaceae",5,5,-3.38961312624162,-4.84700132969665,1.22742743570399,0,0,NA,NA,"Not significant"
-"F__Nocardioidaceae","Family|Nocardioidaceae","Family","Nocardioidaceae","Order|Propionibacteriales",4,4,0.41336745441971,3.66309330662023,1.60678169861188,0,0,NA,NA,"Not significant"
-"G__Terrimonas","Genus|Terrimonas","Genus","Terrimonas","Family|Chitinophagaceae",5,5,-1.73614330856278,-0.822972951403669,-4.93180651701361,0,0,NA,NA,"Not significant"
-"F__Ktedonobacteraceae","Family|Ktedonobacteraceae","Family","Ktedonobacteraceae","Order|Ktedonobacterales",4,4,-2.23218425386643,-2.45685085075867,-3.15656203758557,0,0,NA,NA,"Not significant"
-"F__Streptomycetaceae","Family|Streptomycetaceae","Family","Streptomycetaceae","Order|Streptomycetales",4,4,0.248020472651826,3.87760106375732,0.981941948563197,0,0,NA,NA,"Not significant"
-"F__Xanthomonadaceae","Family|Xanthomonadaceae","Family","Xanthomonadaceae","Order|Xanthomonadales",4,4,-4.54704199861681,-0.658378361122938,3.94544521361089,0,0,NA,NA,"Not significant"
-"G__Pseudomonas","Genus|Pseudomonas","Genus","Pseudomonas","Family|Pseudomonadaceae",5,5,-4.38169501684892,-1.62349734602342,4.72908620850317,0,0,NA,NA,"Not significant"
-"F__Paenibacillaceae","Family|Paenibacillaceae","Family","Paenibacillaceae","Order|Bacillales",4,4,-0.413367454419709,3.66309330662023,-1.60678169861188,0,0,NA,NA,"Not significant"
-"G__Ktedonobacter","Genus|Ktedonobacter","Genus","Ktedonobacter","Family|Ktedonobacteraceae",5,5,-2.23218425386643,-3.07106356344834,-3.94570254698197,0,0,NA,NA,"Not significant"
+"parent","node","branch.length","label","abd","node_label","node_class","isTip","x","y","branch","angle","node_size"
+44,1,1,"g__Acidipila",4.38273702930522,"g__Acidipila","g",TRUE,6,11,5.5,104.210526315789,3.47767342175975
+45,2,1,"g__Terriglobus",2.67603589391337,"g__Terriglobus","g",TRUE,6,12,5.5,113.684210526316,2.98433655544709
+48,3,1,"g__Blastocatella",3.39414986560995,"g__Blastocatella","g",TRUE,6,13,5.5,123.157894736842,3.22205332188019
+50,4,1,"g__Pyrinomonas",0.4613997626737,"g__Pyrinomonas","g",TRUE,6,14,5.5,132.631578947368,1.22650955239609
+53,5,1,"g__Vicinamibacter",3.20437615334415,"g__Vicinamibacter","g",TRUE,6,10,5.5,94.7368421052632,3.16451742348372
+57,6,1,"g__Frankia",3.25832028235251,"g__Frankia","g",TRUE,6,27,5.5,255.789473684211,3.18121181177919
+59,7,1,"g__Arthrobacter",3.84926878919789,"g__Arthrobacter","g",TRUE,6,28,5.5,265.263157894737,3.34788320537801
+61,8,1,"g__Nocardioides",0.497563234522759,"g__Nocardioides","g",TRUE,6,29,5.5,274.736842105263,1.30196737410777
+63,9,1,"g__Streptomyces",2.8105311159683,"g__Streptomyces","g",TRUE,6,30,5.5,284.21052631579,3.03337347472705
+66,10,1,"g__Gaiella",3.53600574628249,"g__Gaiella","g",TRUE,6,25,5.5,236.842105263158,3.26299776985397
+68,11,1,"g__Solirubrobacter",3.55953446127897,"g__Solirubrobacter","g",TRUE,6,26,5.5,246.315789473684,3.26962976700923
+72,12,1,"g__Bacillus",1.16145331399784,"g__Bacillus","g",TRUE,6,18,5.5,170.526315789474,2.14967207784267
+73,13,1,"g__Paenibacillus",2.20968449709867,"g__Paenibacillus","g",TRUE,6,19,5.5,180,2.79284974384445
+75,14,1,"g__Lactobacillus",2.79886899884698,"g__Lactobacillus","g",TRUE,6,17,5.5,161.052631578947,3.02921540659665
+78,15,1,"g__Clostridium",3.73418600822283,"g__Clostridium","g",TRUE,6,15,5.5,142.105263157895,3.31752985861444
+80,16,1,"g__Anaerostipes",3.30438740368241,"g__Anaerostipes","g",TRUE,6,16,5.5,151.578947368421,3.19525110171566
+84,17,1,"g__Cytophaga",3.20659470720736,"g__Cytophaga","g",TRUE,6,22,5.5,208.421052631579,3.16520953517789
+86,18,1,"g__Flavobacterium",3.92942427824952,"g__Flavobacterium","g",TRUE,6,23,5.5,217.894736842105,3.36849292106577
+88,19,1,"g__Pedobacter",2.09411215485788,"g__Pedobacter","g",TRUE,6,24,5.5,227.368421052632,2.73912967111811
+91,20,1,"g__Segetibacter",0.324685312645186,"g__Segetibacter","g",TRUE,6,20,5.5,189.473684210526,0.875101165488521
+91,21,1,"g__Terrimonas",3.02102956503584,"g__Terrimonas","g",TRUE,6,21,5.5,198.947368421053,3.10559768886305
+95,22,1,"g__Anaerolinea",0.329814362429633,"g__Anaerolinea","g",TRUE,6,8,5.5,75.7894736842105,0.890774679102451
+96,23,1,"g__Caldilinea",3.40809770001714,"g__Caldilinea","g",TRUE,6,9,5.5,85.2631578947368,3.22615427640156
+99,24,1,"g__Ktedonobacter",2.69099416308641,"g__Ktedonobacter","g",TRUE,6,6,5.5,56.8421052631579,2.9899107026924
+102,25,1,"g__Thermomicrobium",3.91313591236281,"g__Thermomicrobium","g",TRUE,6,7,5.5,66.3157894736842,3.36433907617039
+106,26,1,"g__Desulfobacter",2.56697384660373,"g__Desulfobacter","g",TRUE,6,1,5.5,9.47368421052632,2.94272771352535
+110,27,1,"g__Gemmatimonas",3.74787866709519,"g__Gemmatimonas","g",TRUE,6,4,5.5,37.8947368421053,3.32118999114544
+112,28,1,"g__Longimicrobium",1.90992955046367,"g__Longimicrobium","g",TRUE,6,5,5.5,47.3684210526316,2.64706635680429
+116,29,1,"g__Methylomirabilis",3.89237955637717,"g__Methylomirabilis","g",TRUE,6,2,5.5,18.9473684210526,3.3590206817623
+120,30,1,"g__Nitrospira",0.463844577204115,"g__Nitrospira","g",TRUE,6,3,5.5,28.4210526315789,1.23179425420934
+124,31,1,"g__Acidithiobacillus",1.79505660224827,"g__Acidithiobacillus","g",TRUE,6,31,5.5,293.684210526316,2.58503655472902
+127,32,1,"g__Bradyrhizobium",2.43268368007852,"g__Bradyrhizobium","g",TRUE,6,33,5.5,312.631578947368,2.88899504305087
+129,33,1,"g__Acidocella",3.5013368408844,"g__Acidocella","g",TRUE,6,34,5.5,322.105263157895,3.2531448501077
+131,34,1,"g__Sphingomonas",3.39191874498097,"g__Sphingomonas","g",TRUE,6,35,5.5,331.578947368421,3.22139576274325
+134,35,1,"g__Nitrosomonas",2.44486825646491,"g__Nitrosomonas","g",TRUE,6,32,5.5,303.157894736842,2.89399123863866
+137,36,1,"g__Cupriavidus",3.72507738292614,"g__Cupriavidus","g",TRUE,6,36,5.5,341.052631578947,3.31508762555565
+139,37,1,"g__Pseudomonas",1.89257873259036,"g__Pseudomonas","g",TRUE,6,37,5.5,350.526315789474,2.63794030788966
+141,38,1,"g__Lysobacter",0.479082849892739,"g__Lysobacter","g",TRUE,6,38,5.5,360,1.26411826775765
+39,39,0,"r__Root",100,"r__Root","r",FALSE,0,12.8208333333333,0,121.460526315789,6.60517018598809
+39,40,1,"k__Bacteria",100,"k__Bacteria","k",FALSE,1,12.8208333333333,0.5,121.460526315789,6.60517018598809
+40,41,1,"p__Acidobacteriota",14.1186987048464,"p__Acidobacteriota","p",FALSE,2,11.6666666666667,1.5,110.526315789474,4.6475000681047
+41,42,1,"c__Acidobacteriae",7.05877292321859,"c__Acidobacteriae","c",FALSE,3,11.5,2.5,108.947368421053,3.95427122948943
+42,43,1,"o__Acidobacteriales",7.05877292321859,"o__Acidobacteriales","o",FALSE,4,11.5,3.5,108.947368421053,3.95427122948943
+43,44,1,"f__Acidobacteriaceae",4.38273702930522,"f__Acidobacteriaceae","f",FALSE,5,11,4.5,104.210526315789,3.47767342175975
+43,45,1,"f__Terriglobaceae",2.67603589391337,"f__Terriglobaceae","f",FALSE,5,12,4.5,113.684210526316,2.98433655544709
+41,46,1,"c__Blastocatellia",3.85554962828364,"c__Blastocatellia","c",FALSE,3,13.5,2.5,127.894736842105,3.34951357228264
+46,47,1,"o__Blastocatellales",3.39414986560995,"o__Blastocatellales","o",FALSE,4,13,3.5,123.157894736842,3.22205332188019
+47,48,1,"f__Blastocatellaceae",3.39414986560995,"f__Blastocatellaceae","f",FALSE,5,13,4.5,123.157894736842,3.22205332188019
+46,49,1,"o__Pyrinomonadales",0.4613997626737,"o__Pyrinomonadales","o",FALSE,4,14,3.5,132.631578947368,1.22650955239609
+49,50,1,"f__Pyrinomonadaceae",0.4613997626737,"f__Pyrinomonadaceae","f",FALSE,5,14,4.5,132.631578947368,1.22650955239609
+41,51,1,"c__Vicinamibacteria",3.20437615334415,"c__Vicinamibacteria","c",FALSE,3,10,2.5,94.7368421052632,3.16451742348372
+51,52,1,"o__Vicinamibacterales",3.20437615334415,"o__Vicinamibacterales","o",FALSE,4,10,3.5,94.7368421052632,3.16451742348372
+52,53,1,"f__Vicinamibacteraceae",3.20437615334415,"f__Vicinamibacteraceae","f",FALSE,5,10,4.5,94.7368421052632,3.16451742348372
+40,54,1,"p__Actinobacteriota",17.5112236296029,"p__Actinobacteriota","p",FALSE,2,27,1.5,255.789473684211,4.86284202561531
+54,55,1,"c__Actinomycetia",10.4156834220415,"c__Actinomycetia","c",FALSE,3,28.5,2.5,270,4.34331269157513
+55,56,1,"o__Frankiales",3.25832028235251,"o__Frankiales","o",FALSE,4,27,3.5,255.789473684211,3.18121181177919
+56,57,1,"f__Frankiaceae",3.25832028235251,"f__Frankiaceae","f",FALSE,5,27,4.5,255.789473684211,3.18121181177919
+55,58,1,"o__Micrococcales",3.84926878919789,"o__Micrococcales","o",FALSE,4,28,3.5,265.263157894737,3.34788320537801
+58,59,1,"f__Micrococcaceae",3.84926878919789,"f__Micrococcaceae","f",FALSE,5,28,4.5,265.263157894737,3.34788320537801
+55,60,1,"o__Propionibacteriales",0.497563234522759,"o__Propionibacteriales","o",FALSE,4,29,3.5,274.736842105263,1.30196737410777
+60,61,1,"f__Nocardioidaceae",0.497563234522759,"f__Nocardioidaceae","f",FALSE,5,29,4.5,274.736842105263,1.30196737410777
+55,62,1,"o__Streptomycetales",2.8105311159683,"o__Streptomycetales","o",FALSE,4,30,3.5,284.21052631579,3.03337347472705
+62,63,1,"f__Streptomycetaceae",2.8105311159683,"f__Streptomycetaceae","f",FALSE,5,30,4.5,284.21052631579,3.03337347472705
+54,64,1,"c__Thermoleophilia",7.09554020756146,"c__Thermoleophilia","c",FALSE,3,25.5,2.5,241.578947368421,3.95946644690475
+64,65,1,"o__Gaiellales",3.53600574628249,"o__Gaiellales","o",FALSE,4,25,3.5,236.842105263158,3.26299776985397
+65,66,1,"f__Gaiellaceae",3.53600574628249,"f__Gaiellaceae","f",FALSE,5,25,4.5,236.842105263158,3.26299776985397
+64,67,1,"o__Solirubrobacterales",3.55953446127897,"o__Solirubrobacterales","o",FALSE,4,26,3.5,246.315789473684,3.26962976700923
+67,68,1,"f__Solirubrobacteraceae",3.55953446127897,"f__Solirubrobacteraceae","f",FALSE,5,26,4.5,246.315789473684,3.26962976700923
+40,69,1,"p__Bacillota",13.2085802218487,"p__Bacillota","p",FALSE,2,16.625,1.5,157.5,4.58086663522963
+69,70,1,"c__Bacilli",6.17000680994349,"c__Bacilli","c",FALSE,3,17.75,2.5,168.157894736842,3.81969994163524
+70,71,1,"o__Bacillales",3.37113781109651,"o__Bacillales","o",FALSE,4,18.5,3.5,175.263157894737,3.21525031678578
+71,72,1,"f__Bacillaceae",1.16145331399784,"f__Bacillaceae","f",FALSE,5,18,4.5,170.526315789474,2.14967207784267
+71,73,1,"f__Paenibacillaceae",2.20968449709867,"f__Paenibacillaceae","f",FALSE,5,19,4.5,180,2.79284974384445
+70,74,1,"o__Lactobacillales",2.79886899884698,"o__Lactobacillales","o",FALSE,4,17,3.5,161.052631578947,3.02921540659665
+74,75,1,"f__Lactobacillaceae",2.79886899884698,"f__Lactobacillaceae","f",FALSE,5,17,4.5,161.052631578947,3.02921540659665
+69,76,1,"c__Clostridia",7.03857341190524,"c__Clostridia","c",FALSE,3,15.5,2.5,146.842105263158,3.95140550928125
+76,77,1,"o__Clostridiales",3.73418600822283,"o__Clostridiales","o",FALSE,4,15,3.5,142.105263157895,3.31752985861444
+77,78,1,"f__Clostridiaceae",3.73418600822283,"f__Clostridiaceae","f",FALSE,5,15,4.5,142.105263157895,3.31752985861444
+76,79,1,"o__Lachnospirales",3.30438740368241,"o__Lachnospirales","o",FALSE,4,16,3.5,151.578947368421,3.19525110171566
+79,80,1,"f__Lachnospiraceae",3.30438740368241,"f__Lachnospiraceae","f",FALSE,5,16,4.5,151.578947368421,3.19525110171566
+40,81,1,"p__Bacteroidota",12.5758460179958,"p__Bacteroidota","p",FALSE,2,21.75,1.5,206.052631578947,4.53177799149578
+81,82,1,"c__Bacteroidia",9.23013114031477,"c__Bacteroidia","c",FALSE,3,23,2.5,217.894736842105,4.22247325646527
+82,83,1,"o__Cytophagales",3.20659470720736,"o__Cytophagales","o",FALSE,4,22,3.5,208.421052631579,3.16520953517789
+83,84,1,"f__Cytophagaceae",3.20659470720736,"f__Cytophagaceae","f",FALSE,5,22,4.5,208.421052631579,3.16520953517789
+82,85,1,"o__Flavobacteriales",3.92942427824952,"o__Flavobacteriales","o",FALSE,4,23,3.5,217.894736842105,3.36849292106577
+85,86,1,"f__Flavobacteriaceae",3.92942427824952,"f__Flavobacteriaceae","f",FALSE,5,23,4.5,217.894736842105,3.36849292106577
+82,87,1,"o__Sphingobacteriales",2.09411215485788,"o__Sphingobacteriales","o",FALSE,4,24,3.5,227.368421052632,2.73912967111811
+87,88,1,"f__Sphingobacteriaceae",2.09411215485788,"f__Sphingobacteriaceae","f",FALSE,5,24,4.5,227.368421052632,2.73912967111811
+81,89,1,"c__Chitinophagia",3.34571487768103,"c__Chitinophagia","c",FALSE,3,20.5,2.5,194.210526315789,3.20768038604709
+89,90,1,"o__Chitinophagales",3.34571487768103,"o__Chitinophagales","o",FALSE,4,20.5,3.5,194.210526315789,3.20768038604709
+90,91,1,"f__Chitinophagaceae",3.34571487768103,"f__Chitinophagaceae","f",FALSE,5,20.5,4.5,194.210526315789,3.20768038604709
+40,92,1,"p__Chloroflexi",10.342042137896,"p__Chloroflexi","p",FALSE,2,7.16666666666667,1.5,67.8947368421053,4.33621734840936
+92,93,1,"c__Anaerolineae",3.73791206244677,"c__Anaerolineae","c",FALSE,3,8.5,2.5,80.5263157894737,3.31852718346151
+93,94,1,"o__Anaerolineales",3.73791206244677,"o__Anaerolineales","o",FALSE,4,8.5,3.5,80.5263157894737,3.31852718346151
+94,95,1,"f__Anaerolineaceae",0.329814362429633,"f__Anaerolineaceae","f",FALSE,5,8,4.5,75.7894736842105,0.890774679102451
+94,96,1,"f__Caldilineaceae",3.40809770001714,"f__Caldilineaceae","f",FALSE,5,9,4.5,85.2631578947368,3.22615427640156
+92,97,1,"c__Ktedonobacteria",2.69099416308641,"c__Ktedonobacteria","c",FALSE,3,6,2.5,56.8421052631579,2.9899107026924
+97,98,1,"o__Ktedonobacterales",2.69099416308641,"o__Ktedonobacterales","o",FALSE,4,6,3.5,56.8421052631579,2.9899107026924
+98,99,1,"f__Ktedonobacteraceae",2.69099416308641,"f__Ktedonobacteraceae","f",FALSE,5,6,4.5,56.8421052631579,2.9899107026924
+92,100,1,"c__Thermomicrobia",3.91313591236281,"c__Thermomicrobia","c",FALSE,3,7,2.5,66.3157894736842,3.36433907617039
+100,101,1,"o__Thermomicrobiales",3.91313591236281,"o__Thermomicrobiales","o",FALSE,4,7,3.5,66.3157894736842,3.36433907617039
+101,102,1,"f__Thermomicrobiaceae",3.91313591236281,"f__Thermomicrobiaceae","f",FALSE,5,7,4.5,66.3157894736842,3.36433907617039
+40,103,1,"p__Desulfobacterota",2.56697384660373,"p__Desulfobacterota","p",FALSE,2,1,1.5,9.47368421052632,2.94272771352535
+103,104,1,"c__Desulfobacteria",2.56697384660373,"c__Desulfobacteria","c",FALSE,3,1,2.5,9.47368421052632,2.94272771352535
+104,105,1,"o__Desulfobacterales",2.56697384660373,"o__Desulfobacterales","o",FALSE,4,1,3.5,9.47368421052632,2.94272771352535
+105,106,1,"f__Desulfobacteraceae",2.56697384660373,"f__Desulfobacteraceae","f",FALSE,5,1,4.5,9.47368421052632,2.94272771352535
+40,107,1,"p__Gemmatimonadota",5.65780821755886,"p__Gemmatimonadota","p",FALSE,2,4.5,1.5,42.6315789473684,3.73303657650406
+107,108,1,"c__Gemmatimonadetes",5.65780821755886,"c__Gemmatimonadetes","c",FALSE,3,4.5,2.5,42.6315789473684,3.73303657650406
+108,109,1,"o__Gemmatimonadales",3.74787866709519,"o__Gemmatimonadales","o",FALSE,4,4,3.5,37.8947368421053,3.32118999114544
+109,110,1,"f__Gemmatimonadaceae",3.74787866709519,"f__Gemmatimonadaceae","f",FALSE,5,4,4.5,37.8947368421053,3.32118999114544
+108,111,1,"o__Longimicrobiales",1.90992955046367,"o__Longimicrobiales","o",FALSE,4,5,3.5,47.3684210526316,2.64706635680429
+111,112,1,"f__Longimicrobiaceae",1.90992955046367,"f__Longimicrobiaceae","f",FALSE,5,5,4.5,47.3684210526316,2.64706635680429
+40,113,1,"p__Methylomirabilota",3.89237955637717,"p__Methylomirabilota","p",FALSE,2,2,1.5,18.9473684210526,3.3590206817623
+113,114,1,"c__Methylomirabilia",3.89237955637717,"c__Methylomirabilia","c",FALSE,3,2,2.5,18.9473684210526,3.3590206817623
+114,115,1,"o__Methylomirabilales",3.89237955637717,"o__Methylomirabilales","o",FALSE,4,2,3.5,18.9473684210526,3.3590206817623
+115,116,1,"f__Methylomirabilaceae",3.89237955637717,"f__Methylomirabilaceae","f",FALSE,5,2,4.5,18.9473684210526,3.3590206817623
+40,117,1,"p__Nitrospirota",0.463844577204115,"p__Nitrospirota","p",FALSE,2,3,1.5,28.4210526315789,1.23179425420934
+117,118,1,"c__Nitrospiria",0.463844577204115,"c__Nitrospiria","c",FALSE,3,3,2.5,28.4210526315789,1.23179425420934
+118,119,1,"o__Nitrospirales",0.463844577204115,"o__Nitrospirales","o",FALSE,4,3,3.5,28.4210526315789,1.23179425420934
+119,120,1,"f__Nitrospiraceae",0.463844577204115,"f__Nitrospiraceae","f",FALSE,5,3,4.5,28.4210526315789,1.23179425420934
+40,121,1,"p__Pseudomonadota",19.6626030900663,"p__Pseudomonadota","p",FALSE,2,33.5,1.5,317.368421052632,4.97871851134923
+121,122,1,"c__Acidithiobacillia",1.79505660224827,"c__Acidithiobacillia","c",FALSE,3,31,2.5,293.684210526316,2.58503655472902
+122,123,1,"o__Acidithiobacillales",1.79505660224827,"o__Acidithiobacillales","o",FALSE,4,31,3.5,293.684210526316,2.58503655472902
+123,124,1,"f__Acidithiobacillaceae",1.79505660224827,"f__Acidithiobacillaceae","f",FALSE,5,31,4.5,293.684210526316,2.58503655472902
+121,125,1,"c__Alphaproteobacteria",9.32593926594389,"c__Alphaproteobacteria","c",FALSE,3,34,2.5,322.105263157895,4.23279968602779
+125,126,1,"o__Rhizobiales",2.43268368007852,"o__Rhizobiales","o",FALSE,4,33,3.5,312.631578947368,2.88899504305087
+126,127,1,"f__Rhizobiaceae",2.43268368007852,"f__Rhizobiaceae","f",FALSE,5,33,4.5,312.631578947368,2.88899504305087
+125,128,1,"o__Rhodospirillales",3.5013368408844,"o__Rhodospirillales","o",FALSE,4,34,3.5,322.105263157895,3.2531448501077
+128,129,1,"f__Acetobacteraceae",3.5013368408844,"f__Acetobacteraceae","f",FALSE,5,34,4.5,322.105263157895,3.2531448501077
+125,130,1,"o__Sphingomonadales",3.39191874498097,"o__Sphingomonadales","o",FALSE,4,35,3.5,331.578947368421,3.22139576274325
+130,131,1,"f__Sphingomonadaceae",3.39191874498097,"f__Sphingomonadaceae","f",FALSE,5,35,4.5,331.578947368421,3.22139576274325
+121,132,1,"c__Betaproteobacteria",2.44486825646491,"c__Betaproteobacteria","c",FALSE,3,32,2.5,303.157894736842,2.89399123863866
+132,133,1,"o__Nitrosomonadales",2.44486825646491,"o__Nitrosomonadales","o",FALSE,4,32,3.5,303.157894736842,2.89399123863866
+133,134,1,"f__Nitrosomonadaceae",2.44486825646491,"f__Nitrosomonadaceae","f",FALSE,5,32,4.5,303.157894736842,2.89399123863866
+121,135,1,"c__Gammaproteobacteria",6.09673896540923,"c__Gammaproteobacteria","c",FALSE,3,37,2.5,350.526315789474,3.80775403239741
+135,136,1,"o__Burkholderiales",3.72507738292614,"o__Burkholderiales","o",FALSE,4,36,3.5,341.052631578947,3.31508762555565
+136,137,1,"f__Comamonadaceae",3.72507738292614,"f__Comamonadaceae","f",FALSE,5,36,4.5,341.052631578947,3.31508762555565
+135,138,1,"o__Pseudomonadales",1.89257873259036,"o__Pseudomonadales","o",FALSE,4,37,3.5,350.526315789474,2.63794030788966
+138,139,1,"f__Pseudomonadaceae",1.89257873259036,"f__Pseudomonadaceae","f",FALSE,5,37,4.5,350.526315789474,2.63794030788966
+135,140,1,"o__Xanthomonadales",0.479082849892739,"o__Xanthomonadales","o",FALSE,4,38,3.5,360,1.26411826775765
+140,141,1,"f__Xanthomonadaceae",0.479082849892738,"f__Xanthomonadaceae","f",FALSE,5,38,4.5,360,1.26411826775765
