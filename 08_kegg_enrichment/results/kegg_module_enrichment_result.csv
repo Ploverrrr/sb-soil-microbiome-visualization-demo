@@ -1,0 +1,6 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"M00001 Central carbon module","M00001 Central carbon module","2/6","2/9",1,1.5,1.0690449676497,0.416666666666667,0.916666666666667,0.916666666666667,"K01190/K02111",2
+"M00175 Nitrogen metabolism module","M00175 Nitrogen metabolism module","2/6","2/9",1,1.5,1.0690449676497,0.416666666666667,0.916666666666667,0.916666666666667,"K10944/K00370",2
+"M00157 Energy metabolism module","M00157 Energy metabolism module","1/6","2/9",0.5,0.75,-0.534522483824849,0.916666666666667,0.916666666666667,0.916666666666667,"K02111",1
+"M00176 Assimilatory sulfate reduction module","M00176 Assimilatory sulfate reduction module","1/6","2/9",0.5,0.75,-0.534522483824849,0.916666666666667,0.916666666666667,0.916666666666667,"K11180",1
+"M00596 Sulfur oxidation module","M00596 Sulfur oxidation module","1/6","2/9",0.5,0.75,-0.534522483824849,0.916666666666667,0.916666666666667,0.916666666666667,"K17218",1
