@@ -8,8 +8,8 @@ The demo follows the original enrichment scripts: a KO foreground list is genera
 
 - KO count matrix construction from shared functional annotation toy data.
 - Differential KO screening for a treatment-vs-control comparison.
-- KEGG pathway-style enrichment using `clusterProfiler::enricher()` with an offline toy TERM2GENE mapping.
-- Optional original-style `enrichKEGG()` / `enrichMKEGG()` backend for users with KEGG access.
+- Original-style `enrichKEGG()` / `enrichMKEGG()` backend for real KEGG analysis.
+- Reproducible offline toy backend using `clusterProfiler::enricher()` with a small KEGG-like TERM2GENE mapping for GitHub/demo runs.
 - Original-style combined barplot + dotplot outputs for pathway and module-like enrichment.
 - Auxiliary ggplot bubble plot using GeneRatio, Count, and adjusted p-value.
 
@@ -74,6 +74,7 @@ Edit the settings block at the top of `scripts/run_demo.R` to change:
 - `enrichment_pvalue_cutoff`
 - `p_adjust_method`
 - `qvalue_cutoff`
+- `enrichment_plot_color_by`
 - `show_category`
 - output file names
 - figure width and height
@@ -81,9 +82,31 @@ Edit the settings block at the top of `scripts/run_demo.R` to change:
 
 ## Backend Choice
 
-The default `enrichment_backend = "toy_offline"` is intentionally reproducible. It uses the simulated KO IDs in the shared toy data and a small KEGG-like TERM2GENE mapping generated inside the script.
+For real analysis, set:
 
-`enrichment_backend = "clusterprofiler_kegg"` calls `clusterProfiler::enrichKEGG()` and `clusterProfiler::enrichMKEGG()`, matching the original scripts more directly. This mode may require KEGG online access and can be unstable in offline environments.
+```r
+enrichment_backend <- "clusterprofiler_kegg"
+```
+
+This calls `clusterProfiler::enrichKEGG()` and `clusterProfiler::enrichMKEGG()`, matching the original scripts directly. This mode may require KEGG online access.
+
+You can also run the original online backend without editing the file:
+
+```bash
+KEGG_ENRICHMENT_BACKEND=clusterprofiler_kegg Rscript scripts/run_demo.R
+```
+
+The default `enrichment_backend = "toy_offline"` is intentionally reproducible for this public portfolio. It uses the simulated KO IDs in the shared toy data and a small KEGG-like TERM2GENE mapping generated inside the script.
+
+You can also set:
+
+```r
+enrichment_backend <- "auto"
+```
+
+This tries the original online KEGG backend first and falls back to the offline toy backend only if KEGG access fails.
+
+`enrichment_plot_color_by` defaults to `"pvalue"` because the very small toy KO universe can make all BH-adjusted p-values identical, especially in module enrichment. For real datasets, `"p.adjust"` is also appropriate.
 
 ## Replacing With Your Own Data
 
@@ -96,4 +119,4 @@ For real KEGG analysis, use valid KEGG Orthology IDs such as `K02111`. You can k
 
 ## Original-Script Features Preserved
 
-The original scripts used `clusterProfiler`, `enrichKEGG()`, `enrichMKEGG()`, `barplot()`, `dotplot()`, `patchwork`, and `ggsave()` to produce combined KO and module enrichment figures. This module preserves that plotting workflow and adds reproducible upstream KO selection from shared toy data.
+The original scripts used `clusterProfiler`, `enrichKEGG()`, `enrichMKEGG()`, `barplot()`, `dotplot()`, `patchwork`, and `ggsave()` to produce combined KO and module enrichment figures. This module preserves that plotting workflow, keeps the online KEGG route available for real use, and adds reproducible upstream KO selection from shared toy data.

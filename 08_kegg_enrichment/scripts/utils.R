@@ -189,6 +189,81 @@ run_clusterprofiler_kegg <- function(ko_list, pvalue_cutoff, p_adjust_method, qv
   list(ko = ko_result, module = module_result)
 }
 
+run_enrichment_backend <- function(enrichment_backend, ko_list, universe, pvalue_cutoff, p_adjust_method, qvalue_cutoff, min_gs_size, max_gs_size) {
+  if (identical(enrichment_backend, "clusterprofiler_kegg")) {
+    message("Running original clusterProfiler KEGG backend: enrichKEGG() + enrichMKEGG().")
+    return(run_clusterprofiler_kegg(
+      ko_list = ko_list,
+      pvalue_cutoff = pvalue_cutoff,
+      p_adjust_method = p_adjust_method,
+      qvalue_cutoff = qvalue_cutoff,
+      min_gs_size = min_gs_size,
+      max_gs_size = max_gs_size
+    ))
+  }
+
+  if (identical(enrichment_backend, "toy_offline")) {
+    message("Running reproducible offline toy backend: clusterProfiler::enricher() with KEGG-like TERM2GENE.")
+    return(list(
+      ko = run_offline_enrichment(
+        ko_list = ko_list,
+        universe = universe,
+        term2gene = make_toy_kegg_term2gene(),
+        pvalue_cutoff = pvalue_cutoff,
+        p_adjust_method = p_adjust_method,
+        qvalue_cutoff = qvalue_cutoff,
+        min_gs_size = min_gs_size,
+        max_gs_size = max_gs_size
+      ),
+      module = run_offline_enrichment(
+        ko_list = ko_list,
+        universe = universe,
+        term2gene = make_toy_module_term2gene(),
+        pvalue_cutoff = pvalue_cutoff,
+        p_adjust_method = p_adjust_method,
+        qvalue_cutoff = qvalue_cutoff,
+        min_gs_size = min_gs_size,
+        max_gs_size = max_gs_size
+      )
+    ))
+  }
+
+  message("Trying original clusterProfiler KEGG backend first; falling back to offline toy backend only if KEGG access fails.")
+  tryCatch(
+    run_enrichment_backend(
+      "clusterprofiler_kegg",
+      ko_list = ko_list,
+      universe = universe,
+      pvalue_cutoff = pvalue_cutoff,
+      p_adjust_method = p_adjust_method,
+      qvalue_cutoff = qvalue_cutoff,
+      min_gs_size = min_gs_size,
+      max_gs_size = max_gs_size
+    ),
+    error = function(error) {
+      message("Original KEGG backend failed: ", conditionMessage(error))
+      message("Falling back to the offline toy backend so the demo remains reproducible.")
+      run_enrichment_backend(
+        "toy_offline",
+        ko_list = ko_list,
+        universe = universe,
+        pvalue_cutoff = pvalue_cutoff,
+        p_adjust_method = p_adjust_method,
+        qvalue_cutoff = qvalue_cutoff,
+        min_gs_size = min_gs_size,
+        max_gs_size = max_gs_size
+      )
+    }
+  )
+}
+
+make_enrichment_plots <- function(enrichment_result, show_category, color_by) {
+  list(
+    bar = barplot(enrichment_result, showCategory = show_category, color = color_by),
+    dot = dotplot(enrichment_result, showCategory = show_category, color = color_by)
+  )
+}
+
 parse_gene_ratio <- function(x) {
   vapply(strsplit(x, "/", fixed = TRUE), function(parts) as.numeric(parts[1]) / as.numeric(parts[2]), numeric(1))
 }

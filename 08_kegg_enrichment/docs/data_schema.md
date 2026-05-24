@@ -41,3 +41,5 @@ The enrichment result tables include the standard `clusterProfiler` columns such
 The default offline demo generates a small KEGG-like TERM2GENE mapping inside `scripts/utils.R`. This is necessary because the shared toy dataset contains only a small set of simulated KO IDs. The mapping is designed only to demonstrate the enrichment workflow and should not be interpreted as a real KEGG database.
 
 Users can switch `enrichment_backend` to `clusterprofiler_kegg` for real KEGG calls, or replace the offline TERM2GENE mapping with their own curated project mapping.
+
+Because the toy KO universe is small, BH-adjusted p-values can collapse to identical values. The plotting setting `enrichment_plot_color_by` therefore defaults to `pvalue` for clearer demo figures while preserving `p.adjust` in the exported enrichment tables.

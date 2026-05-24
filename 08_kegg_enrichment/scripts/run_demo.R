@@ -39,11 +39,14 @@ control_group <- "Control"
 treatment_group <- "Smelting"
 ko_id_pattern <- "^K"
 
-# "toy_offline" is the reproducible default for this portfolio. It uses
-# clusterProfiler::enricher() with a KEGG-like TERM2GENE table generated inside
-# this demo from simulated KO IDs. "clusterprofiler_kegg" calls enrichKEGG() and
-# enrichMKEGG() like the original script, but may require KEGG network access.
-enrichment_backend <- "toy_offline"
+# Backend options:
+#   "clusterprofiler_kegg" - original method, uses enrichKEGG() and enrichMKEGG()
+#   "toy_offline"         - reproducible demo mode using enricher() + toy TERM2GENE
+#   "auto"                - try the original method first, then fall back to toy_offline
+# For real data analysis, use "clusterprofiler_kegg" when KEGG access is available.
+# You can also override without editing this file:
+#   KEGG_ENRICHMENT_BACKEND=clusterprofiler_kegg Rscript scripts/run_demo.R
+enrichment_backend <- Sys.getenv("KEGG_ENRICHMENT_BACKEND", unset = "toy_offline")
 
 deseq_fit_type <- "parametric"
 foreground_log2fc_threshold <- 0.5
@@ -56,6 +59,7 @@ qvalue_cutoff <- 1
 min_gs_size <- 1
 max_gs_size <- 500
 show_category <- 10
+enrichment_plot_color_by <- "pvalue"
 
 ko_count_output <- "ko_count_matrix.csv"
 differential_output <- "differential_ko_statistics.csv"
@@ -119,8 +123,11 @@ missing_groups <- setdiff(c(control_group, treatment_group), unique(sample_metad
 if (length(missing_groups) > 0) {
   stop("Selected group value(s) not found in metadata: ", paste(missing_groups, collapse = ", "), call. = FALSE)
 }
-if (!enrichment_backend %in% c("toy_offline", "clusterprofiler_kegg")) {
-  stop("enrichment_backend must be 'toy_offline' or 'clusterprofiler_kegg'.", call. = FALSE)
+if (!enrichment_backend %in% c("toy_offline", "clusterprofiler_kegg", "auto")) {
+  stop("enrichment_backend must be 'toy_offline', 'clusterprofiler_kegg', or 'auto'.", call. = FALSE)
+}
+if (!enrichment_plot_color_by %in% c("pvalue", "p.adjust", "qvalue")) {
+  stop("enrichment_plot_color_by must be 'pvalue', 'p.adjust', or 'qvalue'.", call. = FALSE)
 }
 
 ko_counts <- aggregate_ko_counts(functional_annotation, ko_id_pattern)
@@ -147,39 +154,18 @@ foreground_ko_list <- foreground_ko$ko_id
 universe_ko_list <- unique(ko_counts$ko_id)
 write.csv(foreground_ko, file.path(results_dir, foreground_output), row.names = FALSE)
 
-if (identical(enrichment_backend, "toy_offline")) {
-  kegg_pathway_result <- run_offline_enrichment(
-    ko_list = foreground_ko_list,
-    universe = universe_ko_list,
-    term2gene = make_toy_kegg_term2gene(),
-    pvalue_cutoff = enrichment_pvalue_cutoff,
-    p_adjust_method = p_adjust_method,
-    qvalue_cutoff = qvalue_cutoff,
-    min_gs_size = min_gs_size,
-    max_gs_size = max_gs_size
-  )
-  kegg_module_result <- run_offline_enrichment(
-    ko_list = foreground_ko_list,
-    universe = universe_ko_list,
-    term2gene = make_toy_module_term2gene(),
-    pvalue_cutoff = enrichment_pvalue_cutoff,
-    p_adjust_method = p_adjust_method,
-    qvalue_cutoff = qvalue_cutoff,
-    min_gs_size = min_gs_size,
-    max_gs_size = max_gs_size
-  )
-} else {
-  kegg_results <- run_clusterprofiler_kegg(
-    ko_list = foreground_ko_list,
-    pvalue_cutoff = enrichment_pvalue_cutoff,
-    p_adjust_method = p_adjust_method,
-    qvalue_cutoff = qvalue_cutoff,
-    min_gs_size = min_gs_size,
-    max_gs_size = max_gs_size
-  )
-  kegg_pathway_result <- kegg_results$ko
-  kegg_module_result <- kegg_results$module
-}
+kegg_results <- run_enrichment_backend(
+  enrichment_backend = enrichment_backend,
+  ko_list = foreground_ko_list,
+  universe = universe_ko_list,
+  pvalue_cutoff = enrichment_pvalue_cutoff,
+  p_adjust_method = p_adjust_method,
+  qvalue_cutoff = qvalue_cutoff,
+  min_gs_size = min_gs_size,
+  max_gs_size = max_gs_size
+)
+kegg_pathway_result <- kegg_results$ko
+kegg_module_result <- kegg_results$module
 
 kegg_pathway_table <- data.frame(kegg_pathway_result)
 kegg_module_table <- data.frame(kegg_module_result)
@@ -194,13 +180,11 @@ if (nrow(kegg_pathway_table) == 0 || nrow(kegg_module_table) == 0) {
   )
 }
 
-ko_barplot <- barplot(kegg_pathway_result, showCategory = show_category)
-ko_dotplot <- dotplot(kegg_pathway_result, showCategory = show_category)
-module_barplot <- barplot(kegg_module_result, showCategory = show_category)
-module_dotplot <- dotplot(kegg_module_result, showCategory = show_category)
+ko_plots <- make_enrichment_plots(kegg_pathway_result, show_category, enrichment_plot_color_by)
+module_plots <- make_enrichment_plots(kegg_module_result, show_category, enrichment_plot_color_by)
 
-kegg_pathway_combined <- ko_barplot + ko_dotplot
-kegg_module_combined <- module_barplot + module_dotplot
+kegg_pathway_combined <- ko_plots$bar + ko_plots$dot
+kegg_module_combined <- module_plots$bar + module_plots$dot
 
 save_ggplot_pair(
   kegg_pathway_combined,
