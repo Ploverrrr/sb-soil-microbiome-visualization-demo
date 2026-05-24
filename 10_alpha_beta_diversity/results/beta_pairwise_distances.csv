@@ -1,0 +1,277 @@
+"sample_1","sample_2","group_1","group_2","comparison","bray_curtis"
+"C01","C02","Control","Control","Control",0.055429947457523
+"C01","C03","Control","Control","Control",0.067559841379682
+"C01","C04","Control","Control","Control",0.060637990116863
+"C01","C05","Control","Control","Control",0.0702482059160569
+"C01","C06","Control","Control","Control",0.0694146902712509
+"C01","T01","Control","Tailing","Control vs Tailing",0.437293546214962
+"C01","T02","Control","Tailing","Control vs Tailing",0.42596887730305
+"C01","T03","Control","Tailing","Control vs Tailing",0.435398654593169
+"C01","T04","Control","Tailing","Control vs Tailing",0.429626637458183
+"C01","T05","Control","Tailing","Control vs Tailing",0.43079216212549
+"C01","T06","Control","Tailing","Control vs Tailing",0.435686651351517
+"C01","M01","Control","Mining","Control vs Mining",0.461045218838388
+"C01","M02","Control","Mining","Control vs Mining",0.466172080652993
+"C01","M03","Control","Mining","Control vs Mining",0.478939520916121
+"C01","M04","Control","Mining","Control vs Mining",0.470427729225702
+"C01","M05","Control","Mining","Control vs Mining",0.46433076949236
+"C01","M06","Control","Mining","Control vs Mining",0.471288827437711
+"C01","S01","Control","Smelting","Control vs Smelting",0.490956981464723
+"C01","S02","Control","Smelting","Control vs Smelting",0.484314130931737
+"C01","S03","Control","Smelting","Control vs Smelting",0.480229616327215
+"C01","S04","Control","Smelting","Control vs Smelting",0.483645258578679
+"C01","S05","Control","Smelting","Control vs Smelting",0.490920644755439
+"C01","S06","Control","Smelting","Control vs Smelting",0.479916999390238
+"C02","C03","Control","Control","Control",0.060789437971253
+"C02","C04","Control","Control","Control",0.0542355031750226
+"C02","C05","Control","Control","Control",0.0663189361760114
+"C02","C06","Control","Control","Control",0.0601259293768547
+"C02","T01","Control","Tailing","Control vs Tailing",0.448551083568423
+"C02","T02","Control","Tailing","Control vs Tailing",0.440244085107699
+"C02","T03","Control","Tailing","Control vs Tailing",0.444606003919068
+"C02","T04","Control","Tailing","Control vs Tailing",0.44248215376084
+"C02","T05","Control","Tailing","Control vs Tailing",0.441484821515751
+"C02","T06","Control","Tailing","Control vs Tailing",0.445343364260202
+"C02","M01","Control","Mining","Control vs Mining",0.469275642963624
+"C02","M02","Control","Mining","Control vs Mining",0.476310297222281
+"C02","M03","Control","Mining","Control vs Mining",0.484557804610729
+"C02","M04","Control","Mining","Control vs Mining",0.476649342920098
+"C02","M05","Control","Mining","Control vs Mining",0.475501046273356
+"C02","M06","Control","Mining","Control vs Mining",0.480696627384512
+"C02","S01","Control","Smelting","Control vs Smelting",0.498662947781902
+"C02","S02","Control","Smelting","Control vs Smelting",0.491364941070017
+"C02","S03","Control","Smelting","Control vs Smelting",0.487190641666838
+"C02","S04","Control","Smelting","Control vs Smelting",0.491125050447301
+"C02","S05","Control","Smelting","Control vs Smelting",0.497794893215965
+"C02","S06","Control","Smelting","Control vs Smelting",0.48562398897971
+"C03","C04","Control","Control","Control",0.0645071322768039
+"C03","C05","Control","Control","Control",0.0653252715537367
+"C03","C06","Control","Control","Control",0.0561136330795792
+"C03","T01","Control","Tailing","Control vs Tailing",0.449140513414558
+"C03","T02","Control","Tailing","Control vs Tailing",0.446604574587451
+"C03","T03","Control","Tailing","Control vs Tailing",0.45208659917294
+"C03","T04","Control","Tailing","Control vs Tailing",0.449753081679663
+"C03","T05","Control","Tailing","Control vs Tailing",0.446201086876664
+"C03","T06","Control","Tailing","Control vs Tailing",0.447794416567084
+"C03","M01","Control","Mining","Control vs Mining",0.473535831508521
+"C03","M02","Control","Mining","Control vs Mining",0.48064811915556
+"C03","M03","Control","Mining","Control vs Mining",0.48734243205881
+"C03","M04","Control","Mining","Control vs Mining",0.480041884885358
+"C03","M05","Control","Mining","Control vs Mining",0.478816323409286
+"C03","M06","Control","Mining","Control vs Mining",0.483475671598481
+"C03","S01","Control","Smelting","Control vs Smelting",0.50402618401762
+"C03","S02","Control","Smelting","Control vs Smelting",0.494616555178214
+"C03","S03","Control","Smelting","Control vs Smelting",0.491733202318457
+"C03","S04","Control","Smelting","Control vs Smelting",0.496011671016589
+"C03","S05","Control","Smelting","Control vs Smelting",0.50005576812608
+"C03","S06","Control","Smelting","Control vs Smelting",0.491674120488323
+"C04","C05","Control","Control","Control",0.0584056195413332
+"C04","C06","Control","Control","Control",0.060976457035077
+"C04","T01","Control","Tailing","Control vs Tailing",0.447059121415845
+"C04","T02","Control","Tailing","Control vs Tailing",0.441616835160567
+"C04","T03","Control","Tailing","Control vs Tailing",0.445644939266471
+"C04","T04","Control","Tailing","Control vs Tailing",0.444474954565209
+"C04","T05","Control","Tailing","Control vs Tailing",0.44272386062844
+"C04","T06","Control","Tailing","Control vs Tailing",0.44396385989262
+"C04","M01","Control","Mining","Control vs Mining",0.472346313088637
+"C04","M02","Control","Mining","Control vs Mining",0.479668743162121
+"C04","M03","Control","Mining","Control vs Mining",0.485869583230287
+"C04","M04","Control","Mining","Control vs Mining",0.482790952043931
+"C04","M05","Control","Mining","Control vs Mining",0.477553127425071
+"C04","M06","Control","Mining","Control vs Mining",0.483083253865888
+"C04","S01","Control","Smelting","Control vs Smelting",0.506055995848056
+"C04","S02","Control","Smelting","Control vs Smelting",0.496766149246305
+"C04","S03","Control","Smelting","Control vs Smelting",0.493997159410277
+"C04","S04","Control","Smelting","Control vs Smelting",0.496865754439113
+"C04","S05","Control","Smelting","Control vs Smelting",0.501207531363093
+"C04","S06","Control","Smelting","Control vs Smelting",0.492775296757561
+"C05","C06","Control","Control","Control",0.058652705990634
+"C05","T01","Control","Tailing","Control vs Tailing",0.455949914170562
+"C05","T02","Control","Tailing","Control vs Tailing",0.448882237136898
+"C05","T03","Control","Tailing","Control vs Tailing",0.454048844119903
+"C05","T04","Control","Tailing","Control vs Tailing",0.450938138004409
+"C05","T05","Control","Tailing","Control vs Tailing",0.449992214621118
+"C05","T06","Control","Tailing","Control vs Tailing",0.455983542728243
+"C05","M01","Control","Mining","Control vs Mining",0.480347429593926
+"C05","M02","Control","Mining","Control vs Mining",0.483276414151822
+"C05","M03","Control","Mining","Control vs Mining",0.492756215637545
+"C05","M04","Control","Mining","Control vs Mining",0.48907149516344
+"C05","M05","Control","Mining","Control vs Mining",0.481230633326815
+"C05","M06","Control","Mining","Control vs Mining",0.48676091406948
+"C05","S01","Control","Smelting","Control vs Smelting",0.506242104060596
+"C05","S02","Control","Smelting","Control vs Smelting",0.500790752688563
+"C05","S03","Control","Smelting","Control vs Smelting",0.494512181405965
+"C05","S04","Control","Smelting","Control vs Smelting",0.500733399000643
+"C05","S05","Control","Smelting","Control vs Smelting",0.503841458169047
+"C05","S06","Control","Smelting","Control vs Smelting",0.494847456846224
+"C06","T01","Control","Tailing","Control vs Tailing",0.446502354130155
+"C06","T02","Control","Tailing","Control vs Tailing",0.440643220777124
+"C06","T03","Control","Tailing","Control vs Tailing",0.447057921493006
+"C06","T04","Control","Tailing","Control vs Tailing",0.44300844437175
+"C06","T05","Control","Tailing","Control vs Tailing",0.443693509796041
+"C06","T06","Control","Tailing","Control vs Tailing",0.445853557995464
+"C06","M01","Control","Mining","Control vs Mining",0.471870772761114
+"C06","M02","Control","Mining","Control vs Mining",0.478885745228385
+"C06","M03","Control","Mining","Control vs Mining",0.486767335882031
+"C06","M04","Control","Mining","Control vs Mining",0.47896833357985
+"C06","M05","Control","Mining","Control vs Mining",0.477208195126129
+"C06","M06","Control","Mining","Control vs Mining",0.482798733898436
+"C06","S01","Control","Smelting","Control vs Smelting",0.500735822545443
+"C06","S02","Control","Smelting","Control vs Smelting",0.493914842943313
+"C06","S03","Control","Smelting","Control vs Smelting",0.489110367423422
+"C06","S04","Control","Smelting","Control vs Smelting",0.493195516910363
+"C06","S05","Control","Smelting","Control vs Smelting",0.498029619467723
+"C06","S06","Control","Smelting","Control vs Smelting",0.489387985645134
+"T01","T02","Tailing","Tailing","Tailing",0.0708556354511847
+"T01","T03","Tailing","Tailing","Tailing",0.0683729116131998
+"T01","T04","Tailing","Tailing","Tailing",0.0646383933340983
+"T01","T05","Tailing","Tailing","Tailing",0.0761396971708411
+"T01","T06","Tailing","Tailing","Tailing",0.0765677986427809
+"T01","M01","Tailing","Mining","Tailing vs Mining",0.454965440134944
+"T01","M02","Tailing","Mining","Tailing vs Mining",0.457630741116327
+"T01","M03","Tailing","Mining","Tailing vs Mining",0.466498106034437
+"T01","M04","Tailing","Mining","Tailing vs Mining",0.461991076644251
+"T01","M05","Tailing","Mining","Tailing vs Mining",0.45709185604133
+"T01","M06","Tailing","Mining","Tailing vs Mining",0.466556885720526
+"T01","S01","Tailing","Smelting","Tailing vs Smelting",0.483604658510346
+"T01","S02","Tailing","Smelting","Tailing vs Smelting",0.474949778667987
+"T01","S03","Tailing","Smelting","Tailing vs Smelting",0.468759715819418
+"T01","S04","Tailing","Smelting","Tailing vs Smelting",0.473524022359736
+"T01","S05","Tailing","Smelting","Tailing vs Smelting",0.48381157729082
+"T01","S06","Tailing","Smelting","Tailing vs Smelting",0.470676449849466
+"T02","T03","Tailing","Tailing","Tailing",0.0718364064519781
+"T02","T04","Tailing","Tailing","Tailing",0.0583160159349805
+"T02","T05","Tailing","Tailing","Tailing",0.0676903970961947
+"T02","T06","Tailing","Tailing","Tailing",0.0695529973083486
+"T02","M01","Tailing","Mining","Tailing vs Mining",0.443064925041121
+"T02","M02","Tailing","Mining","Tailing vs Mining",0.445376308218536
+"T02","M03","Tailing","Mining","Tailing vs Mining",0.460840769197374
+"T02","M04","Tailing","Mining","Tailing vs Mining",0.455835407725158
+"T02","M05","Tailing","Mining","Tailing vs Mining",0.440732248473705
+"T02","M06","Tailing","Mining","Tailing vs Mining",0.451666427828759
+"T02","S01","Tailing","Smelting","Tailing vs Smelting",0.473143697693509
+"T02","S02","Tailing","Smelting","Tailing vs Smelting",0.46408277926721
+"T02","S03","Tailing","Smelting","Tailing vs Smelting",0.460419540179647
+"T02","S04","Tailing","Smelting","Tailing vs Smelting",0.465923250827439
+"T02","S05","Tailing","Smelting","Tailing vs Smelting",0.473212814610156
+"T02","S06","Tailing","Smelting","Tailing vs Smelting",0.460408712467032
+"T03","T04","Tailing","Tailing","Tailing",0.0655398912110291
+"T03","T05","Tailing","Tailing","Tailing",0.0685515044332321
+"T03","T06","Tailing","Tailing","Tailing",0.0732980874141493
+"T03","M01","Tailing","Mining","Tailing vs Mining",0.457928022864904
+"T03","M02","Tailing","Mining","Tailing vs Mining",0.458789233225023
+"T03","M03","Tailing","Mining","Tailing vs Mining",0.473209364574386
+"T03","M04","Tailing","Mining","Tailing vs Mining",0.467869483730247
+"T03","M05","Tailing","Mining","Tailing vs Mining",0.460299208364212
+"T03","M06","Tailing","Mining","Tailing vs Mining",0.46942012688184
+"T03","S01","Tailing","Smelting","Tailing vs Smelting",0.483145044295603
+"T03","S02","Tailing","Smelting","Tailing vs Smelting",0.475728008108041
+"T03","S03","Tailing","Smelting","Tailing vs Smelting",0.471990122407866
+"T03","S04","Tailing","Smelting","Tailing vs Smelting",0.477978651927564
+"T03","S05","Tailing","Smelting","Tailing vs Smelting",0.483019943892406
+"T03","S06","Tailing","Smelting","Tailing vs Smelting",0.47211855158535
+"T04","T05","Tailing","Tailing","Tailing",0.0716788515558335
+"T04","T06","Tailing","Tailing","Tailing",0.0712220424964334
+"T04","M01","Tailing","Mining","Tailing vs Mining",0.452924275199086
+"T04","M02","Tailing","Mining","Tailing vs Mining",0.45407471273612
+"T04","M03","Tailing","Mining","Tailing vs Mining",0.470749041468534
+"T04","M04","Tailing","Mining","Tailing vs Mining",0.459468306308393
+"T04","M05","Tailing","Mining","Tailing vs Mining",0.453978586087994
+"T04","M06","Tailing","Mining","Tailing vs Mining",0.464974911911764
+"T04","S01","Tailing","Smelting","Tailing vs Smelting",0.479676681374705
+"T04","S02","Tailing","Smelting","Tailing vs Smelting",0.471310600305582
+"T04","S03","Tailing","Smelting","Tailing vs Smelting",0.462751577863029
+"T04","S04","Tailing","Smelting","Tailing vs Smelting",0.468327263792813
+"T04","S05","Tailing","Smelting","Tailing vs Smelting",0.481374451346205
+"T04","S06","Tailing","Smelting","Tailing vs Smelting",0.465697699266314
+"T05","T06","Tailing","Tailing","Tailing",0.0743143115025844
+"T05","M01","Tailing","Mining","Tailing vs Mining",0.452649222547588
+"T05","M02","Tailing","Mining","Tailing vs Mining",0.45688619302903
+"T05","M03","Tailing","Mining","Tailing vs Mining",0.470078928038698
+"T05","M04","Tailing","Mining","Tailing vs Mining",0.463524638595694
+"T05","M05","Tailing","Mining","Tailing vs Mining",0.45372911562308
+"T05","M06","Tailing","Mining","Tailing vs Mining",0.461600071982853
+"T05","S01","Tailing","Smelting","Tailing vs Smelting",0.480828558465221
+"T05","S02","Tailing","Smelting","Tailing vs Smelting",0.471920060799149
+"T05","S03","Tailing","Smelting","Tailing vs Smelting",0.465944645667264
+"T05","S04","Tailing","Smelting","Tailing vs Smelting",0.472114587322828
+"T05","S05","Tailing","Smelting","Tailing vs Smelting",0.482281651094288
+"T05","S06","Tailing","Smelting","Tailing vs Smelting",0.470577028818315
+"T06","M01","Tailing","Mining","Tailing vs Mining",0.452394382421946
+"T06","M02","Tailing","Mining","Tailing vs Mining",0.45805426594293
+"T06","M03","Tailing","Mining","Tailing vs Mining",0.468194428622032
+"T06","M04","Tailing","Mining","Tailing vs Mining",0.46163033327757
+"T06","M05","Tailing","Mining","Tailing vs Mining",0.451411244764571
+"T06","M06","Tailing","Mining","Tailing vs Mining",0.462973719613551
+"T06","S01","Tailing","Smelting","Tailing vs Smelting",0.482457883377338
+"T06","S02","Tailing","Smelting","Tailing vs Smelting",0.472241978182312
+"T06","S03","Tailing","Smelting","Tailing vs Smelting",0.467698479167631
+"T06","S04","Tailing","Smelting","Tailing vs Smelting",0.473283370775053
+"T06","S05","Tailing","Smelting","Tailing vs Smelting",0.479096330399094
+"T06","S06","Tailing","Smelting","Tailing vs Smelting",0.471113491031362
+"M01","M02","Mining","Mining","Mining",0.0646412029782774
+"M01","M03","Mining","Mining","Mining",0.0596259354889881
+"M01","M04","Mining","Mining","Mining",0.0686028146037828
+"M01","M05","Mining","Mining","Mining",0.0651964658696118
+"M01","M06","Mining","Mining","Mining",0.0585986319134161
+"M01","S01","Mining","Smelting","Mining vs Smelting",0.399928120246191
+"M01","S02","Mining","Smelting","Mining vs Smelting",0.39541708574599
+"M01","S03","Mining","Smelting","Mining vs Smelting",0.39176252420776
+"M01","S04","Mining","Smelting","Mining vs Smelting",0.391344330321052
+"M01","S05","Mining","Smelting","Mining vs Smelting",0.4018784391013
+"M01","S06","Mining","Smelting","Mining vs Smelting",0.392551658935526
+"M02","M03","Mining","Mining","Mining",0.0745622447730237
+"M02","M04","Mining","Mining","Mining",0.0768482078247459
+"M02","M05","Mining","Mining","Mining",0.0660286982108202
+"M02","M06","Mining","Mining","Mining",0.0627772772974428
+"M02","S01","Mining","Smelting","Mining vs Smelting",0.407547221848393
+"M02","S02","Mining","Smelting","Mining vs Smelting",0.403225954061471
+"M02","S03","Mining","Smelting","Mining vs Smelting",0.395988868541963
+"M02","S04","Mining","Smelting","Mining vs Smelting",0.3971797291175
+"M02","S05","Mining","Smelting","Mining vs Smelting",0.405061649445423
+"M02","S06","Mining","Smelting","Mining vs Smelting",0.398327107343691
+"M03","M04","Mining","Mining","Mining",0.0526966382501593
+"M03","M05","Mining","Mining","Mining",0.0698003459913977
+"M03","M06","Mining","Mining","Mining",0.0591877312992831
+"M03","S01","Mining","Smelting","Mining vs Smelting",0.411807613072311
+"M03","S02","Mining","Smelting","Mining vs Smelting",0.405688860765596
+"M03","S03","Mining","Smelting","Mining vs Smelting",0.40187982253451
+"M03","S04","Mining","Smelting","Mining vs Smelting",0.408203843313693
+"M03","S05","Mining","Smelting","Mining vs Smelting",0.408580523955125
+"M03","S06","Mining","Smelting","Mining vs Smelting",0.403348935469784
+"M04","M05","Mining","Mining","Mining",0.0661147463826345
+"M04","M06","Mining","Mining","Mining",0.0576106645764505
+"M04","S01","Mining","Smelting","Mining vs Smelting",0.40632382348928
+"M04","S02","Mining","Smelting","Mining vs Smelting",0.40061400174108
+"M04","S03","Mining","Smelting","Mining vs Smelting",0.397812460249779
+"M04","S04","Mining","Smelting","Mining vs Smelting",0.403442009018704
+"M04","S05","Mining","Smelting","Mining vs Smelting",0.407488132522586
+"M04","S06","Mining","Smelting","Mining vs Smelting",0.398841248429957
+"M05","M06","Mining","Mining","Mining",0.064651284309522
+"M05","S01","Mining","Smelting","Mining vs Smelting",0.398038589747858
+"M05","S02","Mining","Smelting","Mining vs Smelting",0.395153666388843
+"M05","S03","Mining","Smelting","Mining vs Smelting",0.389020651336874
+"M05","S04","Mining","Smelting","Mining vs Smelting",0.393430886350428
+"M05","S05","Mining","Smelting","Mining vs Smelting",0.400315816426571
+"M05","S06","Mining","Smelting","Mining vs Smelting",0.393324845341735
+"M06","S01","Mining","Smelting","Mining vs Smelting",0.407245158761857
+"M06","S02","Mining","Smelting","Mining vs Smelting",0.403515309995289
+"M06","S03","Mining","Smelting","Mining vs Smelting",0.39828316529989
+"M06","S04","Mining","Smelting","Mining vs Smelting",0.402820506078805
+"M06","S05","Mining","Smelting","Mining vs Smelting",0.409785479598451
+"M06","S06","Mining","Smelting","Mining vs Smelting",0.402767418064292
+"S01","S02","Smelting","Smelting","Smelting",0.0628735761083255
+"S01","S03","Smelting","Smelting","Smelting",0.0600758538568649
+"S01","S04","Smelting","Smelting","Smelting",0.0539385227650785
+"S01","S05","Smelting","Smelting","Smelting",0.0512423507298275
+"S01","S06","Smelting","Smelting","Smelting",0.0642841316492143
+"S02","S03","Smelting","Smelting","Smelting",0.0724566774524688
+"S02","S04","Smelting","Smelting","Smelting",0.0562739025384584
+"S02","S05","Smelting","Smelting","Smelting",0.0650985959617094
+"S02","S06","Smelting","Smelting","Smelting",0.0648232502468516
+"S03","S04","Smelting","Smelting","Smelting",0.0665071158947913
+"S03","S05","Smelting","Smelting","Smelting",0.0600012200682076
+"S03","S06","Smelting","Smelting","Smelting",0.070351861357501
+"S04","S05","Smelting","Smelting","Smelting",0.0568468415855521
+"S04","S06","Smelting","Smelting","Smelting",0.065073830910033
+"S05","S06","Smelting","Smelting","Smelting",0.0710115929564653
