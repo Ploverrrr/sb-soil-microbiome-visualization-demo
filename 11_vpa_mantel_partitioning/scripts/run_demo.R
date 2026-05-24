@@ -64,8 +64,9 @@ mantel_r_labels <- c("<0.2", "0.2-0.4", ">=0.4")
 mantel_p_breaks <- c(-Inf, 0.01, 0.05, Inf)
 mantel_p_labels <- c("<0.01", "0.01-0.05", ">=0.05")
 mantel_link_colors <- c("<0.01" = "#62a11b", "0.01-0.05" = "#68edcb", ">=0.05" = "snow3")
-mantel_link_sizes <- c("<0.2" = 0.35, "0.2-0.4" = 0.7, ">=0.4" = 1.25)
+mantel_link_sizes <- c("<0.2" = 0.25, "0.2-0.4" = 0.5, ">=0.4" = 0.9)
 mantel_heatmap_colors <- c(low = "#c6f093", mid = "#f8fff8", high = "#163f00")
+mantel_links_to_plot_per_response <- 4
 
 vpa_fraction_output <- "vpa_fraction_table.csv"
 partial_rda_output <- "partial_rda_tests.csv"
@@ -207,8 +208,8 @@ mantel_results <- ggcor::mantel_test(
   spec.dist.method = "bray",
   env.dist.method = "euclidean",
   spec.select = list(
-    Species_community = species_indices,
-    Functional_genes = function_indices
+    Species = species_indices,
+    Functions = function_indices
   ),
   env.select = NULL
 ) %>%
@@ -219,59 +220,20 @@ mantel_results <- ggcor::mantel_test(
 
 write.csv(as.data.frame(mantel_results), file.path(results_dir, mantel_output), row.names = FALSE)
 
+mantel_results_for_plot <- mantel_results %>%
+  group_by(spec) %>%
+  arrange(p.value, desc(abs(r)), .by_group = TRUE) %>%
+  slice_head(n = mantel_links_to_plot_per_response) %>%
+  ungroup()
+
 env_correlation <- stats::cor(mantel_env, method = "spearman")
 write.csv(env_correlation, file.path(results_dir, env_correlation_output), row.names = TRUE)
 
-corr_df <- as.data.frame(as.table(env_correlation), stringsAsFactors = FALSE)
-colnames(corr_df) <- c("var_y", "var_x", "spearman_r")
-corr_df$x <- match(corr_df$var_x, mantel_environmental_variables)
-corr_df$y <- match(corr_df$var_y, mantel_environmental_variables)
-corr_df <- corr_df[corr_df$x > corr_df$y, , drop = FALSE]
-
-axis_df <- data.frame(
-  variable = mantel_environmental_variables,
-  x = seq_along(mantel_environmental_variables),
-  y = seq_along(mantel_environmental_variables),
-  stringsAsFactors = FALSE
-)
-
-mantel_plot_data <- as.data.frame(mantel_results)
-mantel_plot_data$pd <- factor(mantel_plot_data$pd, levels = mantel_p_labels)
-mantel_plot_data$rd <- factor(mantel_plot_data$rd, levels = mantel_r_labels)
-mantel_plot_data$x <- -0.45
-mantel_plot_data$y <- ifelse(mantel_plot_data$spec == "Species_community", length(mantel_environmental_variables) + 1.65, length(mantel_environmental_variables) + 0.95)
-mantel_plot_data$xend <- match(mantel_plot_data$env, mantel_environmental_variables)
-mantel_plot_data$yend <- match(mantel_plot_data$env, mantel_environmental_variables)
-mantel_plot_data$curvature <- ifelse(mantel_plot_data$spec == "Species_community", -0.25, -0.15)
-
-response_label_df <- unique(mantel_plot_data[, c("spec", "x", "y"), drop = FALSE])
-response_label_df$label <- gsub("_", " ", response_label_df$spec)
-response_label_df$label_x <- response_label_df$x - 1.45
-
-mantel_plot <- ggplot() +
-  geom_tile(data = corr_df, aes(x = x, y = y, fill = spearman_r), color = "white", linewidth = 0.4) +
-  geom_text(data = corr_df, aes(x = x, y = y, label = sprintf("%.2f", spearman_r)), size = 2.6, color = "black") +
-  geom_text(data = axis_df, aes(x = x, y = -0.15, label = variable), angle = 45, hjust = 1, vjust = 1, size = 3.2, fontface = "bold") +
-  geom_text(data = axis_df, aes(x = 0.05, y = y, label = variable), hjust = 1, size = 3.2, fontface = "bold") +
-  geom_curve(
-    data = mantel_plot_data,
-    aes(x = x, y = y, xend = xend, yend = yend, colour = pd, linewidth = rd),
-    curvature = -0.22,
-    alpha = 0.62,
-    lineend = "round"
-  ) +
-  geom_point(data = response_label_df, aes(x = x, y = y), shape = 21, fill = "#f8fff8", color = "#163f00", size = 3.6, stroke = 1) +
-  geom_label(
-    data = response_label_df,
-    aes(x = label_x, y = y, label = label),
-    hjust = 0,
-    size = 3.4,
-    fontface = "bold",
-    fill = "white",
-    color = "black",
-    linewidth = 0,
-    label.padding = unit(0.12, "lines")
-  ) +
+# The original script used quickcor() + geom_square() + anno_link().
+# In current ggplot2/ggcor versions, geom_square() can fail during rectangle
+# setup, while geom_colour() produces the same square heatmap grammar.
+mantel_plot <- ggcor::quickcor(mantel_env, method = "spearman", type = "upper") +
+  ggcor::geom_colour() +
   scale_fill_gradient2(
     low = mantel_heatmap_colors["low"],
     mid = mantel_heatmap_colors["mid"],
@@ -279,25 +241,29 @@ mantel_plot <- ggplot() +
     midpoint = 0,
     limits = c(-1, 1)
   ) +
-  scale_color_manual(values = mantel_link_colors, drop = FALSE) +
-  scale_linewidth_manual(values = mantel_link_sizes, drop = FALSE) +
-  coord_equal(
-    xlim = c(-2.25, length(mantel_environmental_variables) + 0.8),
-    ylim = c(-0.95, length(mantel_environmental_variables) + 2.15),
-    clip = "off"
+  ggcor::anno_link(
+    aes(colour = pd, size = rd),
+    data = mantel_results_for_plot,
+    width = 0.24,
+    label.size = 3.6,
+    label.fontface = "bold",
+    nudge_x = 0.08,
+    alpha = 0.82
   ) +
+  scale_color_manual(values = mantel_link_colors, drop = FALSE) +
+  scale_size_manual(values = mantel_link_sizes, drop = FALSE) +
   guides(
-    linewidth = guide_legend(title = "Mantel's r", order = 2),
+    size = guide_legend(title = "Mantel's r", order = 2),
     colour = guide_legend(title = "Mantel's p", order = 3),
     fill = guide_colorbar(title = "Spearman's r", order = 4)
   ) +
-  labs(x = NULL, y = NULL) +
-  theme_void(base_size = 11) +
   theme(
     text = element_text(size = 11, face = "bold"),
+    axis.text.x = element_text(angle = 45, hjust = 1, color = "black"),
+    axis.text.y = element_text(color = "black"),
     legend.title = element_text(face = "bold"),
-    legend.position = "right",
-    plot.margin = margin(18, 18, 34, 54)
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA)
   )
 
 save_ggplot_pair(
