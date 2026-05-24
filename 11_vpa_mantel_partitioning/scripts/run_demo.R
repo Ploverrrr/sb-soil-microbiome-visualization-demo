@@ -64,9 +64,8 @@ mantel_r_labels <- c("<0.2", "0.2-0.4", ">=0.4")
 mantel_p_breaks <- c(-Inf, 0.01, 0.05, Inf)
 mantel_p_labels <- c("<0.01", "0.01-0.05", ">=0.05")
 mantel_link_colors <- c("<0.01" = "#62a11b", "0.01-0.05" = "#68edcb", ">=0.05" = "snow3")
-mantel_link_sizes <- c("<0.2" = 0.25, "0.2-0.4" = 0.5, ">=0.4" = 0.9)
+mantel_link_sizes <- c("<0.2" = 0.5, "0.2-0.4" = 1, ">=0.4" = 2)
 mantel_heatmap_colors <- c(low = "#c6f093", mid = "#f8fff8", high = "#163f00")
-mantel_links_to_plot_per_response <- 4
 
 vpa_fraction_output <- "vpa_fraction_table.csv"
 partial_rda_output <- "partial_rda_tests.csv"
@@ -220,50 +219,30 @@ mantel_results <- ggcor::mantel_test(
 
 write.csv(as.data.frame(mantel_results), file.path(results_dir, mantel_output), row.names = FALSE)
 
-mantel_results_for_plot <- mantel_results %>%
-  group_by(spec) %>%
-  arrange(p.value, desc(abs(r)), .by_group = TRUE) %>%
-  slice_head(n = mantel_links_to_plot_per_response) %>%
-  ungroup()
-
 env_correlation <- stats::cor(mantel_env, method = "spearman")
 write.csv(env_correlation, file.path(results_dir, env_correlation_output), row.names = TRUE)
 
-# The original script used quickcor() + geom_square() + anno_link().
-# In current ggplot2/ggcor versions, geom_square() can fail during rectangle
-# setup, while geom_colour() produces the same square heatmap grammar.
+# This intentionally follows the original Mantel plotting grammar:
+# quickcor() + geom_square() + anno_link(). The mapped width/height constants
+# keep geom_square() compatible with the installed ggplot2 version.
+mantel_square_layer <- suppressWarnings(ggcor::geom_square(aes(width = 1, height = 1)))
 mantel_plot <- ggcor::quickcor(mantel_env, method = "spearman", type = "upper") +
-  ggcor::geom_colour() +
+  mantel_square_layer +
   scale_fill_gradient2(
     low = mantel_heatmap_colors["low"],
     mid = mantel_heatmap_colors["mid"],
-    high = mantel_heatmap_colors["high"],
-    midpoint = 0,
-    limits = c(-1, 1)
+    high = mantel_heatmap_colors["high"]
   ) +
   ggcor::anno_link(
     aes(colour = pd, size = rd),
-    data = mantel_results_for_plot,
-    width = 0.24,
-    label.size = 3.6,
-    label.fontface = "bold",
-    nudge_x = 0.08,
-    alpha = 0.82
+    data = mantel_results
   ) +
-  scale_color_manual(values = mantel_link_colors, drop = FALSE) +
-  scale_size_manual(values = mantel_link_sizes, drop = FALSE) +
+  scale_color_manual(values = mantel_link_colors) +
+  scale_size_manual(values = mantel_link_sizes) +
   guides(
     size = guide_legend(title = "Mantel's r", order = 2),
     colour = guide_legend(title = "Mantel's p", order = 3),
     fill = guide_colorbar(title = "Spearman's r", order = 4)
-  ) +
-  theme(
-    text = element_text(size = 11, face = "bold"),
-    axis.text.x = element_text(angle = 45, hjust = 1, color = "black"),
-    axis.text.y = element_text(color = "black"),
-    legend.title = element_text(face = "bold"),
-    panel.background = element_rect(fill = "white", color = NA),
-    plot.background = element_rect(fill = "white", color = NA)
   )
 
 save_ggplot_pair(

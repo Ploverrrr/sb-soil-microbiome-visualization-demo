@@ -64,10 +64,9 @@ Open `scripts/run_demo.R` and edit the settings block near the top. Common setti
 - `co_metal_variables`
 - `nutrient_variables`
 - `mantel_environmental_variables`
-- `mantel_links_to_plot_per_response`
 - plot colors, output file names, and figure sizes
 
-The full Mantel result table is always exported. The figure can show a smaller number of representative links per response block because the simulated toy gradient makes nearly every Mantel test significant; this keeps the portfolio figure readable without hiding the complete computed results.
+The Mantel figure uses the full computed Mantel result table, matching the original script's plotting logic.
 
 ## Replacing With Your Own Data
 
