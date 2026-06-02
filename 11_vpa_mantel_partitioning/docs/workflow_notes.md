@@ -28,7 +28,7 @@ The original Mantel script:
 5. overlaid Mantel links with `anno_link()`;
 6. used a green Spearman heatmap palette and link colors based on Mantel significance.
 
-This module preserves that visual grammar and computes two response blocks: species and functions. The plot keeps `geom_square()`; the script only maps constant `width` and `height` values inside `aes()` to keep this layer compatible with the installed `ggcor`/`ggplot2` versions.
+This module preserves that visual grammar and computes two response blocks using the original script's `spec.select` structure: `callvulg = 1:2` and `B = 3:44`. The plot keeps a bare `geom_square()` call in the plotting block; the script defines a tiny compatibility wrapper beforehand so that call works with the installed `ggcor`/`ggplot2` versions.
 
 ## Computational Workflow
 
@@ -42,7 +42,7 @@ This module preserves that visual grammar and computes two response blocks: spec
 8. Save cleaned and raw adjusted R2 fractions.
 9. Run partial RDA tests for the pure Sb fraction while conditioning on co-metals and nutrients.
 10. Draw the native two-panel VPA figure.
-11. Run Mantel tests for species and functional response blocks against selected environmental variables.
+11. Run Mantel tests for the original-style `callvulg` and `B` response blocks against selected environmental variables.
 12. Draw the Mantel-link environmental correlation heatmap from the complete Mantel table.
 
 ## Interpretation Notes

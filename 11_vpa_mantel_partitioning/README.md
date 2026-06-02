@@ -66,7 +66,7 @@ Open `scripts/run_demo.R` and edit the settings block near the top. Common setti
 - `mantel_environmental_variables`
 - plot colors, output file names, and figure sizes
 
-The Mantel figure uses the full computed Mantel result table, matching the original script's plotting logic.
+The Mantel figure uses the full computed Mantel result table and the original response-block logic: `spec.select = list(callvulg = 1:2, B = 3:44)`.
 
 ## Replacing With Your Own Data
 

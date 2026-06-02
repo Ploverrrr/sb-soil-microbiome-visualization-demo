@@ -192,61 +192,45 @@ save_base_vpa_pair(
   group_names = vpa_group_names
 )
 
-mantel_env <- env_raw[, mantel_environmental_variables, drop = FALSE]
-mantel_response <- cbind(
-  species_matrix,
-  function_matrix
-)
-species_indices <- seq_len(ncol(species_matrix))
-function_indices <- seq(from = ncol(species_matrix) + 1, length.out = ncol(function_matrix))
+varechem <- env_raw[, mantel_environmental_variables, drop = FALSE]
+varespec <- species_matrix
 
-mantel_results <- ggcor::mantel_test(
-  mantel_response,
-  mantel_env,
-  mantel.fun = "mantel",
-  spec.dist.method = "bray",
-  env.dist.method = "euclidean",
-  spec.select = list(
-    Species = species_indices,
-    Functions = function_indices
-  ),
-  env.select = NULL
-) %>%
-  mutate(
-    rd = cut(r, breaks = mantel_r_breaks, labels = mantel_r_labels),
-    pd = cut(p.value, breaks = mantel_p_breaks, labels = mantel_p_labels)
-  )
+# Compatibility shim only: the original script calls bare geom_square(), but
+# this ggcor/ggplot2 combination needs width and height mapped for that layer.
+geom_square <- function(...) {
+  suppressWarnings(ggcor::geom_square(aes(width = 1, height = 1), ...))
+}
 
+mantel <- mantel_test(varespec, varechem, mantel.fun = 'mantel',
+                      spec.dist.method = 'bray', env.dist.method = 'euclidean',
+                      spec.select = list(callvulg = 1:2,B = 3:44), #spec.select = NULL
+                      env.select = NULL) %>% #依次定义四种物种作为mantel的分析对象
+  mutate(rd = cut(r,breaks = c(-Inf, 0.2, 0.4, Inf),
+                  labels = c("<0.2","0.2-0.4",">=0.4")), #定义Mantel的R值范围标签，便于出图
+         pd = cut(p.value, breaks = c(-Inf, 0.01, 0.05, Inf),
+                  labels = c("<0.01","0.01-0.05",">=0.05")))  #定义Mantel检验的p值范围标签，便于出图
+
+mantel_results <- mantel
 write.csv(as.data.frame(mantel_results), file.path(results_dir, mantel_output), row.names = FALSE)
 
-env_correlation <- stats::cor(mantel_env, method = "spearman")
+env_correlation <- stats::cor(varechem, method = "spearman")
 write.csv(env_correlation, file.path(results_dir, env_correlation_output), row.names = TRUE)
 
-# This intentionally follows the original Mantel plotting grammar:
-# quickcor() + geom_square() + anno_link(). The mapped width/height constants
-# keep geom_square() compatible with the installed ggplot2 version.
-mantel_square_layer <- suppressWarnings(ggcor::geom_square(aes(width = 1, height = 1)))
-mantel_plot <- ggcor::quickcor(mantel_env, method = "spearman", type = "upper") +
-  mantel_square_layer +
-  scale_fill_gradient2(
-    low = mantel_heatmap_colors["low"],
-    mid = mantel_heatmap_colors["mid"],
-    high = mantel_heatmap_colors["high"]
-  ) +
-  ggcor::anno_link(
-    aes(colour = pd, size = rd),
-    data = mantel_results
-  ) +
-  scale_color_manual(values = mantel_link_colors) +
-  scale_size_manual(values = mantel_link_sizes) +
-  guides(
-    size = guide_legend(title = "Mantel's r", order = 2),
-    colour = guide_legend(title = "Mantel's p", order = 3),
-    fill = guide_colorbar(title = "Spearman's r", order = 4)
-  )
+p1 <- quickcor (varechem, method = "spearman", type = "upper")+ 
+  #绘制理化数据热图，method=“spearman” 还可以为“pearson”，“kendall”;type=full\lower\upper
+  geom_square()+  #定义成方块状 #geom_circle2()\geom_ellipse2()\geom_number2()\等等
+  scale_fill_gradient2(low = '#c6f093', mid = '#f8fff8', high = '#163f00')+ #环境变量相关系数颜色赋值
+  anno_link(aes (colour = pd, size = rd), data = mantel) + #定义连线 #mantel[-which(mantel$p.value>0.05)]
+  scale_color_manual (values = c("#62a11b","#68edcb", "snow3")) + #根据Mantel相关p值指定线条颜色
+  scale_size_manual (values = c(0.5, 1, 2))+ #连线粗细的定义
+  guides (size = guide_legend(title ="Mantel's r", #定义图例
+                              order = 2),
+          colour = guide_legend (title = "Mantel's p",
+                                 order = 3),
+          fill = guide_colorbar (title = "Spearman's r", order = 4))
 
 save_ggplot_pair(
-  mantel_plot,
+  p1,
   file.path(figures_dir, mantel_pdf),
   file.path(figures_dir, mantel_png),
   mantel_width,
