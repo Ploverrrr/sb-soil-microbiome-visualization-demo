@@ -1,6 +1,6 @@
 # Workflow Notes
 
-This module recomputes all analysis results from raw-like shared toy inputs. It does not use hand-edited final plotting tables or precomputed RF importance tables.
+This module recomputes all analysis results from raw-like shared toy inputs. It does not use hand-edited plotting tables or precomputed RF importance tables.
 
 ## Workflow
 

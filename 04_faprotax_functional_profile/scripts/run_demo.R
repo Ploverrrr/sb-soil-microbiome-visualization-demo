@@ -224,7 +224,7 @@ zscore_bubble_plot <- ggplot(long_scaled_functions, aes(x = sample_id, y = funct
   scale_size_continuous(range = zscore_size_range, name = "|z-score|") +
   labs(
     title = "FAPROTAX scaled bubble profile",
-    subtitle = "Matches the original script logic: scale function profiles before plotting",
+    subtitle = "Reference workflow pattern: scale function profiles before plotting",
     x = NULL,
     y = function_group_column
   ) +

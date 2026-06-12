@@ -8,13 +8,13 @@ The demo starts from shared raw-like toy input tables, builds a `microeco::micro
 
 - Taxonomic count table processing from feature-level pseudo-counts.
 - Relative abundance calculation by sample for transparent intermediate output.
-- `microeco` LEfSe analysis with `taxa_level = "all"`, matching the original script logic.
+- `microeco` LEfSe analysis with `taxa_level = "all"`, matching the reference workflow logic.
 - Native `plot_diff_bar()` LDA score visualization.
 - Native `plot_diff_cladogram()` taxonomic cladogram visualization.
 - Native `plot_diff_abund()` KW abundance visualization using the same selected taxa as the LDA plot.
 - Group-colored combined figures and an auxiliary abundance heatmap derived from the recalculated model output.
 
-This is a portfolio-friendly LEfSe module using simulated data. The cladogram is not a hand-drawn approximation; it is generated through the same `microeco` plotting family used by the original reference script.
+This is a portfolio-friendly LEfSe module using simulated data. The cladogram is not a hand-drawn approximation; it is generated through the same `microeco` plotting family used by the reference workflow pattern.
 
 ## Shared Toy Inputs
 
@@ -110,6 +110,6 @@ The script adds `k__`, `p__`, `c__`, `o__`, `f__`, and `g__` prefixes internally
 
 A precomputed `LDA_score.csv`, `res_diff.csv`, or manually edited plotting table would only demonstrate plotting. This module recalculates the LEfSe result with `microeco::trans_diff$new()` and then exports model-derived plotting tables so the workflow remains transparent and reproducible.
 
-## Original-Script Features Preserved
+## Reference Workflow Features
 
-The original reference script produced an LDA score barplot, a taxonomic cladogram, a combined LDA+cladogram figure, a KW abundance figure, and a combined LDA+KW figure. This module mirrors that functional structure with simulated data and the original `microeco` plotting workflow: `plot_diff_bar()`, `plot_diff_cladogram()`, `plot_diff_abund()`, `aplot::insert_left()`, and `gridExtra::arrangeGrob()`.
+The reference workflow pattern includes an LDA score barplot, a taxonomic cladogram, a combined LDA+cladogram figure, a KW abundance figure, and a combined LDA+KW figure. This module mirrors that functional structure with simulated data and the `microeco` plotting workflow: `plot_diff_bar()`, `plot_diff_cladogram()`, `plot_diff_abund()`, `aplot::insert_left()`, and `gridExtra::arrangeGrob()`.

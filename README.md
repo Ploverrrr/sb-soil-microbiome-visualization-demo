@@ -4,7 +4,7 @@
 
 This repository is a public GitHub portfolio demo for environmental microbiome and contaminant-gradient data visualization in R. It contains 11 independent, reproducible modules that use simulated/desensitized toy data to demonstrate research-style figure workflows for soil microbial communities, environmental variables, contaminant gradients, functional annotations, and mechanism-oriented statistical graphics.
 
-The project is not a paper-result reproduction repository. Public outputs are generated from toy inputs and should be read as demonstrations of analysis structure, visualization logic, and reproducible workflow design rather than as real environmental findings.
+The project is not a published-result reproduction repository. Public outputs are generated from toy inputs and should be read as demonstrations of analysis structure, visualization logic, and reproducible workflow design rather than as real environmental findings.
 
 ## Why this project
 
@@ -14,9 +14,11 @@ The environmental context is centered on Sb/Cu/As contaminant gradients, soil ph
 
 ## Data privacy and public-data policy
 
-All data intended for public use in this repository are simulated, toy, or desensitized demonstration data. They do not represent real sample measurements, private raw sequencing data, or manuscript-only analysis tables.
+All data intended for public use in this repository are simulated, toy, or desensitized demonstration data. They do not represent real sample measurements, private raw sequencing data, or non-public analysis tables.
 
-The repository is configured so private or raw data paths remain ignored, including `_private_original/`, `raw/`, `private/`, `original_data/`, `data/raw/`, and `data/private/`. Large sequencing/archive formats such as FASTQ, BAM, SAM, compressed archives, and ZIP/TAR files are also ignored. Public modules should not depend on private raw files or copied final plotting tables from a separate research project.
+The repository is configured so private or raw data paths remain ignored, including `_private_original/`, `raw/`, `private/`, `original_data/`, `raw_data/`, `real_data/`, `private_data/`, `data/raw/`, and `data/private/`. Large sequencing/archive formats such as FASTQ, BAM, SAM, compressed archives, and ZIP/TAR files are also ignored. Public modules should not depend on private raw files or copied plotting tables from a separate research project.
+
+Demo figures in this repository are generated from toy/sanitized inputs. They are included to show reproducible figure-building workflows and should not be treated as publication figures, real biological results, or evidence for scientific inference. KEGG/FAPROTAX/BacMet-related examples use simulated toy annotations only; no external annotation databases are redistributed.
 
 ## Repository Structure
 
@@ -185,6 +187,6 @@ The modules are intentionally compact and portfolio-oriented. They demonstrate f
 ## Next steps
 
 - Re-run all modules after dependency installation in a fresh R environment.
-- Confirm that no private raw data, manuscript-only files, or large sequencing files are tracked before publishing.
+- Confirm that no private raw data, non-public analysis files, or large sequencing files are tracked before publishing.
 - Review figure captions and module READMEs for consistency with the public-data policy.
 - Keep future additions focused on transparent toy-data workflows rather than real unpublished results.

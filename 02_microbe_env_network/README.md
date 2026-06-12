@@ -13,7 +13,7 @@ The demo starts from raw-like toy tables:
 - feature-by-sample abundance;
 - taxonomy annotations.
 
-It does not use precomputed edge lists, Gephi files, or private original data.
+It does not use precomputed edge lists, Gephi files, or private source data.
 
 The output includes:
 

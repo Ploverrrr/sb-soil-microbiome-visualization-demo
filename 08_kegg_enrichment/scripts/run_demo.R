@@ -1,7 +1,7 @@
 # Purpose:
 #   Build a reproducible KEGG-style enrichment demo from shared simulated
-#   functional annotation toy data. The plotting workflow follows the original
-#   KEGG enrichment scripts: clusterProfiler enrichment results, barplot(),
+#   functional annotation toy data. The plotting workflow follows a reference
+#   KEGG enrichment pattern: clusterProfiler enrichment results, barplot(),
 #   dotplot(), patchwork combination, and an auxiliary ggplot bubble plot.
 #
 # Input files:
@@ -40,9 +40,9 @@ treatment_group <- "Smelting"
 ko_id_pattern <- "^K"
 
 # Backend options:
-#   "clusterprofiler_kegg" - original method, uses enrichKEGG() and enrichMKEGG()
+#   "clusterprofiler_kegg" - online KEGG method, uses enrichKEGG() and enrichMKEGG()
 #   "toy_offline"         - reproducible demo mode using enricher() + toy TERM2GENE
-#   "auto"                - try the original method first, then fall back to toy_offline
+#   "auto"                - try the online method first, then fall back to toy_offline
 # For real data analysis, use "clusterprofiler_kegg" when KEGG access is available.
 # You can also override without editing this file:
 #   KEGG_ENRICHMENT_BACKEND=clusterprofiler_kegg Rscript scripts/run_demo.R

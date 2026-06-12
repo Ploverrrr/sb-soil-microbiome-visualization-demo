@@ -1,6 +1,6 @@
 # Purpose:
 #   Build an independent VPA and Mantel partitioning demo from shared simulated
-#   soil microbiome toy data. The workflow follows the original scripts:
+#   soil microbiome toy data. The workflow follows a reference workflow pattern:
 #   Hellinger-transformed species/function matrices, vegan::varpart() for
 #   Sb / co-metal / nutrient variable groups, partial RDA testing, and a
 #   ggcor Mantel-link plot over an environmental Spearman correlation heatmap.
@@ -195,7 +195,7 @@ save_base_vpa_pair(
 varechem <- env_raw[, mantel_environmental_variables, drop = FALSE]
 varespec <- species_matrix
 
-# Compatibility shim only: the original script calls bare geom_square(), but
+# Compatibility shim only: the legacy plotting pattern calls bare geom_square(), but
 # this ggcor/ggplot2 combination needs width and height mapped for that layer.
 geom_square <- function(...) {
   suppressWarnings(ggcor::geom_square(aes(width = 1, height = 1), ...))
@@ -204,11 +204,11 @@ geom_square <- function(...) {
 mantel <- mantel_test(varespec, varechem, mantel.fun = 'mantel',
                       spec.dist.method = 'bray', env.dist.method = 'euclidean',
                       spec.select = list(callvulg = 1:2,B = 3:44), #spec.select = NULL
-                      env.select = NULL) %>% #依次定义四种物种作为mantel的分析对象
+                      env.select = NULL) %>% # Define response blocks for Mantel testing.
   mutate(rd = cut(r,breaks = c(-Inf, 0.2, 0.4, Inf),
-                  labels = c("<0.2","0.2-0.4",">=0.4")), #定义Mantel的R值范围标签，便于出图
+                  labels = c("<0.2","0.2-0.4",">=0.4")), # Mantel r categories for plotting.
          pd = cut(p.value, breaks = c(-Inf, 0.01, 0.05, Inf),
-                  labels = c("<0.01","0.01-0.05",">=0.05")))  #定义Mantel检验的p值范围标签，便于出图
+                  labels = c("<0.01","0.01-0.05",">=0.05")))  # Mantel p-value categories for plotting.
 
 mantel_results <- mantel
 write.csv(as.data.frame(mantel_results), file.path(results_dir, mantel_output), row.names = FALSE)
@@ -217,13 +217,13 @@ env_correlation <- stats::cor(varechem, method = "spearman")
 write.csv(env_correlation, file.path(results_dir, env_correlation_output), row.names = TRUE)
 
 p1 <- quickcor (varechem, method = "spearman", type = "upper")+ 
-  #绘制理化数据热图，method=“spearman” 还可以为“pearson”，“kendall”;type=full\lower\upper
-  geom_square()+  #定义成方块状 #geom_circle2()\geom_ellipse2()\geom_number2()\等等
-  scale_fill_gradient2(low = '#c6f093', mid = '#f8fff8', high = '#163f00')+ #环境变量相关系数颜色赋值
-  anno_link(aes (colour = pd, size = rd), data = mantel) + #定义连线 #mantel[-which(mantel$p.value>0.05)]
-  scale_color_manual (values = c("#62a11b","#68edcb", "snow3")) + #根据Mantel相关p值指定线条颜色
-  scale_size_manual (values = c(0.5, 1, 2))+ #连线粗细的定义
-  guides (size = guide_legend(title ="Mantel's r", #定义图例
+  # Draw an environmental correlation heatmap; method can also be pearson or kendall.
+  geom_square()+  # Use square tiles for the correlation heatmap.
+  scale_fill_gradient2(low = '#c6f093', mid = '#f8fff8', high = '#163f00')+ # Environmental correlation colors.
+  anno_link(aes (colour = pd, size = rd), data = mantel) + # Mantel association links.
+  scale_color_manual (values = c("#62a11b","#68edcb", "snow3")) + # Link colors by Mantel p-value.
+  scale_size_manual (values = c(0.5, 1, 2))+ # Link widths by Mantel r category.
+  guides (size = guide_legend(title ="Mantel's r", # Plot legends.
                               order = 2),
           colour = guide_legend (title = "Mantel's p",
                                  order = 3),

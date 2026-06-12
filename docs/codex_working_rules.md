@@ -15,7 +15,7 @@ These rules define how future work should be done in this repository.
 - Each module must use relative paths.
 - Each module must start from raw-like toy input data in `data/toy/`.
 - Each module must compute intermediate statistics inside the module.
-- Final plotting tables should not be used as primary inputs.
+- Precomputed plotting tables should not be used as primary inputs.
 - Scripts should write reproducible outputs to `results/` and `figures/`.
 
 ## Implementation Rules

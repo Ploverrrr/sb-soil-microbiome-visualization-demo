@@ -39,7 +39,7 @@ Required columns:
 | `Genus` | Taxonomic genus. |
 | `taxon_label` | Human-readable feature-level label. |
 
-`target_taxonomic_level` in `scripts/run_demo.R` selects the LEfSe taxonomy level. The default is `all`, matching the original `microeco::trans_diff$new(taxa_level = "all")` script.
+`target_taxonomic_level` in `scripts/run_demo.R` selects the LEfSe taxonomy level. The default is `all`, matching the reference `microeco::trans_diff$new(taxa_level = "all")` workflow pattern.
 
 The shared CSV keeps clean taxonomy names without prefixes. The script adds `k__`, `p__`, `c__`, `o__`, `f__`, and `g__` prefixes internally before creating the `microeco::microtable`, because `microeco::plot_diff_cladogram()` expects prefixed taxonomy labels for native cladogram rendering.
 
@@ -49,7 +49,7 @@ The shared CSV keeps clean taxonomy names without prefixes. The script adds `k__
 | --- | --- |
 | `taxon_relative_abundance_by_sample.csv` | Selected taxonomic level by sample relative abundance table. |
 | `lefse_candidate_statistics.csv` | Complete `microeco` LEfSe `res_diff` table exported after recalculation. |
-| `lefse_biomarker_table.csv` | Top recalculated biomarkers used for final figures. |
+| `lefse_biomarker_table.csv` | Top recalculated biomarkers used for demo figures. |
 | `lefse_barplot_plotting_table.csv` | Native `plot_diff_bar()` plotting data. |
 | `kw_abundance_plotting_table.csv` | Native `plot_diff_abund()` plotting data. |
 | `cladogram_node_table.csv` | Native `plot_diff_cladogram()` data exported from the returned plot object. |

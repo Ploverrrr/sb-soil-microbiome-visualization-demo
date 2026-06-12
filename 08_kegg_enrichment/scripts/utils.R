@@ -191,7 +191,7 @@ run_clusterprofiler_kegg <- function(ko_list, pvalue_cutoff, p_adjust_method, qv
 
 run_enrichment_backend <- function(enrichment_backend, ko_list, universe, pvalue_cutoff, p_adjust_method, qvalue_cutoff, min_gs_size, max_gs_size) {
   if (identical(enrichment_backend, "clusterprofiler_kegg")) {
-    message("Running original clusterProfiler KEGG backend: enrichKEGG() + enrichMKEGG().")
+    message("Running online clusterProfiler KEGG backend: enrichKEGG() + enrichMKEGG().")
     return(run_clusterprofiler_kegg(
       ko_list = ko_list,
       pvalue_cutoff = pvalue_cutoff,
@@ -228,7 +228,7 @@ run_enrichment_backend <- function(enrichment_backend, ko_list, universe, pvalue
     ))
   }
 
-  message("Trying original clusterProfiler KEGG backend first; falling back to offline toy backend only if KEGG access fails.")
+  message("Trying online clusterProfiler KEGG backend first; falling back to offline toy backend only if KEGG access fails.")
   tryCatch(
     run_enrichment_backend(
       "clusterprofiler_kegg",
@@ -241,7 +241,7 @@ run_enrichment_backend <- function(enrichment_backend, ko_list, universe, pvalue
       max_gs_size = max_gs_size
     ),
     error = function(error) {
-      message("Original KEGG backend failed: ", conditionMessage(error))
+      message("Online KEGG backend failed: ", conditionMessage(error))
       message("Falling back to the offline toy backend so the demo remains reproducible.")
       run_enrichment_backend(
         "toy_offline",

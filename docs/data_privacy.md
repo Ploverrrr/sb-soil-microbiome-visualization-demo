@@ -22,7 +22,7 @@ Do not publish:
 - original abundance tables;
 - original differential analysis tables;
 - original enrichment results;
-- manually edited final plotting tables;
+- manually edited plotting tables;
 - private absolute paths;
 - reference PDFs or third-party course materials copied into the private folder.
 

@@ -2,7 +2,7 @@
 
 This independent module demonstrates alpha diversity, beta diversity, and ordination analysis for a simulated metal-contaminated soil microbiome study.
 
-The workflow follows the original project scripts for alpha/beta diversity figures:
+The workflow follows a reference alpha/beta diversity figure pattern:
 
 - optional even-depth rarefaction before alpha diversity calculation;
 - `vegan` alpha diversity indices including Chao1 and Shannon;
@@ -79,4 +79,4 @@ To use your own data, replace the shared input files or point `shared_data_dir` 
 - `sample_metadata.csv` must include `sample_id` and the configured grouping column.
 - `abundance_table.csv` must contain one `feature_id` column followed by numeric sample columns.
 
-The script recalculates alpha indices, Bray-Curtis distances, ordination coordinates, PERMANOVA, NMDS, and plotting tables from these raw-like inputs. Do not use a final plotting table as the main input if you want the workflow to remain reproducible.
+The script recalculates alpha indices, Bray-Curtis distances, ordination coordinates, PERMANOVA, NMDS, and plotting tables from these raw-like inputs. Do not use a precomputed plotting table as the main input if you want the workflow to remain reproducible.

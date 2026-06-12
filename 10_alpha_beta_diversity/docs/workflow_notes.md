@@ -2,7 +2,7 @@
 
 This module adapts the original alpha/beta diversity scripts into a reproducible demo that starts from raw-like feature counts rather than precomputed diversity tables.
 
-## Original Script Logic Preserved
+## Reference Workflow Logic
 
 The original alpha diversity script used:
 

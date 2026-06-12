@@ -1,7 +1,7 @@
 # Purpose:
 #   Build a reproducible differential abundance volcano + heatmap demo from
 #   shared simulated soil microbiome taxonomy and abundance toy data. The
-#   plotting workflow follows the original scripts: DESeq2 differential
+#   plotting workflow follows a reference workflow pattern: DESeq2 differential
 #   analysis, ggplot2 volcano plots with ggrepel labels, patchwork combining,
 #   and ComplexHeatmap/circlize heatmaps.
 #
@@ -74,7 +74,7 @@ circular_heatmap_width <- 7
 circular_heatmap_height <- 7
 png_dpi <- 300
 
-# Original scripts used blue/cyan for down-regulated taxa, grey for stable
+# Reference figures used blue/cyan for down-regulated taxa, grey for stable
 # taxa, and red/pink for up-regulated taxa.
 volcano_colors <- c(Down = "#00c9c8", Stable = "grey", Up = "#ed5e93")
 heatmap_colors <- c("#00c9c8", "white", "#ed5e93")

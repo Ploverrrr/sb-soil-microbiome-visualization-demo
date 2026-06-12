@@ -1,6 +1,6 @@
 # Workflow Notes
 
-This module follows the original sulfur gene / Sb script while replacing private inputs with shared simulated toy data.
+This module follows a reference sulfur gene / Sb association workflow while using shared simulated toy data.
 
 ## Analysis Steps
 
@@ -10,7 +10,7 @@ This module follows the original sulfur gene / Sb script while replacing private
 4. Extract target sulfur KO IDs from `functional_annotation_table.csv`.
 5. Aggregate the selected value column, default `abundance`, by KO and sample.
 6. Rename target KOs to gene labels such as `dsrA`, `soxB`, and `sat`.
-7. Create combined indicators following the original logic:
+7. Create combined indicators following the reference workflow logic:
 
 ```text
 dsrAB  = mean(dsrA, dsrB), using available columns
@@ -20,7 +20,7 @@ soxBCD = mean(soxB, soxC, soxD), using available columns
 8. Merge sulfur gene indicators with selected contaminant variables.
 9. Run pairwise Pearson correlations between sulfur indicators and contaminants.
 10. Export the Pearson result table.
-11. Draw the original-style Pearson heatmap with:
+11. Draw the demo Pearson heatmap with:
 
 ```r
 ggcorrplot(
@@ -52,4 +52,4 @@ The MLR plots summarize whether sulfur indicators jointly explain selected Sb sp
 
 ## Scope
 
-The shared toy dataset is simulated/desensitized and does not contain a complete real sulfur gene catalog. This module demonstrates a reproducible workflow and original figure style. For real analysis, users should supply a complete KO abundance table and carefully review gene selection, normalization, and model assumptions.
+The shared toy dataset is simulated/desensitized and does not contain a complete real sulfur gene catalog. This module demonstrates a reproducible workflow and demo figure layout. For real analysis, users should supply a complete KO abundance table and carefully review gene selection, normalization, and model assumptions.

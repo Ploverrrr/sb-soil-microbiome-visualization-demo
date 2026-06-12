@@ -2,14 +2,14 @@
 
 This module demonstrates a reproducible differential abundance workflow for a simulated metal-contaminated soil microbiome study.
 
-The demo follows the original script structure: DESeq2 differential analysis, `ggplot2` volcano plots with `ggrepel` labels, `patchwork` combined volcano panels, and `ComplexHeatmap`/`circlize` heatmap visualization. It does not use a precomputed differential result table or a manually edited heatmap matrix as input.
+The demo follows a reference workflow pattern: DESeq2 differential analysis, `ggplot2` volcano plots with `ggrepel` labels, `patchwork` combined volcano panels, and `ComplexHeatmap`/`circlize` heatmap visualization. It does not use a precomputed differential result table or a manually edited heatmap matrix as input.
 
 ## What This Module Shows
 
 - Aggregation of feature-level pseudo-counts to a selected taxonomic level.
 - DESeq2 comparisons of each contaminated group against the control group.
 - Up/Down/Stable classification using log2 fold-change and p-value thresholds.
-- Original-style volcano plots with cyan/grey/pink colors, threshold lines, and labeled top taxa.
+- Demo volcano plot layout with cyan/grey/pink colors, threshold lines, and labeled top taxa.
 - Rectangular `ComplexHeatmap` output and circular `circos.heatmap()` output for selected differential taxa.
 
 ## Shared Toy Inputs
@@ -100,6 +100,6 @@ Keep sample IDs identical across metadata and abundance table column names. Keep
 
 A precomputed `DESeq2_result.csv` or hand-edited heatmap matrix would only demonstrate plotting. This module recalculates the taxon count matrix, DESeq2 results, selected labels, and heatmap matrix from raw-like toy input so the workflow remains transparent and reproducible.
 
-## Original-Script Features Preserved
+## Reference Workflow Features
 
-The original scripts used `DESeq2`, volcano plots with `geom_point()`, `scale_color_manual()`, dashed threshold lines, `theme_bw()`, `ggrepel` labels for top features, `patchwork` for combined volcano panels, and `ComplexHeatmap`/`circlize` for heatmap visualization. This module keeps those plotting methods and visual grammar while replacing private inputs with simulated shared toy data.
+The reference workflow uses `DESeq2`, volcano plots with `geom_point()`, `scale_color_manual()`, dashed threshold lines, `theme_bw()`, `ggrepel` labels for top features, `patchwork` for combined volcano panels, and `ComplexHeatmap`/`circlize` for heatmap visualization. This module keeps those plotting methods and visual grammar while using simulated shared toy data.

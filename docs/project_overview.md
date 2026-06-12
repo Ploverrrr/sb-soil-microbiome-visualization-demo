@@ -9,7 +9,7 @@ The portfolio emphasizes:
 - taxonomic abundance analysis;
 - functional annotation profile visualization;
 - correlation, network, enrichment, and mechanism-oriented graphics;
-- reproducible R workflows from raw-like toy inputs to final figures.
+- reproducible R workflows from raw-like toy inputs to demo figures.
 
 The project is not intended to reproduce private research data. Instead, it preserves figure logic, visual style, and scientific storytelling using simulated, toy, or desensitized inputs.
 

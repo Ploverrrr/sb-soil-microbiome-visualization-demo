@@ -2,14 +2,14 @@
 
 This independent module demonstrates variation partitioning analysis (VPA) and Mantel-based environmental association visualization for a simulated metal-contaminated soil microbiome study.
 
-The workflow follows the original project scripts:
+The workflow follows a reference VPA/Mantel analysis pattern:
 
 - build species/community and functional-gene response matrices;
 - Hellinger-transform response matrices with `vegan::decostand()`;
 - standardize environmental variables;
 - run `vegan::varpart()` for `Sb`, `Cu & As`, and `Nutrients`;
 - run partial RDA tests for the pure Sb fraction;
-- draw the original-style two-panel native `vegan` VPA plot;
+- draw the demo two-panel native `vegan` VPA plot;
 - run Mantel tests using Bray-Curtis response distances and Euclidean environmental distances;
 - draw a `ggcor::quickcor()` environmental Spearman heatmap with Mantel links.
 

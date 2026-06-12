@@ -8,12 +8,18 @@ __MACOSX/
 *.log
 *.tmp
 
-# raw/private data
+# raw/private data and external source tables
 raw/
 private/
 original_data/
+raw_data/
+real_data/
+private_data/
 data/raw/
 data/private/
+data/raw_data/
+data/real_data/
+data/private_data/
 *.xlsx
 *.xls
 *.csv
@@ -25,20 +31,25 @@ data/private/
 *.fa
 *.fasta
 *.fna
+*.faa
+*.cram
 *.bam
 *.sam
+*.dmnd
+*.hmm
+*.sqlite
+*.db
 *.gz
 *.zip
 *.tar
 *.tar.gz
 
-# manuscript/private outputs
-manuscript/
+# non-public outputs and submission materials
+non_public_outputs/
 submission/
-真实数据/
-原始数据/
+paper_drafts/
 
-# keep the copied original project private
+# keep copied private source projects excluded
 _private_original/
 
 # local/session files

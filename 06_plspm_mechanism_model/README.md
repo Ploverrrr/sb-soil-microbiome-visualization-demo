@@ -2,7 +2,7 @@
 
 This module demonstrates a reproducible PLS-PM mechanism-model workflow for a simulated metal-contaminated soil microbiome study.
 
-The workflow follows the original reference scripts: it builds a manifest-variable table, scales it, defines latent-variable blocks and a 0/1 path matrix, runs `plspm::plspm()`, and draws the native `plspm` inner and outer model plots. The demo does not use a precomputed model table or manually edited path diagram.
+The workflow follows a reference modeling pattern: it builds a manifest-variable table, scales it, defines latent-variable blocks and a 0/1 path matrix, runs `plspm::plspm()`, and draws the native `plspm` inner and outer model plots. The demo does not use a precomputed model table or manually edited path diagram.
 
 ## What This Module Shows
 

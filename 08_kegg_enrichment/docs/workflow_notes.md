@@ -1,6 +1,6 @@
 # Workflow Notes
 
-This module follows the original KEGG enrichment plotting workflow while making the upstream KO list reproducible from shared toy data.
+This module follows a reference KEGG enrichment plotting workflow while making the upstream KO list reproducible from shared toy data.
 
 ## Analysis Steps
 
@@ -26,7 +26,7 @@ auto:
 ```
 
 9. Export pathway and module enrichment result tables.
-10. Draw the original-style combined plots:
+10. Draw the demo combined plots:
 
 ```r
 ko1 <- barplot(result1)
@@ -50,9 +50,9 @@ The default offline result is a demonstration of enrichment workflow mechanics. 
 
 ## Why Use Offline Toy Enrichment By Default?
 
-The original code used `enrichKEGG()` and `enrichMKEGG()` directly. This module keeps that route available through `enrichment_backend = "clusterprofiler_kegg"` and documents it as the recommended setting for real datasets. Users can also set `KEGG_ENRICHMENT_BACKEND=clusterprofiler_kegg` at runtime without editing the script.
+The reference workflow used `enrichKEGG()` and `enrichMKEGG()` directly. This module keeps that route available through `enrichment_backend = "clusterprofiler_kegg"` and documents it as the recommended setting for real datasets outside this toy demo. Users can also set `KEGG_ENRICHMENT_BACKEND=clusterprofiler_kegg` at runtime without editing the script.
 
-Those functions can require online KEGG access, and the shared toy dataset intentionally contains only a small simulated KO universe. The offline backend keeps the public demo reproducible on GitHub while preserving the `clusterProfiler` result object and the original `barplot()` / `dotplot()` plotting workflow.
+Those functions can require online KEGG access, and the shared toy dataset intentionally contains only a small simulated KO universe. The offline backend keeps the public demo reproducible on GitHub while preserving the `clusterProfiler` result object and the reference `barplot()` / `dotplot()` plotting workflow.
 
 The module plot uses `enrichment_plot_color_by = "pvalue"` by default because the tiny toy module universe can make all BH-adjusted p-values identical, producing a single-color module plot. The exported tables still include `p.adjust`, and users can set `enrichment_plot_color_by = "p.adjust"` for real analyses.
 

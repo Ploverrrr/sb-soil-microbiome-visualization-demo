@@ -2,7 +2,7 @@
 
 - [x] No private raw data included
 - [x] No absolute local paths included
-- [x] No manuscript-only files included
+- [x] No non-public publication files included
 - [x] No tracked `.DS_Store` files
 - [x] No tracked `__MACOSX` folders
 - [x] No large sequencing files

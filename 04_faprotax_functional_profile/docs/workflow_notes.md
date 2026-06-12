@@ -33,7 +33,7 @@ This module builds a FAPROTAX-style functional profile from raw-like shared toy 
 
 7. Draw figures:
    - bubble profile: sample-by-function view of unweighted feature-assignment percentage;
-   - scaled bubble profile: count-weighted function profiles are z-score scaled across samples, following the original script style;
+   - scaled bubble profile: count-weighted function profiles are z-score scaled across samples, following a reference plotting pattern;
    - grouped barplot: group mean unweighted feature-assignment percentage with error bars.
 
 ## Interpretation

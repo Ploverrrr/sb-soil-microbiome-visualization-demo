@@ -2,7 +2,7 @@
 
 This module demonstrates a publication-style ternary plot for visualizing how microbial taxa are distributed across three site groups in a simulated metal-contaminated soil microbiome study.
 
-The demo reads the shared toy dataset from the repository-level `data/toy_shared/` folder. It does not use private data, real sample values, or a precomputed final plotting table.
+The demo reads the shared toy dataset from the repository-level `data/toy_shared/` folder. It does not use private data, real sample values, or a precomputed plotting table.
 
 ## What This Module Shows
 

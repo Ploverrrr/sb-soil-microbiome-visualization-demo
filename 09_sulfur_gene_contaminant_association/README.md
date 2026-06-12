@@ -2,15 +2,15 @@
 
 This module demonstrates a reproducible sulfur gene / contaminant association workflow for a simulated metal-contaminated soil microbiome study.
 
-The workflow follows the original sulfur gene script: target sulfur KO extraction, Pearson correlation analysis, `ggcorrplot` heatmap, significant scatter regression plots, and multiple linear regression summary figures. It does not use a precomputed correlation table or manually edited plotting table as input.
+The workflow follows a reference sulfur-gene association pattern: target sulfur KO extraction, Pearson correlation analysis, `ggcorrplot` heatmap, significant scatter regression plots, and multiple linear regression summary figures. It does not use a precomputed correlation table or manually edited plotting table as input.
 
 ## What This Module Shows
 
 - Extraction of sulfur cycling KO abundances from long-format functional annotation data.
 - Construction of dsr/sox-style combined indicators from available target KOs.
 - Pearson correlation testing between sulfur gene indicators and contaminants.
-- Original-style Pearson heatmap using `ggcorrplot()`.
-- Original-style scatter regression panels for the strongest sulfur gene / contaminant associations.
+- Demo Pearson heatmap using `ggcorrplot()`.
+- Demo scatter regression panels for the strongest sulfur gene / contaminant associations.
 - MLR fitted-vs-measured and standardized coefficient plots for Sb species.
 
 ## Shared Toy Inputs
@@ -81,12 +81,12 @@ Use the same input structure:
 - `environmental_variables.csv` must contain `sample_id` and the selected contaminant variables.
 - `functional_annotation_table.csv` must contain `sample_id`, `ko_id`, and the selected abundance/count value column.
 
-For real sulfur gene work, update `target_ko_names` to match the KO IDs present in your annotation table. The original script targeted `K11180`, `K11181`, `K17218`, `K17222`, and `K17223` for dsr/sox genes.
+For real sulfur gene work, update `target_ko_names` to match the KO IDs present in your annotation table. The reference workflow targets `K11180`, `K11181`, `K17218`, `K17222`, and `K17223` for dsr/sox genes.
 
 ## Toy Data Limitation
 
-The shared toy dataset includes simulated sulfur-related KOs such as `K11180`, `K17218`, and `K00958`, but it does not include a full dsrAB/soxBCD gene set. The script keeps the original combined-indicator logic and builds `dsrAB` or `soxBCD` from whichever target genes are available. This is appropriate for demonstrating the workflow, but users should provide complete gene annotations for real analysis.
+The shared toy dataset includes simulated sulfur-related KOs such as `K11180`, `K17218`, and `K00958`, but it does not include a full dsrAB/soxBCD gene set. The script keeps the reference combined-indicator logic and builds `dsrAB` or `soxBCD` from whichever target genes are available. This is appropriate for demonstrating the workflow, but users should provide complete gene annotations for real analysis.
 
-## Original-Script Features Preserved
+## Reference Workflow Features
 
-The original sulfur script produced `Pearson_results.csv`, a Pearson heatmap, scatter regression plots for selected significant pairs, and MLR result plots. This module preserves that analysis and plotting structure while replacing private inputs and absolute paths with shared simulated toy data and relative paths.
+The reference sulfur-gene workflow produces `Pearson_results.csv`, a Pearson heatmap, scatter regression plots for selected significant pairs, and MLR result plots. This module preserves that analysis and plotting structure while using shared simulated toy data and relative paths.

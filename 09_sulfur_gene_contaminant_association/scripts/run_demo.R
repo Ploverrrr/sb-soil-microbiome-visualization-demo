@@ -1,7 +1,7 @@
 # Purpose:
 #   Build a reproducible sulfur gene / contaminant association demo from shared
 #   simulated environmental and functional annotation toy data. The workflow
-#   follows the original sulfur script: target sulfur KO extraction, Pearson
+#   follows a reference sulfur-gene association pattern: target sulfur KO extraction, Pearson
 #   correlation table, ggcorrplot heatmap, significant scatter regressions, and
 #   multiple linear regression summary plots.
 #

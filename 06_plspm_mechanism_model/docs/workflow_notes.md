@@ -18,7 +18,7 @@ This module follows the original PLS-PM scripts closely: build a scaled manifest
    - nitrogen cycling
    - carbon cycling
 6. Combine environmental indicators, derived functional indicators, and alpha-diversity indicators into one model input table.
-7. Scale manifest variables with `scale()`, matching the original script pattern.
+7. Scale manifest variables with `scale()`, matching the reference workflow pattern.
 8. Define default latent-variable blocks:
 
 ```r

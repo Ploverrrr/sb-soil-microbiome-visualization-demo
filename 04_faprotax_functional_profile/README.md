@@ -2,7 +2,7 @@
 
 This module demonstrates a reproducible FAPROTAX-style functional profile workflow for a simulated metal-contaminated soil microbiome study.
 
-The demo uses the repository-level shared toy dataset. It does not use real functional annotation results, private data, or manually prepared final plotting tables.
+The demo uses the repository-level shared toy dataset. It does not use real functional annotation results, private data, or manually prepared plotting tables.
 
 ## What This Module Shows
 

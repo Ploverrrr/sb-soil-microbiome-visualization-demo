@@ -9,8 +9,8 @@ Required columns:
 | Column | Description |
 | --- | --- |
 | `sample_id` | Unique sample identifier. Must match functional annotation sample IDs. |
-| `Sb_III` | Simulated trivalent antimony. Replaces the original script's `Sb3` name. |
-| `Sb_V` | Simulated pentavalent antimony. Replaces the original script's `Sb5` name. |
+| `Sb_III` | Simulated trivalent antimony. Uses a public-safe column name in place of shorthand `Sb3`. |
+| `Sb_V` | Simulated pentavalent antimony. Uses a public-safe column name in place of shorthand `Sb5`. |
 | `Sb_total` | Simulated total antimony. |
 | `SO4` | Simulated sulfate. |
 | `As` | Simulated arsenic. |
