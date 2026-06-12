@@ -141,6 +141,10 @@ See [docs/r_package_requirements.md](docs/r_package_requirements.md) for a conso
 
 This repository does not automatically install packages.
 
+## License
+
+This project is released under the [MIT License](LICENSE). The code, simulated toy data, generated demo results, and generated demo figures may be reused under the terms of that license.
+
 ## Reproducibility notes
 
 The shared toy-data generator uses a fixed random seed so the public demo inputs can be regenerated. Each module performs its own calculations from toy inputs and writes reproducible CSV results and figure files to the module folder.

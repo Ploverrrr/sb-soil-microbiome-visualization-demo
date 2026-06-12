@@ -85,6 +85,14 @@ install.packages(c(
 ))
 ```
 
+Install `ggcor` if it is available from your configured repository:
+
+```r
+install.packages("ggcor")
+```
+
+If `ggcor` is unavailable from your CRAN mirror, install it from its upstream source according to the package maintainer's current instructions, then rerun `11_vpa_mantel_partitioning/scripts/run_demo.R`.
+
 Install Bioconductor packages from an R session:
 
 ```r
