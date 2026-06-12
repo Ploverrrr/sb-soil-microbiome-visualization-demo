@@ -2,7 +2,20 @@
 
 This project is an R-based public portfolio demo for environmental microbiome and contaminant-gradient visualization. The modules use simulated/desensitized toy data and write reproducible results and figures from their own `scripts/run_demo.R` files.
 
-The repository does not automatically install packages. Install requirements in your local R environment before running the relevant modules.
+The module scripts do not install packages automatically. They check for required packages and stop with a clear message if something is missing.
+
+For a fresh public-style R environment, use the repository-level helper from the project root:
+
+```bash
+Rscript scripts/install_r_dependencies.R
+```
+
+Then regenerate toy data and run the full demo set:
+
+```bash
+Rscript scripts/create_shared_toy_data.R
+Rscript scripts/run_all_demos.R
+```
 
 ## Core Package Groups
 
@@ -57,9 +70,31 @@ The differential and enrichment modules require Bioconductor packages:
 | `10_alpha_beta_diversity` | `vegan`, `ggplot2`, `ggpubr`, `patchwork`, `gghalves`, `ggsignif` |
 | `11_vpa_mantel_partitioning` | `vegan`, `ggplot2`, `ggcor`, `dplyr` |
 
-## Suggested Installation Pattern
+## Automated Installation Helper
 
-Install CRAN packages from an R session:
+The recommended installation path is:
+
+```bash
+Rscript scripts/install_r_dependencies.R
+```
+
+The helper installs the CRAN package group, the Bioconductor package group, and `ggcor`. It first tries to install `ggcor` from the configured CRAN repository; if that is not available, it can try GitHub via `remotes::install_github("houyunhuang/ggcor")`.
+
+Useful environment-variable options:
+
+```bash
+CRAN_REPO=https://packagemanager.posit.co/cran/latest Rscript scripts/install_r_dependencies.R
+NCPUS=4 Rscript scripts/install_r_dependencies.R
+INSTALL_BIOC_PACKAGES=false Rscript scripts/install_r_dependencies.R
+INSTALL_GGCOR_FROM_GITHUB=false Rscript scripts/install_r_dependencies.R
+```
+
+Use `INSTALL_BIOC_PACKAGES=false` only for partial testing, because modules `07_differential_volcano_heatmap` and `08_kegg_enrichment` require Bioconductor packages.
+
+## Manual Installation Pattern
+
+If you prefer to install manually, install CRAN packages from an R session:
+
 
 ```r
 install.packages(c(
@@ -91,7 +126,7 @@ Install `ggcor` if it is available from your configured repository:
 install.packages("ggcor")
 ```
 
-If `ggcor` is unavailable from your CRAN mirror, install it from its upstream source according to the package maintainer's current instructions, then rerun `11_vpa_mantel_partitioning/scripts/run_demo.R`.
+If `ggcor` is unavailable from your CRAN mirror, install it from its upstream source according to the package maintainer's current instructions. The automated helper uses `remotes::install_github("houyunhuang/ggcor")` as its fallback because the Mantel module follows the original `ggcor` plotting workflow.
 
 Install Bioconductor packages from an R session:
 

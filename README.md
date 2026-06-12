@@ -32,6 +32,7 @@ The repository is configured so private or raw data paths remain ignored, includ
 |   `-- shared_toy_data_schema.md
 |-- scripts/
 |   |-- create_shared_toy_data.R
+|   |-- install_r_dependencies.R
 |   `-- run_all_demos.R
 |-- data/
 |   `-- toy_shared/
@@ -104,7 +105,17 @@ Variation partitioning summarizes how environmental, contaminant, and spatial-st
 
 ## How to Run
 
-From the repository root, generate or refresh the shared toy data:
+For a full reproducible run in a prepared public R environment, use:
+
+```bash
+Rscript scripts/install_r_dependencies.R
+Rscript scripts/create_shared_toy_data.R
+Rscript scripts/run_all_demos.R
+```
+
+The dependency helper installs the CRAN/Bioconductor packages used by the modules. The module scripts themselves do not install packages automatically; they report missing packages and stop so installation remains explicit.
+
+From the repository root, generate or refresh only the shared toy data:
 
 ```bash
 Rscript scripts/create_shared_toy_data.R
@@ -135,11 +146,11 @@ Rscript scripts/run_all_demos.R
 
 The helper prints each module name, continues after a failed module, and reports a passed/failed summary at the end.
 
+For a clean local environment test, see [docs/reproducible_r_environment.md](docs/reproducible_r_environment.md).
+
 ## R package requirements
 
-See [docs/r_package_requirements.md](docs/r_package_requirements.md) for a consolidated package list, module-specific dependencies, and installation guidance. Some modules use Bioconductor packages such as `DESeq2`, `ComplexHeatmap`, `clusterProfiler`, and `enrichplot`; others use CRAN packages such as `ggplot2`, `vegan`, `patchwork`, `randomForest`, `igraph`, `ggtern`, `plspm`, and `microeco`.
-
-This repository does not automatically install packages.
+See [docs/r_package_requirements.md](docs/r_package_requirements.md) for a consolidated package list and module-specific dependencies. See [docs/reproducible_r_environment.md](docs/reproducible_r_environment.md) for the recommended public-environment run pattern and GitHub Actions notes.
 
 ## License
 
