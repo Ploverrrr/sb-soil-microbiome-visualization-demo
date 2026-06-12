@@ -14,7 +14,7 @@ The environmental context is centered on Sb/Cu/As contaminant gradients, soil ph
 
 ## Publication Context
 
-This portfolio repository is inspired by microbial ecology visualization experience from an equal-contribution publication: "Responses of soil microbes to antimony stress and coupled nutrient cycling in karst mining areas of southwest China," published in _Ecotoxicology and Environmental Safety_ 318, 120248, DOI: 10.1016/j.ecoenv.2026.120248.
+This portfolio repository is inspired by microbial ecology visualization experience from an equal-contribution publication: "Responses of soil microbes to antimony stress and coupled nutrient cycling in karst mining areas of southwest China," published in _Ecotoxicology and Environmental Safety_ 318, 120248, DOI: [https://doi.org/10.1016/j.ecoenv.2026.120248](https://doi.org/10.1016/j.ecoenv.2026.120248).
 
 This repository is not official paper code, does not reproduce published figures, and does not contain real study data or manuscript results. All examples here use simulated/desensitized toy data to demonstrate public-safe R workflow organization, statistical visualization, and reproducible figure generation.
 
