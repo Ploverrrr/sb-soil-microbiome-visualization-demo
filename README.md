@@ -12,6 +12,12 @@ Environmental microbiome projects often need to connect community structure, con
 
 The environmental context is centered on Sb/Cu/As contaminant gradients, soil physicochemical variables, microbial community shifts, functional profiles, sulfur and nutrient cycling, and mechanism-oriented interpretation. The emphasis is on clear visualization and transparent workflow design, not on claiming biological conclusions from the simulated data.
 
+## Publication Context
+
+This portfolio repository is inspired by microbial ecology visualization experience from an equal-contribution publication: "Responses of soil microbes to antimony stress and coupled nutrient cycling in karst mining areas of southwest China," published in _Ecotoxicology and Environmental Safety_ 318, 120248, DOI: 10.1016/j.ecoenv.2026.120248.
+
+This repository is not official paper code, does not reproduce published figures, and does not contain real study data or manuscript results. All examples here use simulated/desensitized toy data to demonstrate public-safe R workflow organization, statistical visualization, and reproducible figure generation.
+
 ## Data privacy and public-data policy
 
 All data intended for public use in this repository are simulated, toy, or desensitized demonstration data. They do not represent real sample measurements, private raw sequencing data, or non-public analysis tables.
@@ -75,35 +81,37 @@ It writes public demonstration tables to `data/toy_shared/`, including sample me
 | `10_alpha_beta_diversity` | Alpha/beta diversity visualization for soil microbial community structure | Diversity indices, PERMANOVA output, PCoA/NMDS and distance figures |
 | `11_vpa_mantel_partitioning` | Variation partitioning and Mantel-style environmental association visualization | VPA fractions, Mantel results, environment-correlation and VPA figures |
 
-## Selected gallery
+## Selected Demo Outputs
 
-![Random forest and correlation heatmap](01_rf_correlation_heatmap/figures/rf_correlation_combined.png)
+**Random-forest correlation workflow**
 
-Random-forest ranking and correlation heatmaps are combined to summarize which microbial features are most strongly associated with simulated contaminant and soil-variable gradients.
+![Random-forest correlation workflow](01_rf_correlation_heatmap/figures/rf_correlation_combined.png)
 
-![Microbe-environment network](02_microbe_env_network/figures/microbe_env_network.png)
+*Random-forest feature ranking and environmental correlation visualization using public-safe toy microbiome data.*
 
-The network module shows how microbe-environment associations can be translated into node and edge tables, then visualized as an interpretable environmental association graph.
+**DESeq2-style differential workflow**
 
-![FAPROTAX functional profile](04_faprotax_functional_profile/figures/faprotax_zscore_bubble_profile.png)
+![DESeq2-style differential workflow](07_differential_volcano_heatmap/figures/deseq2_volcano_combined.png)
 
-The functional-profile view demonstrates how microbial functional annotations can be summarized across environmental groups without treating the toy trends as real biological conclusions.
+*DESeq2-style volcano plots showing a reproducible differential-analysis visualization pattern with toy data.*
 
-![PLS-PM path model](06_plspm_mechanism_model/figures/plspm_inner_path_model.png)
+**PLS-PM-style mechanism diagram**
 
-The mechanism model organizes contaminant exposure, soil conditions, community structure, and functional profiles into a path-model style figure suitable for research-style environmental interpretation.
+![PLS-PM-style mechanism diagram](06_plspm_mechanism_model/figures/plspm_inner_path_model.png)
 
-![Sulfur gene contaminant heatmap](09_sulfur_gene_contaminant_association/figures/fig1_pearson_heatmap.png)
+*Public-safe PLS-PM-style path diagram demonstrating mechanism-oriented figure construction from simulated inputs.*
 
-Sulfur-cycle gene associations are visualized against contaminant and soil gradients to demonstrate mechanism-oriented statistical graphics for environmental microbiome workflows.
+**KEGG-style enrichment workflow**
 
-![PCoA beta diversity](10_alpha_beta_diversity/figures/fig2_pcoa_bray_curtis.png)
+![KEGG-style enrichment workflow](08_kegg_enrichment/figures/kegg_pathway_bubble_plot.png)
 
-The diversity module shows beta-diversity ordination for simulated soil microbial communities across contaminant-context groups.
+*KEGG-style enrichment bubble plot generated from simulated functional annotations for workflow demonstration.*
 
-![VPA partitioning](11_vpa_mantel_partitioning/figures/fig1_vpa_combined.png)
+**Beta-diversity ordination workflow**
 
-Variation partitioning summarizes how environmental, contaminant, and spatial-style blocks can be displayed for toy community/function response matrices.
+![Beta-diversity ordination workflow](10_alpha_beta_diversity/figures/fig2_pcoa_bray_curtis.png)
+
+*PCoA ordination example showing beta-diversity visualization from toy community data.*
 
 ## How to Run
 
