@@ -27,7 +27,7 @@ lefse_norm = 1000000
 11. Draw the LDA score plot with `plot_diff_bar()`.
 12. Draw the native LEfSe cladogram with `plot_diff_cladogram()`.
 13. Draw the KW abundance plot with `plot_diff_abund()` using the same selected taxa as the LDA plot.
-14. Combine LDA + cladogram with `aplot::insert_left()`.
+14. Combine LDA + cladogram with `aplot::insert_left()` when `aplot` is available, otherwise use a `patchwork` fallback.
 15. Combine LDA + KW abundance with `gridExtra::arrangeGrob()`.
 16. Export model-derived plotting tables to `results/`.
 17. Save PDF and PNG figures to `figures/`.

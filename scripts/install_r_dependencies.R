@@ -51,14 +51,12 @@ cran_packages <- c(
   "ggcorrplot",
   "plspm",
   "microeco",
-  "aplot",
   "gridExtra",
   "circlize"
 )
 
 cran_github_fallbacks <- c(
-  gghalves = "erocoar/gghalves",
-  aplot = "YuLab-SMU/aplot"
+  gghalves = "erocoar/gghalves"
 )
 
 bioc_packages <- c(

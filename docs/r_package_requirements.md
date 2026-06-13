@@ -39,7 +39,6 @@ The module scripts currently require or use the following CRAN packages:
 - `ggcorrplot`
 - `plspm`
 - `microeco`
-- `aplot`
 - `gridExtra`
 - `circlize`
 
@@ -62,7 +61,7 @@ The differential and enrichment modules require Bioconductor packages:
 | `02_microbe_env_network` | `igraph` |
 | `03_ternary_taxa_distribution` | `ggtern` |
 | `04_faprotax_functional_profile` | `ggplot2` |
-| `05_lefse_biomarker` | `ggplot2`, `microeco`, `aplot`, `gridExtra` |
+| `05_lefse_biomarker` | `ggplot2`, `microeco`, `gridExtra`, `patchwork`; optional `aplot` for the native LDA + cladogram combined layout |
 | `06_plspm_mechanism_model` | `plspm` |
 | `07_differential_volcano_heatmap` | `DESeq2`, `ggplot2`, `ggrepel`, `patchwork`, `ComplexHeatmap`, `circlize` |
 | `08_kegg_enrichment` | `DESeq2`, `clusterProfiler`, `enrichplot`, `ggplot2`, `patchwork` |
@@ -80,7 +79,7 @@ Rscript scripts/install_r_dependencies.R
 
 The helper installs the CRAN package group, the Bioconductor package group, and `ggcor`. It installs only required dependency types (`Depends`, `Imports`, and `LinkingTo`) rather than optional `Suggests`, which keeps public CI focused on packages actually used by the demo scripts.
 
-The helper first tries to install `gghalves`, `aplot`, and `ggcor` from the configured CRAN repository. If `gghalves` or `aplot` are unavailable from that repository, it can try GitHub fallbacks. If `ggcor` is unavailable, it can try `remotes::install_github("houyunhuang/ggcor")`.
+The helper first tries to install `gghalves` and `ggcor` from the configured CRAN repository. If `gghalves` is unavailable from that repository, it can try a GitHub fallback. If `ggcor` is unavailable, it can try `remotes::install_github("houyunhuang/ggcor")`.
 
 Useful environment-variable options:
 
@@ -117,7 +116,6 @@ install.packages(c(
   "ggcorrplot",
   "plspm",
   "microeco",
-  "aplot",
   "gridExtra",
   "circlize"
 ))

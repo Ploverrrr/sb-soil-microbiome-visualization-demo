@@ -34,7 +34,7 @@ Two modules use Bioconductor packages:
 
 The install helper installs only required dependency types (`Depends`, `Imports`, and `LinkingTo`) instead of optional `Suggests`. This avoids failing a public CI run because a package recommends optional helper packages that are not needed by these demo scripts.
 
-The `gghalves` and `aplot` packages are installed from the configured CRAN repository first. If they are unavailable from that repository, the helper can try GitHub fallbacks for those two packages.
+The `gghalves` package is installed from the configured CRAN repository first. If it is unavailable from that repository, the helper can try a GitHub fallback. The LEfSe module can use `aplot` for its native combined cladogram layout when `aplot` is available, but falls back to `patchwork` when it is not.
 
 The Mantel module uses `ggcor`. Depending on the R version and repository mirror, `ggcor` may not be available from CRAN. The install helper first tries the configured CRAN repository and then, by default, tries `remotes::install_github("houyunhuang/ggcor")`.
 

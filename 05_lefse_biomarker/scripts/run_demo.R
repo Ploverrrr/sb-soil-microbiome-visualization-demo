@@ -109,7 +109,7 @@ heatmap_palette <- c("#f7fbff", "#9bd4e4", "#f05a8a")
 
 source(file.path("scripts", "utils.R"))
 
-required_packages <- c("ggplot2", "microeco", "aplot", "gridExtra")
+required_packages <- c("ggplot2", "microeco", "gridExtra", "patchwork")
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing_packages) > 0) {
   stop(
@@ -318,7 +318,14 @@ heatmap_plot <- ggplot(heatmap_data, aes(x = Group, y = Taxa_clean, fill = Mean_
     plot.background = element_rect(fill = "white", color = NA)
   )
 
-barplot_cladogram_plot <- aplot::insert_left(cladogram_plot, lda_plot, width = 0.4)
+if (requireNamespace("aplot", quietly = TRUE)) {
+  barplot_cladogram_plot <- aplot::insert_left(cladogram_plot, lda_plot, width = 0.4)
+} else {
+  message("Optional package 'aplot' is not installed; using patchwork fallback for the combined LDA + cladogram figure.")
+  barplot_cladogram_plot <- (lda_plot + theme(legend.position = "none")) + cladogram_plot +
+    patchwork::plot_layout(widths = c(0.4, 1))
+}
+
 lda_kw_plot <- gridExtra::arrangeGrob(
   lda_plot + theme(legend.position = "none"),
   kw_plot,

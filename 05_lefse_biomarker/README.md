@@ -112,4 +112,4 @@ A precomputed `LDA_score.csv`, `res_diff.csv`, or manually edited plotting table
 
 ## Reference Workflow Features
 
-The reference workflow pattern includes an LDA score barplot, a taxonomic cladogram, a combined LDA+cladogram figure, a KW abundance figure, and a combined LDA+KW figure. This module mirrors that functional structure with simulated data and the `microeco` plotting workflow: `plot_diff_bar()`, `plot_diff_cladogram()`, `plot_diff_abund()`, `aplot::insert_left()`, and `gridExtra::arrangeGrob()`.
+The reference workflow pattern includes an LDA score barplot, a taxonomic cladogram, a combined LDA+cladogram figure, a KW abundance figure, and a combined LDA+KW figure. This module mirrors that functional structure with simulated data and the `microeco` plotting workflow: `plot_diff_bar()`, `plot_diff_cladogram()`, and `plot_diff_abund()`. When `aplot` is available, the combined LDA+cladogram figure uses `aplot::insert_left()`; otherwise it uses a `patchwork` fallback so public CI remains reproducible.
