@@ -78,7 +78,9 @@ The recommended installation path is:
 Rscript scripts/install_r_dependencies.R
 ```
 
-The helper installs the CRAN package group, the Bioconductor package group, and `ggcor`. It first tries to install `ggcor` from the configured CRAN repository; if that is not available, it can try GitHub via `remotes::install_github("houyunhuang/ggcor")`.
+The helper installs the CRAN package group, the Bioconductor package group, and `ggcor`. It installs only required dependency types (`Depends`, `Imports`, and `LinkingTo`) rather than optional `Suggests`, which keeps public CI focused on packages actually used by the demo scripts.
+
+The helper first tries to install `gghalves`, `aplot`, and `ggcor` from the configured CRAN repository. If `gghalves` or `aplot` are unavailable from that repository, it can try GitHub fallbacks. If `ggcor` is unavailable, it can try `remotes::install_github("houyunhuang/ggcor")`.
 
 Useful environment-variable options:
 
@@ -86,6 +88,7 @@ Useful environment-variable options:
 CRAN_REPO=https://packagemanager.posit.co/cran/latest Rscript scripts/install_r_dependencies.R
 NCPUS=4 Rscript scripts/install_r_dependencies.R
 INSTALL_BIOC_PACKAGES=false Rscript scripts/install_r_dependencies.R
+INSTALL_CRAN_GITHUB_FALLBACKS=false Rscript scripts/install_r_dependencies.R
 INSTALL_GGCOR_FROM_GITHUB=false Rscript scripts/install_r_dependencies.R
 ```
 

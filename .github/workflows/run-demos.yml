@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
@@ -47,3 +47,16 @@ jobs:
 
       - name: Run all demo modules
         run: Rscript scripts/run_all_demos.R
+
+      - name: Upload generated demo outputs
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: demo-outputs
+          path: |
+            data/toy_shared/*.csv
+            [0-9][0-9]_*/results/*.csv
+            [0-9][0-9]_*/figures/*.pdf
+            [0-9][0-9]_*/figures/*.png
+          if-no-files-found: warn
+          retention-days: 14

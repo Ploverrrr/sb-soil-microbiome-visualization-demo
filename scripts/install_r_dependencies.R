@@ -21,11 +21,17 @@ truthy <- function(value) {
 }
 
 install_bioc_packages <- truthy(Sys.getenv("INSTALL_BIOC_PACKAGES", unset = "true"))
+install_cran_github_fallbacks <- truthy(Sys.getenv("INSTALL_CRAN_GITHUB_FALLBACKS", unset = "true"))
 install_ggcor_from_github <- truthy(Sys.getenv("INSTALL_GGCOR_FROM_GITHUB", unset = "true"))
 
 ncpus <- suppressWarnings(as.integer(Sys.getenv("NCPUS", unset = "")))
 if (is.na(ncpus) || ncpus < 1) {
-  ncpus <- max(1L, parallel::detectCores(logical = TRUE) - 1L)
+  detected_cores <- suppressWarnings(parallel::detectCores(logical = TRUE))
+  if (is.na(detected_cores) || detected_cores < 2) {
+    ncpus <- 1L
+  } else {
+    ncpus <- max(1L, detected_cores - 1L)
+  }
 }
 
 cran_packages <- c(
@@ -50,6 +56,11 @@ cran_packages <- c(
   "circlize"
 )
 
+cran_github_fallbacks <- c(
+  gghalves = "erocoar/gghalves",
+  aplot = "YuLab-SMU/aplot"
+)
+
 bioc_packages <- c(
   "DESeq2",
   "ComplexHeatmap",
@@ -65,14 +76,56 @@ install_missing_from_cran <- function(packages) {
   }
 
   message("Installing CRAN package(s): ", paste(missing, collapse = ", "))
-  install.packages(missing, dependencies = TRUE, Ncpus = ncpus)
+  install.packages(
+    missing,
+    dependencies = c("Depends", "Imports", "LinkingTo"),
+    Ncpus = ncpus
+  )
 
   still_missing <- missing[!vapply(missing, requireNamespace, logical(1), quietly = TRUE)]
+  fallback_packages <- intersect(still_missing, names(cran_github_fallbacks))
+
+  if (length(fallback_packages) > 0 && install_cran_github_fallbacks) {
+    install_missing_from_github(cran_github_fallbacks[fallback_packages])
+    still_missing <- missing[!vapply(missing, requireNamespace, logical(1), quietly = TRUE)]
+  }
+
   if (length(still_missing) > 0) {
     stop(
       "The following CRAN package(s) are still missing after installation: ",
       paste(still_missing, collapse = ", "),
       call. = FALSE
+    )
+  }
+
+  invisible(TRUE)
+}
+
+install_missing_from_github <- function(named_repos) {
+  if (length(named_repos) == 0) {
+    return(invisible(TRUE))
+  }
+
+  if (!requireNamespace("remotes", quietly = TRUE)) {
+    message("Installing remotes from CRAN for GitHub fallback installation.")
+    install.packages(
+      "remotes",
+      dependencies = c("Depends", "Imports", "LinkingTo"),
+      Ncpus = ncpus
+    )
+  }
+
+  for (package_name in names(named_repos)) {
+    if (requireNamespace(package_name, quietly = TRUE)) {
+      next
+    }
+
+    repo <- unname(named_repos[[package_name]])
+    message("Installing ", package_name, " from GitHub fallback: ", repo)
+    remotes::install_github(
+      repo,
+      dependencies = c("Depends", "Imports", "LinkingTo"),
+      upgrade = "never"
     )
   }
 
@@ -88,7 +141,11 @@ install_missing_from_bioc <- function(packages) {
 
   if (!requireNamespace("BiocManager", quietly = TRUE)) {
     message("Installing BiocManager from CRAN.")
-    install.packages("BiocManager", dependencies = TRUE, Ncpus = ncpus)
+    install.packages(
+      "BiocManager",
+      dependencies = c("Depends", "Imports", "LinkingTo"),
+      Ncpus = ncpus
+    )
   }
 
   message("Installing Bioconductor package(s): ", paste(missing, collapse = ", "))
@@ -114,7 +171,11 @@ install_ggcor <- function() {
 
   message("Trying to install ggcor from the configured CRAN repository.")
   cran_result <- try(
-    install.packages("ggcor", dependencies = TRUE, Ncpus = ncpus),
+    install.packages(
+      "ggcor",
+      dependencies = c("Depends", "Imports", "LinkingTo"),
+      Ncpus = ncpus
+    ),
     silent = TRUE
   )
 
@@ -140,11 +201,19 @@ install_ggcor <- function() {
 
   if (!requireNamespace("remotes", quietly = TRUE)) {
     message("Installing remotes from CRAN so ggcor can be installed from GitHub.")
-    install.packages("remotes", dependencies = TRUE, Ncpus = ncpus)
+    install.packages(
+      "remotes",
+      dependencies = c("Depends", "Imports", "LinkingTo"),
+      Ncpus = ncpus
+    )
   }
 
   message("Installing ggcor from GitHub: houyunhuang/ggcor")
-  remotes::install_github("houyunhuang/ggcor", dependencies = TRUE, upgrade = "never")
+  remotes::install_github(
+    "houyunhuang/ggcor",
+    dependencies = c("Depends", "Imports", "LinkingTo"),
+    upgrade = "never"
+  )
 
   if (!requireNamespace("ggcor", quietly = TRUE)) {
     stop("ggcor is still missing after the GitHub installation attempt.", call. = FALSE)
