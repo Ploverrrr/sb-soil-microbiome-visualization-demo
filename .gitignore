@@ -72,6 +72,8 @@ _private_original/
 *.gephi
 
 # allow public toy/demo data
+!docs/module_registry.csv
+!docs/output_manifest.csv
 !data/toy/*.csv
 !data/toy/*.tsv
 !data/toy/**/

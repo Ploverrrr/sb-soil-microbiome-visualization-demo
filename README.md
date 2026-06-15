@@ -1,5 +1,7 @@
 # Soil Microbiome & Contaminant Visualization Demo
 
+Languages: English | [中文](README.zh-CN.md)
+
 ## Overview
 
 This repository is a public GitHub portfolio demo for environmental microbiome and contaminant-gradient data visualization in R. It contains 11 independent, reproducible modules that use simulated/desensitized toy data to demonstrate research-style figure workflows for soil microbial communities, environmental variables, contaminant gradients, functional annotations, and mechanism-oriented statistical graphics.
@@ -34,14 +36,20 @@ Demo figures in this repository are generated from toy/sanitized inputs. They ar
 |-- docs/
 |   |-- data_privacy.md
 |   |-- demo_selection.md
+|   |-- module_registry.csv
+|   |-- output_manifest.csv
 |   |-- project_overview.md
 |   |-- public_release_checklist.md
 |   |-- r_package_requirements.md
+|   |-- reproducible_r_environment.md
 |   `-- shared_toy_data_schema.md
 |-- scripts/
+|   |-- check_project_integrity.R
 |   |-- create_shared_toy_data.R
 |   |-- install_r_dependencies.R
-|   `-- run_all_demos.R
+|   |-- run_all_demos.R
+|   |-- run_smoke_test.R
+|   `-- write_output_manifest.R
 |-- data/
 |   `-- toy_shared/
 `-- 01_... to 11_.../
@@ -155,6 +163,19 @@ Rscript scripts/run_all_demos.R
 ```
 
 The helper prints each module name, continues after a failed module, and reports a passed/failed summary at the end.
+
+For a lightweight public-safety and reproducibility check that avoids the Bioconductor-heavy modules, use:
+
+```bash
+Rscript scripts/run_smoke_test.R
+```
+
+For a static project integrity check and output manifest refresh, use:
+
+```bash
+Rscript scripts/check_project_integrity.R
+Rscript scripts/write_output_manifest.R
+```
 
 For a clean local environment test, see [docs/reproducible_r_environment.md](docs/reproducible_r_environment.md).
 

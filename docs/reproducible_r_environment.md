@@ -23,6 +23,16 @@ R_LIBS_USER=/tmp/sb_demo_r_lib Rscript scripts/run_all_demos.R
 
 On macOS or Linux, this is a practical way to check whether the repository can run in a clean public-style R environment.
 
+## Lightweight Smoke Test
+
+For a faster check that avoids the Bioconductor-heavy modules, run:
+
+```bash
+Rscript scripts/run_smoke_test.R
+```
+
+The smoke test regenerates the shared toy data, runs modules `01` through `04`, checks key CSV/PDF/PNG outputs, runs the project integrity checker, and refreshes `docs/output_manifest.csv`.
+
 ## Dependency Groups
 
 Most modules use CRAN packages such as `ggplot2`, `patchwork`, `vegan`, `randomForest`, `igraph`, `ggtern`, `microeco`, and `plspm`.
@@ -65,6 +75,8 @@ The workflow in `.github/workflows/run-demos.yml` runs the same public reproduci
 7. Upload generated toy CSV files, result CSV files, and PDF/PNG figures as a short-lived workflow artifact.
 
 This CI job is intentionally a full check rather than a minimal smoke test. It may take several minutes because Bioconductor packages are relatively large.
+
+The workflow in `.github/workflows/smoke-test.yml` runs the lightweight smoke test. It is intended as a quick structural check and does not replace the full demo workflow.
 
 ## Expected Outputs
 

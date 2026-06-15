@@ -13,7 +13,7 @@ These rules define how future work should be done in this repository.
 
 - Each numbered folder must be independently runnable.
 - Each module must use relative paths.
-- Each module must start from raw-like toy input data in `data/toy/`.
+- Each module must start from raw-like shared toy input data in `../data/toy_shared/`, with `data/toy/` reserved for optional module-specific public toy inputs.
 - Each module must compute intermediate statistics inside the module.
 - Precomputed plotting tables should not be used as primary inputs.
 - Scripts should write reproducible outputs to `results/` and `figures/`.
